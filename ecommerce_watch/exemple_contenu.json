@@ -1,6 +1,6 @@
 {
   "date": "5 nov. 2026",
-  "cover_image": "images/tiktok-3.jpg",
+  "cover_image": "images/achat-en-ligne.jpg",
   "news": [
     {
       "theme": "Agentic commerce · ChatGPT Ads",
@@ -76,7 +76,12 @@
       ],
       "why": "Être cité dans les réponses ChatGPT devient un canal d'acquisition à part entière.",
       "source": "Search Engine Journal",
-      "url": "https://www.searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817/"
+      "url": "https://www.searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817/",
+      "visual": {
+        "type": "image",
+        "file": "images/chatgpt-recherche.jpg",
+        "focus": 0.5
+      }
     },
     {
       "theme": "GEO · Attribution",
@@ -140,8 +145,8 @@
       "why": "Une communauté construite sur les réseaux se convertit très vite en ventes retail à l'étranger.",
       "visual": {
         "type": "image",
-        "file": "images/sephora-3.jpg",
-        "focus": 0.2
+        "file": "images/sephora-facade.jpg",
+        "focus": 0.5
       },
       "source": "Glossy",
       "url": "https://www.glossy.co/beauty/rhodes-european-summer-fuels-51-sales-spike-for-e-l-f-beauty/"
@@ -167,8 +172,8 @@
       "why": "Les plateformes asiatiques rapprochent leurs stocks des clients. Le délai de livraison n'est plus un avantage local.",
       "visual": {
         "type": "image",
-        "file": "images/livraison-1.jpg",
-        "focus": 0.45
+        "file": "images/entrepot.jpg",
+        "focus": 0.6
       },
       "source": "FrenchWeb",
       "url": "https://www.frenchweb.fr/breaking-news/shein-annonce-500-millions-d-euros-d-investissement-en-pologne-pour-renforcer-sa-logistique-europeenne/6ccf32b9-5755-42b5-911e-cf1b6b670fac"
@@ -194,8 +199,8 @@
       "why": "La livraison rapide devient un réseau de distribution à part entière, avec un acteur quasi incontournable aux États-Unis.",
       "visual": {
         "type": "image",
-        "file": "images/doordash-3.jpg",
-        "focus": 0.42
+        "file": "images/doordash-bag.jpg",
+        "focus": 0.5
       },
       "source": "Modern Retail, d'après Consumer Edge",
       "url": "https://www.modernretail.co/operations/what-doordashs-proposed-acquisition-of-instacart-means-for-uber-amazon-and-the-rest-of-the-quick-commerce-space/"

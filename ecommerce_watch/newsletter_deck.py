@@ -117,7 +117,7 @@ def fit_size(value: str, base: float, width_in: float, lines: int, floor: float)
     """Taille de police qui fait tenir le texte sur `lines` lignes (estimation Aptos)."""
     size = base
     while size > floor:
-        chars_per_line = width_in * 72 / (size * 0.5)
+        chars_per_line = width_in * 72 / (size * 0.56)
         if len(value) / chars_per_line <= lines * 0.92:
             break
         size -= 1

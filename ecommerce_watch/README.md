@@ -26,11 +26,11 @@ python ecommerce_watch/scrape.py
 
 `newsletter_deck.py` transforme un fichier de contenu JSON en deck PowerPoint, toujours sur la même charte, définie dans `charte/charte.yaml` : coins arrondis, ombres douces, vert Deloitte en accent, famille Aptos (Display pour les titres et les chiffres, Serif italique pour « Pourquoi ça compte », Narrow pour les surtitres). Structure : une page de garde avec sommaire, puis une slide par news avec 1 ou 2 gros chiffres, 3 infos clés, une phrase « Pourquoi ça compte » et un visuel (photo libre de droits ou graphique natif). La mise en page s'appuie sur [pptx-mcp-server](https://github.com/knorq-ai/pptx-mcp-server), installé à une version figée (`PPTX_MCP_SERVER_COMMIT`).
 
-Les photos viennent de la branche `newsletter-assets`, reconstruite à chaque run du workflow par `images.py` (Openverse, plan B Wikimedia Commons ; licences CC0, domaine public, CC BY, CC BY-SA). Les crédits sont repris automatiquement sous chaque photo.
+Les photos viennent d'Unsplash (licence Unsplash : usage commercial libre). La tâche les choisit à chaque édition après vérification visuelle et les importe avec `unsplash.py`, qui refuse les photos Unsplash+ et enregistre le crédit repris sous chaque photo.
 
 ```bash
 pip install pyyaml "pptx-mcp-server @ git+https://github.com/knorq-ai/pptx-mcp-server@$(cat ecommerce_watch/PPTX_MCP_SERVER_COMMIT)"
-git clone --depth 1 -b newsletter-assets https://github.com/chaubardjules-web/Scrapling.git assets
+python ecommerce_watch/unsplash.py assets doordash-bag "https://images.unsplash.com/photo-1602457472135-c982ce128150" "Griffin Wooldridge"
 python ecommerce_watch/newsletter_deck.py ecommerce_watch/exemple_contenu.json veille.pptx --assets assets
 ```
 
