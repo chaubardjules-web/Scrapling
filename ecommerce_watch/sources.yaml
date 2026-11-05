@@ -55,7 +55,8 @@ sources:
   - {name: TechCrunch Commerce, type: rss, url: "https://techcrunch.com/category/commerce/feed/", theme: tools}
   - {name: Digiday, type: rss, url: "https://digiday.com/feed/", theme: media, filter: true}
   - {name: The Verge, type: rss, url: "https://www.theverge.com/rss/index.xml", theme: tech, filter: true}
-  - {name: Search Engine Land, type: rss, url: "https://searchengineland.com/feed", theme: geo, filter: true}
+  # Search Engine Land bloque les requêtes automatisées (HTTP 403)
+  # - {name: Search Engine Land, type: rss, url: "https://searchengineland.com/feed", theme: geo, filter: true}
   - {name: Search Engine Journal, type: rss, url: "https://www.searchenginejournal.com/feed/", theme: geo, filter: true}
 
   # --- Sources primaires

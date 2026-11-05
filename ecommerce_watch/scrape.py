@@ -170,6 +170,9 @@ def main() -> int:
                 if src.get("filter") and not matches(item, keywords):
                     continue
                 seen.add(item["url"])
+                # Google News suffixe les titres par " - Éditeur"
+                if item["publisher"] and item["title"].endswith(f" - {item['publisher']}"):
+                    item["title"] = item["title"][: -len(item["publisher"]) - 3].strip()
                 excerpt = ""
                 if src.get("fetch_article", True):
                     try:
