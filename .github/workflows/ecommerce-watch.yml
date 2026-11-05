@@ -6,6 +6,14 @@ on:
     # sont prêtes avant la rédaction de la newsletter à 7h40.
     - cron: "17 4 * * 1,4"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ecommerce_watch/scrape.py"
+      - "ecommerce_watch/sources.yaml"
+      - "ecommerce_watch/images.py"
+      - "ecommerce_watch/image_topics.yaml"
+      - ".github/workflows/ecommerce-watch.yml"
 
 permissions:
   contents: write
@@ -17,7 +25,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +37,7 @@ jobs:
       - name: Installer Scrapling depuis ce repo
         run: |
           python -m pip install --upgrade pip
-          pip install -e ".[fetchers]" pyyaml
+          pip install -e ".[fetchers]" pyyaml requests pillow
 
       - name: Scraper les sources
         run: python ecommerce_watch/scrape.py
@@ -43,5 +51,22 @@ jobs:
             echo "Rien de nouveau"
           else
             git commit -m "Veille e-commerce $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
           fi
+
+      - name: Construire la banque d'images libres de droits
+        continue-on-error: true
+        run: python ecommerce_watch/images.py "$RUNNER_TEMP/assets"
+
+      - name: Publier les images sur la branche newsletter-assets
+        continue-on-error: true
+        run: |
+          cd "$RUNNER_TEMP/assets"
+          test -f index.json || { echo "Pas d'images"; exit 0; }
+          git init -q -b newsletter-assets
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Images newsletter $(date -u +%Y-%m-%d)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" newsletter-assets

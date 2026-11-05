@@ -1,0 +1,52 @@
+# Banque d'images de la newsletter, reconstruite à chaque run du workflow.
+# Les photos viennent d'Openverse (Wikimedia Commons, Flickr…) sous licence
+# libre à usage commercial (CC0, domaine public, CC BY, CC BY-SA). Le crédit est
+# stocké avec chaque image et affiché en petit sur la slide quand la licence l'exige.
+
+settings:
+  per_query: 3          # images gardées par recherche
+  min_width: 1000       # px
+  max_width: 1600       # redimensionnement avant commit
+
+# Marques et acteurs : recherchés seulement s'ils sont cités dans les articles du jour.
+# match = mots repérés dans les titres et résumés ; query = recherche Openverse.
+brands:
+  - {match: [doordash], query: "doordash delivery"}
+  - {match: [instacart], query: "instacart shopper"}
+  - {match: [uber eats], query: "uber eats delivery"}
+  - {match: [deliveroo], query: "deliveroo rider"}
+  - {match: [amazon], query: "amazon delivery"}
+  - {match: [shein], query: "shein"}
+  - {match: [temu], query: "temu parcel"}
+  - {match: [tiktok], query: "tiktok smartphone"}
+  - {match: [shopify], query: "shopify"}
+  - {match: [chatgpt, openai], query: "chatgpt"}
+  - {match: [perplexity], query: "artificial intelligence chatbot"}
+  - {match: [google], query: "google search"}
+  - {match: [sephora], query: "sephora store"}
+  - {match: [e.l.f., rhode], query: "makeup cosmetics"}
+  - {match: [l'oréal, loreal], query: "cosmetics store"}
+  - {match: [lvmh, louis vuitton, dior], query: "luxury boutique"}
+  - {match: [zalando], query: "fashion parcel"}
+  - {match: [walmart], query: "walmart store"}
+  - {match: [target], query: "target store"}
+  - {match: [stripe, visa, mastercard, paypal, klarna], query: "contactless payment"}
+  - {match: [instagram, meta], query: "instagram phone"}
+  - {match: [youtube], query: "youtube creator"}
+  - {match: [carrefour], query: "carrefour supermarket"}
+  - {match: [vinted], query: "second hand clothes"}
+
+# Sujets génériques, toujours disponibles.
+topics:
+  - {id: livraison, query: "delivery courier bicycle"}
+  - {id: entrepot, query: "warehouse robots logistics"}
+  - {id: shopping-mobile, query: "online shopping smartphone"}
+  - {id: colis, query: "cardboard parcels"}
+  - {id: magasin, query: "retail store interior"}
+  - {id: cosmetiques, query: "cosmetics products"}
+  - {id: live-shopping, query: "live streaming phone"}
+  - {id: recherche-ia, query: "laptop artificial intelligence"}
+  - {id: paiement, query: "card payment terminal"}
+  - {id: mode, query: "fashion clothing rack"}
+  - {id: supermarche, query: "supermarket aisle"}
+  - {id: datacenter, query: "data center servers"}
