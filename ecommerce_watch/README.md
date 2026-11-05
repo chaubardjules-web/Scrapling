@@ -21,3 +21,15 @@ Fork de [Scrapling](https://github.com/D4Vinci/Scrapling) qui alimente une newsl
 pip install -e ".[fetchers]" pyyaml
 python ecommerce_watch/scrape.py
 ```
+
+## Newsletter PowerPoint
+
+`newsletter_deck.py` transforme un fichier de contenu JSON en deck PowerPoint, toujours sur le même gabarit : charte Deloitte (noir, blanc, vert), police Aptos, page de garde avec sommaire, puis une slide par news (1 ou 2 gros chiffres, infos clés, pourquoi ça compte, graphique natif ou icône). La mise en page s'appuie sur [pptx-mcp-server](https://github.com/knorq-ai/pptx-mcp-server), installé à une version figée pour que le rendu ne bouge pas.
+
+```bash
+pip install pyyaml "pptx-mcp-server @ git+https://github.com/knorq-ai/pptx-mcp-server@d5c41228fcc81e7a0ffdd7b870500a1d25136d0f"
+python ecommerce_watch/newsletter_deck.py ecommerce_watch/exemple_contenu.json veille.pptx
+python ecommerce_watch/newsletter_deck.py --icons   # icônes disponibles
+```
+
+Le format du JSON est décrit en tête de `newsletter_deck.py` ; `exemple_contenu.json` sert de référence.

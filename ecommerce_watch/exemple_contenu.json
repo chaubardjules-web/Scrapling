@@ -1,0 +1,122 @@
+{
+  "date": "5 nov. 2026",
+  "news": [
+    {
+      "theme": "Agentic commerce · ChatGPT Ads",
+      "headline": "Les pubs ChatGPT se diversifient, le shopping recule",
+      "kpis": [
+        {"value": "20 %", "label": "part du shopping dans les dépenses pub US sur ChatGPT en septembre, contre 38 % en avril"},
+        {"value": "45,7 %", "label": "des utilisateurs éligibles exposés aux pubs au Royaume-Uni, le marché le plus avancé"}
+      ],
+      "points": [
+        "OpenAI vend de la pub depuis cette année seulement, et le format se cherche encore",
+        "Même sur ses marchés les plus matures, moins d'un utilisateur éligible sur deux voit des annonces",
+        "Finance, logiciels et voyage montent en puissance face aux annonceurs retail",
+        "La mesure de la conversion reste le point faible pour les marques"
+      ],
+      "why": "Le retail perd son statut d'annonceur dominant sur ChatGPT. Les marques e-commerce qui testent tôt profitent d'une concurrence encore faible sur l'inventaire.",
+      "visual": {"type": "chart", "chart_type": "column", "title": "Part des dépenses pub US (%)",
+                 "categories": ["Shopping", "Logiciels", "Finance", "Voyage"],
+                 "series": [{"name": "Avril", "values": [38, 13, 2, 5]}, {"name": "Septembre", "values": [20, 18, 13, 9]}],
+                 "number_format": "0"},
+      "source": "Digiday, d'après Sensor Tower et Similarweb",
+      "url": "https://digiday.com/marketing/in-graphic-detail-chatgpt-s-ad-growth-is-outrunning-the-proof-that-it-works/"
+    },
+    {
+      "theme": "GEO · AI search",
+      "headline": "ChatGPT pèse déjà un cinquième des recherches Google",
+      "kpis": [
+        {"value": "1/5", "label": "volume de requêtes de type recherche sur ChatGPT, comparé à Google"},
+        {"value": "1,2 Md", "label": "utilisateurs actifs hebdomadaires de ChatGPT, en hausse de 20 %"}
+      ],
+      "points": [
+        "Chiffre avancé par Adam Fry, responsable produit grand public de ChatGPT",
+        "OpenAI compte une recherche à chaque question qui déclenche une consultation du web",
+        "Les usages basculent vers les questions sur des lieux, des produits, la finance et la santé",
+        "Le trafic renvoyé vers les sites reste nettement inférieur à celui de Google"
+      ],
+      "why": "La visibilité dans les réponses ChatGPT devient un canal d'acquisition à part entière. Le sujet GEO passe du test à la ligne budgétaire.",
+      "visual": {"type": "icon", "icon": "recherche_ia"},
+      "source": "Search Engine Journal",
+      "url": "https://www.searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817/"
+    },
+    {
+      "theme": "GEO · Attribution",
+      "headline": "Un fleuriste espagnol fait 20 % de ses ventes via ChatGPT",
+      "kpis": [
+        {"value": "20 %", "label": "des commandes en ligne de Persa Flores viennent de ChatGPT depuis septembre"},
+        {"value": "1 sur 8", "label": "seulement de ces commandes apparaît avec ChatGPT comme site référent"}
+      ],
+      "points": [
+        "La plupart des acheteurs arrivent sur les pages de livraison par ville",
+        "Le suivi passe par le tag utm_source=chatgpt.com, ajouté automatiquement par ChatGPT",
+        "Shopify enregistre la première et la dernière visite avant achat, ce qui permet l'attribution",
+        "Une boutique qui ne regarde que les référents rate l'essentiel de ce trafic"
+      ],
+      "why": "Le trafic IA est probablement sous-estimé chez la plupart des marques. Un audit d'attribution au niveau commande est un quick win à proposer.",
+      "visual": {"type": "chart", "chart_type": "doughnut", "title": "Commandes en ligne (%)",
+                 "categories": ["ChatGPT", "Autres canaux"],
+                 "series": [{"name": "Commandes", "values": [20, 80]}],
+                 "number_format": "0"},
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/chatgpt-sends-1-in-5-orders-to-florist"
+    },
+    {
+      "theme": "Beauty",
+      "headline": "Rhode fait bondir e.l.f. Beauty de 51 % en Europe",
+      "kpis": [
+        {"value": "+51 %", "label": "croissance des ventes nettes d'e.l.f. Beauty sur le trimestre, à 520,8 M$"},
+        {"value": "+165 %", "label": "croissance des ventes à l'international, portée par le lancement de Rhode"}
+      ],
+      "points": [
+        "Le lancement de Rhode chez Sephora Europe est le plus gros de l'histoire de l'enseigne",
+        "La marque arrive dans 19 marchés européens en septembre",
+        "L'international ne pèse encore qu'environ 25 % des ventes, contre près de 70 % chez les concurrents historiques",
+        "65 % de l'audience sociale d'e.l.f. et 75 % de celle de Rhode sont hors des États-Unis"
+      ],
+      "why": "Une communauté sociale construite en amont se convertit très vite en ventes retail. Un argument fort pour les marques qui veulent s'internationaliser.",
+      "visual": {"type": "chart", "chart_type": "column", "title": "Croissance des ventes nettes (%)",
+                 "categories": ["États-Unis", "International", "Total"],
+                 "series": [{"name": "Croissance", "values": [25, 165, 51]}],
+                 "number_format": "0"},
+      "source": "Glossy",
+      "url": "https://www.glossy.co/beauty/rhodes-european-summer-fuels-51-sales-spike-for-e-l-f-beauty/"
+    },
+    {
+      "theme": "Marketplaces · Logistique",
+      "headline": "Shein investit 500 M€ pour livrer l'Europe en 48 h",
+      "kpis": [
+        {"value": "500 M€", "label": "investis en 2026 dans le hub logistique de Wrocław, en Pologne"},
+        {"value": "6 500", "label": "robots autonomes pour le tri, le réapprovisionnement et la préparation"}
+      ],
+      "points": [
+        "1 Md€ investi au total en Pologne depuis 2022",
+        "Près d'un million de m² d'entrepôts, soit 25 % de surface en plus",
+        "10 000 salariés prévus d'ici fin 2026",
+        "La marketplace accueille déjà plus de 500 marques et distributeurs polonais"
+      ],
+      "why": "Les plateformes asiatiques rapprochent leurs stocks des clients européens. Les délais de livraison cessent d'être un avantage des acteurs locaux.",
+      "visual": {"type": "icon", "icon": "livraison"},
+      "source": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/breaking-news/shein-annonce-500-millions-d-euros-d-investissement-en-pologne-pour-renforcer-sa-logistique-europeenne/6ccf32b9-5755-42b5-911e-cf1b6b670fac"
+    },
+    {
+      "theme": "Quick commerce",
+      "headline": "DoorDash veut racheter Instacart pour contrer Amazon",
+      "kpis": [
+        {"value": "17 Md$", "label": "montant du rachat proposé par DoorDash"},
+        {"value": "77 %", "label": "des dépenses sur les plateformes de livraison US réunies par les deux acteurs"}
+      ],
+      "points": [
+        "La part d'Instacart est passée de 26 % à 18 % en cinq ans",
+        "Uber Eats reste stable, juste sous la barre des 20 %",
+        "DoorDash dépasse la restauration avec des enseignes de mode et ses DashMart",
+        "Selon les analystes, la vraie cible est la livraison toujours plus rapide d'Amazon"
+      ],
+      "why": "La livraison rapide devient un réseau de distribution et un média à part entière. Les marques devront négocier avec un acteur quasi incontournable aux États-Unis.",
+      "visual": {"type": "icon", "icon": "panier"},
+      "source": "Modern Retail, d'après Consumer Edge",
+      "url": "https://www.modernretail.co/operations/what-doordashs-proposed-acquisition-of-instacart-means-for-uber-amazon-and-the-rest-of-the-quick-commerce-space/"
+    }
+  ]
+}
