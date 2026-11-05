@@ -1,0 +1,28 @@
+# Charte de la newsletter Veille E-commerce.
+# Toutes les éditions sont générées à partir de ce fichier par newsletter_deck.py :
+# on ajuste la charte ici, jamais dans le contenu d'une édition.
+
+format: {width: 13.333, height: 7.5}   # 16:9, pouces
+
+couleurs:
+  encre: "1A1A1A"          # texte principal, presque noir
+  gris: "5C5F63"           # texte secondaire
+  gris_clair: "9A9DA1"     # sources, crédits, numéros de page
+  filet: "E3E4E6"          # séparateurs fins
+  fond: "FFFFFF"
+  surface: "F6F6F4"        # fond des cartes sans ombre
+  vert: "86BC25"           # accent Deloitte, utilisé avec parcimonie
+  vert_fonce: "26890D"
+  graphe: ["86BC25", "1A1A1A", "26890D", "9A9DA1", "0D8390"]
+
+typos:                      # famille Aptos (Office 365)
+  titre: "Aptos Display"   # titres et gros chiffres
+  texte: "Aptos"           # corps de texte
+  citation: "Aptos Serif"  # « pourquoi ça compte », en italique
+  etiquette: "Aptos Narrow" # surtitres en capitales espacées
+
+formes:
+  rayon: 0.16               # rayon des coins arrondis, pouces
+  ombre: {flou_pt: 18, distance_pt: 4, opacite: 0.16}
+
+marges: {gauche: 0.75, droite: 0.6, haut: 0.65, bas: 0.5}

@@ -47,6 +47,38 @@ def search(query: str, per_query: int, min_width: int) -> list[dict]:
     return []
 
 
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+COMMONS_OK = re.compile(r"^(CC0|Public domain|PD|CC BY(-SA)? \d)", re.I)
+
+
+def search_commons(query: str, per_query: int, min_width: int) -> list[dict]:
+    """Plan B : recherche directe dans Wikimedia Commons, mêmes règles de licence."""
+    params = {"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+              "gsrsearch": f"filetype:bitmap {query}", "gsrlimit": 25, "prop": "imageinfo",
+              "iiprop": "url|size|extmetadata", "iiurlwidth": 1600}
+    r = requests.get(COMMONS, params=params, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    out = []
+    for page in (r.json().get("query", {}).get("pages", {}) or {}).values():
+        info = (page.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata", {})
+        lic = meta.get("LicenseShortName", {}).get("value", "")
+        if not COMMONS_OK.match(lic) or (info.get("width") or 0) < min_width:
+            continue
+        if (info.get("width") or 0) < (info.get("height") or 1):  # on garde les formats paysage
+            continue
+        artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
+        low = lic.lower()
+        code = "cc0" if "cc0" in low else "pdm" if ("public" in low or low.startswith("pd")) else \
+            "by-sa" if "by-sa" in low else "by"
+        version = (re.search(r"(\d\.\d)", lic) or [None, ""])[1] if code in ("by", "by-sa") else ""
+        out.append({"id": f"commons-{page.get('pageid')}", "url": info.get("thumburl") or info.get("url"),
+                    "title": page.get("title", "").removeprefix("File:"), "creator": artist[:80],
+                    "license": code, "license_version": version, "source": "Wikimedia Commons",
+                    "foreign_landing_url": info.get("descriptionurl", ""), "width": info.get("width")})
+    return out[: per_query * 3]
+
+
 def credit(item: dict) -> str:
     lic = LICENSE_LABEL.get(item.get("license", ""), item.get("license", "").upper())
     if item.get("license") in ("by", "by-sa") and item.get("license_version"):
@@ -94,11 +126,16 @@ def main(out_dir: str) -> int:
     index, seen = [], set()
     for q in queries:
         print(f"[{q['kind']}] {q['query']}")
+        results = []
         try:
             results = search(q["query"], per_query, min_w)
         except Exception as exc:
-            print(f"    recherche en échec : {exc}"[:160])
-            continue
+            print(f"    Openverse en échec : {exc}"[:160])
+        if not results:
+            try:
+                results = search_commons(q["query"], per_query, min_w)
+            except Exception as exc:
+                print(f"    Commons en échec : {exc}"[:160])
         kept = 0
         for item in results:
             if kept >= per_query:
