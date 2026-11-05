@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T09:02:27.010555+00:00",
-  "window_start": "2026-10-31T09:02:27.010555+00:00",
-  "count": 140,
+  "generated_at": "2026-11-05T09:31:39.915853+00:00",
+  "window_start": "2026-10-31T09:31:39.915853+00:00",
+  "count": 141,
   "sources": [
     {
       "source": "Modern Retail",
@@ -52,13 +52,6 @@
       "kept": 3
     },
     {
-      "source": "Search Engine Land",
-      "url": "https://searchengineland.com/feed",
-      "ok": false,
-      "kept": 0,
-      "error": "RuntimeError: HTTP 403"
-    },
-    {
       "source": "Search Engine Journal",
       "url": "https://www.searchenginejournal.com/feed/",
       "ok": true,
@@ -104,7 +97,7 @@
       "source": "GNews - social commerce",
       "url": "https://news.google.com/rss/search?q=%22social+commerce%22+OR+%22live+shopping%22+when:7d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
-      "kept": 17
+      "kept": 18
     },
     {
       "source": "GNews - e-commerce FR",
@@ -115,17 +108,17 @@
   ],
   "articles": [
     {
-      "title": "Economie - E-commerce : WiziShop ouvre les commandes de ses boutiques aux assistants IA - Petites Affiches",
+      "title": "Economie - E-commerce : WiziShop ouvre les commandes de ses boutiques aux assistants IA",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYXM0TmdEd0N0bUVBbzY0RG4ydUtVUXA1Q0xnODV5VktPakRBOGc1M3pDcXRlN1d4WTg1d0VBdldEMndscWd3bFpfeW5pWXdBTG9PMEwzRjZzUFFKbDUzRERJWE5zb2FjOUgzU0p5YTlQcHZnTWFWWTFoeWFtcGJrRVNvZUZTRVloN1dTVXl3U1dKSlgtMnpsSXczVWtpemNp?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Petites Affiches",
       "theme": "france",
-      "published": "2026-11-05T09:00:02+00:00",
+      "published": "2026-11-05T09:00:26+00:00",
       "summary": "Economie - E-commerce : WiziShop ouvre les commandes de ses boutiques aux assistants IA Petites Affiches",
       "excerpt": ""
     },
     {
-      "title": "Geopost enrichit sa plateforme d'e-commerce Singular avec un assistant d'achat IA - La Poste Groupe",
+      "title": "Geopost enrichit sa plateforme d'e-commerce Singular avec un assistant d'achat IA",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMDc4Z250TmRNa245SjNfakprMkEyU0RvQ1ZhWVpYcTZLYXZDSmg2b0Q5TGJuYTA2dS1oZUR6a1lhbFloTk96TERDUGpBWjN0WFdnekVEMWJNMU95UXZGQnFFSjdtMUVBNXlrMkp3dERTTG13SHdDbUZfeWdRdDVVaExzVHFpVDB1OFlMenlLcE1PSUpYdW90b01SOVIyU3R1QTFNWUdCTFZYd2dhVVVTcnNSY0k1MWhYRjFBMXRxMA?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "La Poste Groupe",
@@ -135,7 +128,7 @@
       "excerpt": ""
     },
     {
-      "title": "History repeats as card schemes move to capture agentic payments - Electronic Payments International",
+      "title": "History repeats as card schemes move to capture agentic payments",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONWxpOXhEMEt4MENQV0wxR2Z6MjNtSjUyN0RSNFZkcE91NVQ3S3UwNHZsdml0aFB5cEt2cGc5S3BrWVJJT3YtMDNRU0RpYl83d1czckRaNC1fVTJhS3hzMXEwUGRDdGdpQ2R3LXI1RUZuWHd4Y0RNQXhORWZGd1RUdThhUnVkRWFWQ2xweW9OaFJJN0huYmVyRE1PWXdfNmJNa3lSNHo0aUpld0ZOTmZhOFdiSktKYXZBVkx1cjMxcVU?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Electronic Payments International",
@@ -145,7 +138,7 @@
       "excerpt": ""
     },
     {
-      "title": "Inside the PayPal-Sabre-Mindtrip playbook for agentic travel booking - PhocusWire",
+      "title": "Inside the PayPal-Sabre-Mindtrip playbook for agentic travel booking",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQUw3WmxpeWNBVWx4Y0dCazFNTUt1TUNISWE0WWo2NG1naGlZcndLbnZ6em5sVUhUdTlqWHFOdDNkODJqT3NXM1ktbjkwYXZ0VkZXWjBQdFpGYXNBRGpld0hWV2RFZ0xucGNxbmlyajJNSk15Y01fQ3czMVlCNlYwc3NJNVZiYWc?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "PhocusWire",
@@ -155,7 +148,7 @@
       "excerpt": ""
     },
     {
-      "title": "A l’heure de l’IA, le retail de demain va transformer chaque contact en valeur [Tribune] - LSA conso",
+      "title": "A l’heure de l’IA, le retail de demain va transformer chaque contact en valeur [Tribune]",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaTVNYWxJZkRGVWgtN3RaenJaSUEwUl9Xd0I2RjdoWnJSUy1tWjcyM1ZrSlljRnRiNWtIREJibXI1cVpUVDBlNGJ3cDFwcG1Lcnh1aUpoeXVmeHB3Y0Z4MWlZYTVnSDVVMHlYQ2tpNGw3UmI2MF9sT0ExMkpkeVZhQXIyRlgta2tRbWY0YkJBUTVNTGxJRmJVSjRwTnBNeEZLUjh5RTl3TEg2NmdVVElyWXY2Z3ZtNWhlUy0zMnVBVGw4SlJQS2lYRGJGeEo5WkUzUGhfVjlJLVZsSlBJVkwwZXQydy1jRDVPcUFv?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "LSA conso",
@@ -165,7 +158,7 @@
       "excerpt": ""
     },
     {
-      "title": "Rina Marie Simon Promoted to Senior Vice President, Influencer and Social Commerce, APAC at WPP Media - MediaNews4U",
+      "title": "Rina Marie Simon Promoted to Senior Vice President, Influencer and Social Commerce, APAC at WPP Media",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMzVMTjFDajdrdHBOdllaUDgyeFYyV0F5aS0xTGRZbjA0RTZaZU14RG9QdnpIVGxYQ0xvX3RRaXVZM2laNXByOXJKT2phZFZrdy10SnlTYTlBSEV2U2psVDVlTGExMEJMUVFWeFF1UkpWeW1yNHdqd3R5ZG83QnVxcDBaTHNaT2pSZ0JYRHJPZDBEOVVadXZaUTNtRUhKRURJSVRiNlNWZGlXZWxhNHVEZ0s4aEp4TGphOTdrZEpXeFRLVHZqcDFJ?oc=5",
       "source": "GNews - social commerce",
       "publisher": "MediaNews4U",
@@ -175,7 +168,7 @@
       "excerpt": ""
     },
     {
-      "title": "« Le terrain est un enjeu clé » : de Carrefour à Spar, à quoi ressemble le quotidien des directeurs régionaux d’enseigne ? - LSA conso",
+      "title": "« Le terrain est un enjeu clé » : de Carrefour à Spar, à quoi ressemble le quotidien des directeurs régionaux d’enseigne ?",
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSE9TZkJvQ2ZnNmhLTFFCRTNRLXNNS29MbGk1a19VbXFxM1lZaDlVQV9td1NqNWJFQjVmNTVTWVA4cjlUTFdzTHNFamRWOU5hQXRNX2N6aFhOWk1zSHdBOEZUWUdSWVVmMGgzN2I4d253SFowSzF6M1p5Z2cta2duZDVMRk1CbC0ybi1TZ3QwdWctQ3JKOE5IajlLdXVadF9VSG0wTFlPbWp6RmFKdFd1NlhsNEZ0cGppLXM1blEtOE5nYkItY3NuNFItM1VscmpNZVBXajhSN2RscEdTSFFBdWNjM3hQVjAxOTV4a29zSS1LbE95SEVoOXoyc055TjVmZWtkNjA2OTg?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "LSA conso",
@@ -185,7 +178,7 @@
       "excerpt": ""
     },
     {
-      "title": "EBay Sales Rise on Strength in Collectibles, Live Shopping - WSJ",
+      "title": "EBay Sales Rise on Strength in Collectibles, Live Shopping",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR0QtdDdpajAwVnNMZm1HZDhrSmduWVNhZjhNSlVjcnNRS0FOcHppVVMyb0ViTXJESmlJRUlXU2JXWTQ0VjdodjJNVUwwMnI1dGlDRFA3eHF3eTZrWnRkTEtKLWk0cVhVSEM5aUp6WWJEZWoyVjh6X2d6S0w3Y2tsQ0x3b2EzQzdHcTNvWFBtMzZsZGN5U3o4ZjQwd2ZUVTZ5X0Zidg?oc=5",
       "source": "GNews - social commerce",
       "publisher": "WSJ",
@@ -195,7 +188,7 @@
       "excerpt": ""
     },
     {
-      "title": "IA pour le commerce et le e-commerce : le guide de référence 2026 - Brief IA",
+      "title": "IA pour le commerce et le e-commerce : le guide de référence 2026",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MdlZSRWEwNk0za2VuU3E2UVBBa3NnOXNldmF3aklJMjZEb2ZyUzZuek0xNlhWUmo0YXNpdWhiUzZ1TXFFV2U3OEpIUmROamJHYTM3YkNWR2pXam5JTTFMZkVkWFdyd2JDeTQ0OHZadHU?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Brief IA",
@@ -275,6 +268,16 @@
       "excerpt": "Google is expanding UCP-powered direct checkout in AI Mode and the Gemini app to Canadian shoppers, with a Merchant Center integration planned for next year. Google is expanding direct checkout powered by the Universal Commerce Protocol (UCP) to shoppers in Canada across AI Mode in Google Search and the Gemini app. Sabrina Geremia, Vice President and Country Managing Director at Google Canada, announced the rollout on November 4, 2026. The feature allows Canadian shoppers to purchase directly from eligible retailers while researching products on Google’s AI surfaces. Google also announced plans to bring simplified UCP integration directly into Merchant Center starting next year. Here’s what’s changing with the Canadian rollout, how the checkout flow works, and what retailers managing Merchant Center feeds should prepare for. According to Google, the initial Canadian launch includes four partners and merchant groups: These partnerships allow Canadian shoppers to complete purchases inside AI Mode in Google Search and the Gemini app without leaving the conversation. During checkout, shoppers pay with Google Pay using the payment methods and shipping details saved in Google Wallet. Google says retailers remain the seller of record and can customize the integration to fit their business needs. In the coming months, Google plans to work with retailers to add more capabilities to the checkout experience, such as applying loyalty rewards. For retailers outside the initial launch group, broader access is tied to an upcoming Merchant Center update. Starting next year, Google says it will make simplified UCP integration available directly inside Merchant Center. This update will allow retailers to enable direct checkout and other capabilities for their product listings across AI M"
     },
     {
+      "title": "SharkNinja: 3 Key Takeaways for Long-Term Investors",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXMtWk9XUE9Ob3Y5Q2ZnTjg0V1duTEFqbUwtemNMSDdfRjFQckM5d3NueFc5SG9BQ05VTDM2UmhjWkZXVkJvT2l2UElyNmxsMVlsQk5iU1VRcmo3M1RrLXhFdXdXUDhDZHkwQUhQTUZ2Z01MbTJNY0tNN3lnNFBibmo3ZDFaVE4tVC1CQ0k0UjZka0VFVUNWbXhTbEJnZVdMVVZxSUg0M3lsSk1fLXRESExLSXE5U195dFUzTGNHejNOY0J1VWN4eQ?oc=5",
+      "source": "GNews - social commerce",
+      "publisher": "The Globe and Mail",
+      "theme": "social",
+      "published": "2026-11-05T02:15:37+00:00",
+      "summary": "SharkNinja: 3 Key Takeaways for Long-Term Investors The Globe and Mail",
+      "excerpt": ""
+    },
+    {
       "title": "Rhode’s European summer fuels 51% sales spike for E.l.f. Beauty",
       "url": "https://www.glossy.co/beauty/rhodes-european-summer-fuels-51-sales-spike-for-e-l-f-beauty/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "source": "Glossy",
@@ -312,10 +315,10 @@
       "theme": "retail",
       "published": "2026-11-04T21:41:00+00:00",
       "summary": "The tech giant thinks a digital wallet should act as a repository for receipts, track online orders and arrange refunds, among other tasks.",
-      "excerpt": ""
+      "excerpt": "The tech giant thinks a digital wallet should act as a repository for receipts, track online orders and arrange refunds, among other tasks. For many consumers, the digital wallet is their home for payment cards, and maybe an ID. Google has a far grander vision of what its wallet should be and do, including a repository for receipts, tracking online orders, arranging refunds and transmitting merchant discounts and other marketing promotions, the technology company’s head of payments said last week in an interview. Adding new capabilities to Google’s wallet will boost adoption and offer consumers a more “seamless” retail experience, said Stavan Parikh, vice president and general manager of payments at the company. A more robust digital wallet will mean “that you can truly start leaving your home without your physical wallet,” he said Oct. 26. “So far, most of us can’t do it because there's always one thing that we need to carry.” That reliance on the physical wallet will begin to change as people find they can use their digital wallet for more than a payment or to store their loyalty cards, he said. The wallet push gives Google “an opportunity to make commerce journeys more seamless, both across online and offline, because the vast majority of commerce today still happens offline, and the offline journey hasn’t yet been enhanced with digital wallets or technology in some of these ways,” Parikh said. Over the past few months, Google has redesigned multiple aspects of its Android-based wallet. Among some of the more prominent changes are an expanded form autofill capacity for the Chrome browser with a closer integration to the wallet, announced in June. Google is also tweaking the wallet to allow for larger images and more space for brands . Shopping bargains delivered via "
     },
     {
-      "title": "Social Commerce Partners Reports $2.14 Million Net Income for First Nine Months of 2026 - Kalkine Media",
+      "title": "Social Commerce Partners Reports $2.14 Million Net Income for First Nine Months of 2026",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkJXcXJNUk85RFVFZEhRMldzOXZrRGY5NUdXYTNJaFBaZ01kbFhzcGhfNzBVdWZhQmh4dmpSQWJuNkxVSjJXNXhvVnhtdUtmckptZDFnb1lCZ0tHeGo5OU4tbnVBTWdkT1Ftbm04UW45TWhxRWRUbEJUZE8tN2hzUlJROGhoOEF6QUE2VDNBN3lnMk55TWVpT0NHYzhoWURhMjVxRU8wWG8zeEdlVi1zWnlfZDIzRUljM0FHb29mNU5hZE5oTnFRSERRNkM?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Kalkine Media",
@@ -335,7 +338,7 @@
       "excerpt": "Posts from this topic will be added to your daily email digest and your homepage feed. Posts from this topic will be added to your daily email digest and your homepage feed. Posts from this topic will be added to your daily email digest and your homepage feed. Both generations of Bose’s noise-canceling headphones are steeply discounted, with prices starting at $170. Both generations of Bose’s noise-canceling headphones are steeply discounted, with prices starting at $170. Posts from this author will be added to your daily email digest and your homepage feed. If you buy something from a link, The Verge may earn a commission. See our ethics statement. Posts from this author will be added to your daily email digest and your homepage feed. It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon , Best Buy , and Bose , matching its best price to date. The newer, second-generation version that launched in August is also down to $199 ($160 off) in multiple colors at Amazon , Best Buy , and directly from Bose , which is just $20 shy of the all-time low price. While Bose’s original QuietComfort Headphones are no longer the latest model, they’re still a solid option for anyone seeking effective noise cancellation, good sound, and 24-hour battery life without spending a fortune. They also support multipoint Bluetooth connectivity, so you can connect to two devices simultaneously, and they feature a lightweight, foldable design that makes them easy to pack. The second-generation QuietComfort Headphones build on that foundation with a few worthwhile upgrades for $30 more. Of note, our reviewer John Higgins considers their default sound profile"
     },
     {
-      "title": "As Shoppers Warm to Agentic Commerce, Terms of Use Have to be Clearly Defined - WWD",
+      "title": "As Shoppers Warm to Agentic Commerce, Terms of Use Have to be Clearly Defined",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWDlnMnRfNjk5V0ZsYUpZalY3QklUdC02TG1oeHhFekZjTGlyU0VjZ00zRG5faE1OTklWNkpjZ3JNYXJmazBRZ0E4V0FxMncwQzVISG1ndmhId3N0em00SWo3c2Rmb21tal80Rm96aDNLRlZCR1RJUXV1eFJVRjFnVUx4TUZHYjREVldpRF9zWjZibmZSdUQ0bXo0UjVoOFFsSUEyWnVWR0ZCTXpGQmk0ZmdhRQ?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "WWD",
@@ -355,7 +358,7 @@
       "excerpt": "Posts from this topic will be added to your daily email digest and your homepage feed. Posts from this topic will be added to your daily email digest and your homepage feed. Posts from this topic will be added to your daily email digest and your homepage feed. AT&T’s Connected Life system now supports Gemini-powered features that can summarize home events and more. AT&T’s Connected Life system now supports Gemini-powered features that can summarize home events and more. Posts from this author will be added to your daily email digest and your homepage feed. Posts from this author will be added to your daily email digest and your homepage feed. AT&T’s smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the “first” home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide detailed descriptions about events captured by your security cameras, such as who delivered a package and how many items they dropped off. You can also search recorded video footage using natural language questions, like “What dug up the yard last night?” or “Who let the dogs out?”, as well as review daily summaries of activity in and outside your home. These features are only available with AT&T’s professional $29.99 / month Connected Life monitoring plan. AT&T is also adding the ability to automatically arm or disarm your home based on your proximity to your home. AT&T launched its Connected Life system last December in partnership with Google and Abode. It’s now taking advantage of Google’s Gemini-powered Home APIs , which allow smart home brands and developers to build AI-powered featur"
     },
     {
-      "title": "Forter Introduces New Capabilities with Agentic Commerce Engine - Retail TouchPoints",
+      "title": "Forter Introduces New Capabilities with Agentic Commerce Engine",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMlZGYVdxQ3duUFM1R1JPYW5LRjVLWURyc0FJS3daQ2JXQXllcGE3Q0kyd2lKOHZuMHAxaXVOS0pFaG9qaXYzWlRaZGNKUzhOelF4b2R1NksxaUlpUi1BTVV4Rl9qLVVzQWJ4M0RfdllIYmc1VWtuVnlldm5nSzB2emZfTHN5Vk0yaHF2TGtBRjBMbndDazVndXBNRnpKSzBxeGlpVkN3SHN5QWI1QmNn?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Retail TouchPoints",
@@ -375,7 +378,7 @@
       "excerpt": "An AI agent does things its customer would not, on that customer’s behalf. Three businesses answered that problem three ways in October. People are starting to send AI agents to do things for them online: Buy the groceries, book the flight, check the bank balance. The agent goes to the business’s website and acts in the customer’s place . Every business now has to decide what to do when one shows up, and in October three big ones answered three different ways. I think Walmart got it right: It is about to give each agent a separate profile inside the customer’s account. An AI agent will do things the person maybe wouldn’t have, so the two are not the same. But it does those things on the person’s behalf, so they need to be linked. A separate profile lets the business see both: the agent and the customer who sent it. Walmart says why it built Agent Profiles: “Today, when a customer uses an AI agent, it signs in using a customer’s account. This means that all purchases – whether made by the customer or the agent – appear together, without any differentiation.” An agent might browse more pages than the customer would, maybe all of them. That’s the most basic difference. Beyond that, it could be literally anything. So it’s not as simple as letting the agent sign in as the customer. Send a dog to shop for you at a local market, with a set amount of money. The dog only does it to bring the shopping back to you, and the whole thing only makes sense if the sellers know who sent the dog. Walmart’s spending limit is the set amount of money, and the profile is the sellers knowing who sent it. A block stops the customer from using an agent at all. A shared login hides the agent behind the customer. DoorDash says outside AI agents have placed “maybe several hundred orders in total” ,"
     },
     {
-      "title": "From Kit to Insurance: What You Need to Know About Becoming a Live-Shopping Seller from Home - Insurance Edge",
+      "title": "From Kit to Insurance: What You Need to Know About Becoming a Live-Shopping Seller from Home",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnAtMGRIMVZJQkVEQndRRkotNENQX1VTWG43WFpDMGx3Mk9UWU5RSllXeTJoZm5KcmFad0d6MWE1cDVTYjNhTXV4TUs1SUd2ZUp3MHVkRUNCWkp4Wk9VX2c4VkRZdWdNVC1kT1lETExkM1RnUTFiMmFnWVg5UzZlX3IwX2dVa1BMRUY1ZnpURnhzS3F4endjYnNQaVFEUkZOOEJMV2k3anFseUxsZjF0RE9LV1pFVmhiOXFuQlExUmVJRXJuOEk1SHln?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Insurance Edge",
@@ -385,7 +388,7 @@
       "excerpt": ""
     },
     {
-      "title": "Euka AI : avis sur la plateforme qui fait des créateurs TikTok votre moteur de revenus - quasa.io",
+      "title": "Euka AI : avis sur la plateforme qui fait des créateurs TikTok votre moteur de revenus",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdVl6dmJCOVNMMURBYzIzdERrUmNqNU1zNnpWZ1hxR2daSXlmRi1iT0kwb3lYbXE1ZlhxX1JlVUxtbmdjWl80UEtGeWhvRk1laE1MdkthbWd5TldnbzlZRkRaSkR2amMtaVlzUkdod0NBTzZzMGw2RGF3YUxwTFRXdS1GREtveGpkZGZVdUxHaVg1UVFzUXBsVU01ZVV0MG1OOTVVTlpaQVpSdmpOTG00?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "quasa.io",
@@ -405,7 +408,7 @@
       "excerpt": "Build your 2027 paid media plan around attention, creator content, and streaming inventory, with tests that tie new metrics to incremental sales. If you manage paid search, paid social, or programmatic budgets, the first Jupiter Festival Miami just handed you a 2027 planning problem. The executives who buy and sell premium video spent three days saying that reach is no longer the number that matters. And the money is already moving toward creators, attention-weighted media, and new streaming inventory to back that up. That matters to PPC people more than it might seem. When the people setting brand budgets change the KPI, the performance team eventually inherits the new scorecard. I’ve been looking for signals like this at industry conferences since I entered the field in 2002. The speakers at the good ones share strategic insights, critical data, and tactical advice that fly under the radar, because organizers know conventional wisdom won’t fill seats or bring attendees back next year. So, they book people who work at the leading edge of the leading edge. Jupiter Festival ran from Oct. 6 to 9, 2026, at the Miami Beach Convention Center. Its organizers say more than 2,300 media, entertainment, and sports leaders attended . Art Basel’s parent, MCH Group, took a 20% stake in June. The IAB signed up as a founding partner , and YouTube was the founding sponsor . I didn’t attend. But I reviewed the daily recaps the festival’s publicists sent me, then checked what the speakers said against published data. Four signals held up. Jasmine Dawson , senior VP of digital at BBC Studios, on a Day 1 panel about building fandoms that brands can activate said, “Reach should not be the primary KPI .” A big reach number is great for the media owner, she added, but it says nothing about wh"
     },
     {
-      "title": "Le commerce agentique est-il une menace pour les grands distributeurs en ligne? - FashionNetwork France",
+      "title": "Le commerce agentique est-il une menace pour les grands distributeurs en ligne?",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRnY1UzJXUnFXaXNqSzBZT29DdGlXNDRMc2Y0Zl80Q0tZWE90Zmx5bHpKcDVHbmdZYW1MMUNBOU9ySUR6T1hCMGpncHo1dVB0RUZYU2ZqYjkzZU5uM0ZhTG5XWHZxZTdUWHRUU1M5N2FSb1VXLWRtTG10UGhUTXhubUQxX2VwN3lscFRMeF9VOVVMMzUyLVJ3akZ4VWE5VktvMUNSaHJQUUJRaWpBT3h2WkJ3aVhBZUdJaExIR2lIc0QwR3VJNUE?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "FashionNetwork France",
@@ -435,13 +438,23 @@
       "excerpt": ""
     },
     {
-      "title": "QuestionPro buys Contlo to build its agentic commerce stack - Dealroom",
+      "title": "QuestionPro buys Contlo to build its agentic commerce stack",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjl2NFJqbkpsR3M1SmVfeTl4eUZtWUxDUVN3UVN1MXF0d0o4UC1jcDAxTWVkeU82VllFcnk3c0lJVmRhRW8xYl9Sd0o3X3cwcFZ0OW9ETzB3cTZzQlB6MFp6ZmEyb2Z2UFpBTzlVR0Zyd015TWFhT2hudkotZmx2eDdlWHlFRTFrQnlMODM2OUVPU2IxbVZRYw?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Dealroom",
       "theme": "agentic",
       "published": "2026-11-04T17:04:23+00:00",
       "summary": "QuestionPro buys Contlo to build its agentic commerce stack Dealroom",
+      "excerpt": ""
+    },
+    {
+      "title": "E-commerce : une alliance pour vendre à l'international",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSm04Qk5qem50Unc2RWlubEtVRTlNTThGUWh0QjZVa2RoNTVVclRaWTFVU0NEbXM1MVg0bHZFUVpjX2ptQlh5WGFqbXgyc0l3Mm5NWjhCNjJCUGYtSnVyMFpuMVZVQTNSRUNWTzZwOV9IY05lMnZUOWF2VWIxS1Z6YTZSMVAwOVAxbG9HVU9kQUV5Z0dTMWNnX0ZTc25zeERmOWNIYVdXUGFTZDAt?oc=5",
+      "source": "GNews - e-commerce FR",
+      "publisher": "Presse Agence",
+      "theme": "france",
+      "published": "2026-11-04T17:00:00+00:00",
+      "summary": "E-commerce : une alliance pour vendre à l'international Presse Agence",
       "excerpt": ""
     },
     {
@@ -462,7 +475,7 @@
       "theme": "retail",
       "published": "2026-11-04T16:51:00+00:00",
       "summary": "CEO Bjørn Gulden acknowledged difficulties in the lifestyle footwear market but said growth won’t happen until “the market is clean.”",
-      "excerpt": ""
+      "excerpt": "CEO Bjørn Gulden acknowledged difficulties in the lifestyle footwear market but said growth won’t happen until “the market is clean.” Last week, Adidas put out Q3 results in line with its preliminary expectations for record sales and profits . Revenue was up 9% year over year with even stronger trends in DTC, which grew 17% year over year. CEO Bjørn Gulden said on a call with analysts that net sales have grown every quarter since Q1 of 2024, and the retailer has also notched an operating profit each quarter during that timeframe. The biggest challenge the brand is facing right now is the state of the market itself. “The lifestyle footwear market is currently difficult and yes, you see a lot of discounts,” Gulden said. “Of course it is difficult then to plan growth in the lifestyle footwear market currently. But that’s why it’s so important then to grow in the performance footwear market — and that’s what we’re doing.” Adidas’ performance category was up 14% on a currency neutral basis in Q3, while lifestyle rose a more modest 3%. The results mirror a trend Nike called out in its own Q3 earnings a month ago, when the activewear giant acknowledged it had oversupplied the Jordan brand and would need to pull back on launches going forward. That specter will haunt Adidas’ results for the next few quarters, according to Gulden, who predicted the lifestyle market might improve in the back half of next year but stressed that it’s highly dependent on the actions of Adidas’ competitors. “The market can only grow in footwear lifestyle when the market is clean,” Gulden said. Data from Circana also marks this as an industrywide trend. Although lifestyle sneakers accounted for the largest share of footwear sales in Q3, performance footwear was “the industry’s primary growth engine,” "
     },
     {
       "title": "New Ecommerce Tools: November 4, 2026",
@@ -475,7 +488,7 @@
       "excerpt": "Our rundown this week of new services for merchants includes AI agents, agentic commerce, B2B payments, live commerce, programmatic ads, product discovery, multichannel marketing, reviews, loyalty plans, and more. Got an ecommerce product release? Email updates@practicalecommerce.com. Sprinklr releases Marketing AI Agents beta. Sprinklr , an AI-native platform for unified customer experience management, has launched a beta of Marketing AI Agents, which include Ideation, Creative, Campaign Execution, Compliance, Community, and Budget Optimization. According to Sprinklr, the new capabilities help marketers identify relevant moments sooner, scale and localize content, reduce repetitive campaign-building tasks, strengthen governance, and make more informed budget decisions across channels. Stripe launches free instant B2B payments. Stripe has introduced Stripe Pay , a plugin for instant business-to-business transfers that lets eligible U.S. and U.K. companies use their Stripe profile to send money for free. Senders need a funded Stripe Treasury financial account; recipients need either a Treasury financial account or a payout-enabled bank account linked to their Stripe profile. The service is available through the Stripe dashboard and command-line interface. Amazon Business launches Value Intelligence for procurement. Amazon Business ‘s new Value Intelligence quantifies cost savings, operational efficiency, and purchase compliance in a single, complete view. Each metric stems from an organization’s own Amazon Business data and grounded in independent third-party benchmarks, with transparent inputs users can see and adjust. Amazon says its Business Value Intelligence tool aims to give procurement leaders a way to measure and prove the full value of their buying strategy, bey"
     },
     {
-      "title": "Shopify's Agentic Bet Is Paying Off at Enterprise Scale - The Futurum Group",
+      "title": "Shopify's Agentic Bet Is Paying Off at Enterprise Scale",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaS16QTZUUWhOZzVaSzF3QUg5b0xSVGZmWUdKNVJhQjBfWjdyR1YySEZOUTVPUXZlaDFDTWp0eHVzME92VVdtSDFTbXp6X0J0Z014dDhXYkFvZy1OQmpHZkgwd2piUENjWVJuM2RGLVJ2OXlSS1VyekhxOWpObG1yQ0lZc1BjakJIbGF4RHhYVlFnczQ?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "The Futurum Group",
@@ -485,7 +498,7 @@
       "excerpt": ""
     },
     {
-      "title": "QuestionPro Acquires Contlo to Expand Into AI-Powered Agentic Commerce - citybiz",
+      "title": "QuestionPro Acquires Contlo to Expand Into AI-Powered Agentic Commerce",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXBwODhBMmVIRXRRVWNVOURQNG0zTk9sUjlBQVJuRThYNlFTVEhQLTNFWENDblI1cnh0c2hZdnBaazFGaTRYcmFmXzhLMjhOOW0zUm1Ub1l1dnlLUkdBeEtMU2UtVDJXOElzNTEzM2RMQlM1Q2N0VzZ4QUVyVnVrODhQa2VEQjNNbmxTX3E2SUp2RmZCb3N1UkZJYjZHdkh0am1xUE9oUnA3MEZDbXc?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "citybiz",
@@ -505,7 +518,7 @@
       "excerpt": "Empower Brands made an unsolicited offer to purchase all outstanding common stock at $37 per share, alleging Helen of Troy’s board destroyed shareholder value. Empower Brands presented a non-binding proposal to Helen of Troy’s board of directors to acquire all outstanding common equity for $37 per share after not reaching an agreement privately. That would put Helen of Troy — which operates brands such as Hydro Flask, Osprey and OXO — at an implied enterprise value of about $1.6 billion. An affiliate of Empower Brands already owns about 4.5% of the company’s outstanding shares, according to a Wednesday press release. Empower Brands is a joint venture by Spectrum Brands and Oaktree Capital Management. Its portfolio includes Black+Decker, Remington and more. Helen of Troy did not immediately respond to Retail Dive’s request for comment on the proposal. “We believe our all-cash proposal offers Helen of Troy’s shareholders compelling and certain value at an attractive premium,” David Maura, chairman and CEO of Spectrum Brands, and chairman of Empower Brands, said in a statement. “Rather than substantively engaging with us about a transaction, Helen of Troy has attempted to halt any process by requiring us to enter into an overly restrictive agreement that would limit our ability to communicate our offer to the Helen of Troy shareholders. We remain willing to enter into a constructive dialogue that could potentially support an improved Proposal and lead to consummating a friendly transaction.” The jointly-owned consumer products group believes a combination with Helen of Troy’s portfolio would be complementary and improve operational efficiency. Empower Brands began engaging privately with Helen of Troy in July about its acquisition interest, ultimately increasing its initia"
     },
     {
-      "title": "QuestionPro Acquires Contlo to Advance Agentic Commerce - GlobeNewswire",
+      "title": "QuestionPro Acquires Contlo to Advance Agentic Commerce",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMlhUVVNRbG1QQ0JHRmJIYlJuR2xSdmN1cDZwbDZoYnZCOTBHQXZnWmFQVjV3NTJEbnltN3ZRVDA0aTR6REFVQXlnYm1TNTExNmxJNjlHS0pPWm41WHFtd3ZGdUV1ZGRTZ01jQlFBdm5sNjdybnlwTTBJMFpUR01hVFMtZ0dOLWROd18tTjNTZ1J2ZFhLS0c2TmRram52bU50X2VyTjZrdWg1bzJoOFFLYmpCQmNsdy1tUnpVczVFN2M1bS1hOVE?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "GlobeNewswire",
@@ -515,7 +528,7 @@
       "excerpt": ""
     },
     {
-      "title": "AI shopping agents could threaten Amazon and Walmart's ad business - Reuters",
+      "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWZfYmc3VnVieU56OVF4S1RhMlVMMUhXR2JjZzFhVnVvcnBhLTU0aHFEUDVlN044aThuQWZ4UWpOY1c0cm5wT24xTktkRS1FVjI4VndwLU9WbzFSek1ublFKTmQ2UUxPMTVoam9lcmxnYUM2WGgxdUVOMF9EZ0MyVENMRDU3VUlZQk5yUGd0QXdQWWZUbVo0cVZ2azZFSUFERjhVX1pxaDVOQ0trZ1dRNTR4RFpBenh1QUgyWQ?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Reuters",
@@ -525,7 +538,7 @@
       "excerpt": ""
     },
     {
-      "title": "« L’Europe constitue un marché clé pour Shein » : Le géant chinois du e-commerce a investi 500 millions d’euros pour étendre son centre logistique XXL à 1 million de mètres carrés [visite en vidéo] - LSA conso",
+      "title": "« L’Europe constitue un marché clé pour Shein » : Le géant chinois du e-commerce a investi 500 millions d’euros pour étendre son centre logistique XXL à 1 million de mètres carrés [visite en vidéo]",
       "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNYW9WYXJVamtzM3RxNloyN0RmS2N5elM0Sk1maVpnX0k2dS1xNkRQc3dGZGpxNWJqbVItcHRRbW1uUDhYLTJRTUkzUFRxbmx1c09LOFc4WEZiUlNvRUtiWVpZckdJODhVa0c4b2s4Y1VWaGREdVpjTWs2RUxXNllzdFBIMlhzSTRqOHcxWnVVdkJ3V3UyZllHRFc3OXhrYzNSRnlZSTBWNzZOeENjOTZVOWE5NXplYjZ2d2JZV2lqakVDN3ZLdnNaNnVWdlhaMUJsQU9JamlQbENZN2RIb2dZNVVaandNTHBwOFIyVGVzQ2dyV0dTUzl1XzlUdkJUYVhsVENoYk5QaU9nMEctcWZSSGxvb0o2MUNiM3AwMWM2cDRoSHZXQ1VSc0NvdEFHekhSVmh4dlZJT3dSNGx3WkI5bndKN1M3Ml9leXhnd19ndWRVcExqSFhpWEJNVHJLTV80NFowSFlvcl9PbTRUS01TOFZSMEVGQQ?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "LSA conso",
@@ -535,7 +548,7 @@
       "excerpt": ""
     },
     {
-      "title": "Ecommerce Agencies Are Buying TikTok Shop Expertise - WeRSM",
+      "title": "Ecommerce Agencies Are Buying TikTok Shop Expertise",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kWmEyNldiYlpGRjJkT0NXZXI4Z29oTmRwUTJJUUtPVmpDMWVsaVFMSjQ2VWV4d1c5U2VlVmN6VFVmdUlzaGZYQUYxclF1Z3JXdUczZGxnZDZDTnVUbHBndjVjTWpOaDYybDhiNFBXbnJidkxyZ1drWGJn?oc=5",
       "source": "GNews - social commerce",
       "publisher": "WeRSM",
@@ -545,7 +558,7 @@
       "excerpt": ""
     },
     {
-      "title": "Will There Be a First-Mover Advantage in Agentic Commerce? - PaymentsJournal",
+      "title": "Will There Be a First-Mover Advantage in Agentic Commerce?",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaWliQVV1MXJzT1lCQ2JKTHFfZ2lXX01SemU1Q19yM1VqdDZoX1c0bEQweXFRSFRISmlaYm5kaUl5VlpPM3JTVi1rRXZjRWs4U25NS0lEREdMQW01R1c3Z3NQeno0NlhqRDByZ2cxMUhwYklNMDhNcnh6RVlrVHc4aFBobDI4aUhvQzZQYlFub08yX3Nk0gGaAUFVX3lxTE9xTmhVNkZqLTVWckVQUmNWUktlbHNfU1RLbFFQc1RNX2FPY3d6VEpJd3VVYkIyUzhKLWxrb3d4TXNyMnJRbHlxVjA0RHVocGRtc01FRkVMWThxUkV4YjBuNkF4cFozMVQ4enZhbnBWYUhqYzVEYmJmajJNREliQUpkcngxMnZNZ3ZQdUUzWXZBVG9MSkoxemE4b2c?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "PaymentsJournal",
@@ -555,7 +568,17 @@
       "excerpt": ""
     },
     {
-      "title": "Agentic commerce trust: Mastercard and Trulioo on KYA - The Paypers",
+      "title": "Secure Technology Alliance and Merchant Advisory Group Partner to Advance Trusted Agentic Commerce",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSTVTV3dOR3hSOTB0eHVlYzhlbnhCakM4Y2h0NWh1Slpza1MtZFZDYkFDd25FbEZrTkZFVDBMOFJMX1lBZ0tfbnFQelpZOTlILVhuX3lWLURha0ZMajFEUlpxd2JQNjNLU1dCN0o0OGFwcmd0N0lsNjVnLVY2eFNaWUhvMlpTQk94bHBHWml5RGVGXzRJc3dVUE0zcldqbjVqem9MaFJ1WFZCR2FX?oc=5",
+      "source": "GNews - agentic commerce",
+      "publisher": "Yahoo Finance",
+      "theme": "agentic",
+      "published": "2026-11-04T14:00:00+00:00",
+      "summary": "Secure Technology Alliance and Merchant Advisory Group Partner to Advance Trusted Agentic Commerce Yahoo Finance",
+      "excerpt": ""
+    },
+    {
+      "title": "Agentic commerce trust: Mastercard and Trulioo on KYA",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNU1kzOWt6TFdYQ1dNenBETGwzMTdkb2RhdmZiVVg2TUp0aGh1R0lodTVfb05jelVBdXRmSVF5SkZHeUx5N1EtbmNnSV9ENnlvRkg4LW1MNEluLXAwVk9kNmFrZElPUlNTWDc4SEpBc1p6R09Bb1lDTk5GOG1oNGRvWncxb1VyalowY2d4N0w5dE5uSXVuWUN4WlNFZmRaTV9RRmJxbko4dXBjQ1F3Tjg2TmRKMHRQZHZmeUIzYlkyRjRxWVUyVGYtN0ZyemkyZXVXVktTVDZPX214REtIYUdvYw?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "The Paypers",
@@ -565,7 +588,7 @@
       "excerpt": ""
     },
     {
-      "title": "Mode enfantine : Sergent Major concrétise sa renaissance en dévoilant son nouveau concept de magasin à Annecy - LSA conso",
+      "title": "Mode enfantine : Sergent Major concrétise sa renaissance en dévoilant son nouveau concept de magasin à Annecy",
       "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPMVNNdDJib0hYa3VTRlA3X3RBQzJRVnd6c1I5akhVYUdseklFZTk3eEdYY2FEWEptWWxNeUttbDEtWlNld1V3d1BaUXN3dE1sS3QtTDFobzlCaWJpRFBObm1rOWFFUWEwTzhRMFUzdFpHZTFja1ZJSjVLdWVQdmd4azl5QWtBSV9MQ1o4Z3pGbzkwR1EySEN6TWN0VzNfeklreDdScE5SSVg4UjNmQmx3SDMzYlA0cnB4WHd0MzdOY1FFTGtzZ2N4SFdNdENQVWVrbzRYNnB5eDlZQUlqR3ZFbFBUb21ubXFEZ2ppSmVLUk1CU3picjF4R3V3MVNZR1R2SGUyOFNaalJzdHBrS2c3cUhtVFFtcnAzbmhhczE0WWpMVTdXOVNJMFVhSEdZbjA?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "LSA conso",
@@ -575,7 +598,7 @@
       "excerpt": ""
     },
     {
-      "title": "Le bénéfice trimestriel de la société indienne Nykaa a presque triplé grâce à la demande dans le secteur de la - Boursorama",
+      "title": "Le bénéfice trimestriel de la société indienne Nykaa a presque triplé grâce à la demande dans le secteur de la",
       "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNWUIxUERzQTh6c2hNLTF4c1Rlc19FQUVBYXZ1MXVpbEVqejBSX1JUeW1paWdLcDl3NXBSeTlFRW04elphVHB4V08yZFJQSnNzVUx1emdTekNwSHFrd0VabWZ4OHJ2aHFQVVlWWXpWSlE1QTYxNWhaZnlmTWtiR0RaM3lVM2xKcFRKQ2hvWGpwVXFURWNHMkhzNXRObXE3MzlaVTdMTXJDN1VpekN5M1dwOUR3anBOLXU1eUxEZ0l4RERINGxDNmFmamVEOWtDOGhacWk5Wlk1V0tWNTBlUzVqODl4elM5X2hkR01HdTNZXzE1eDhfSEtNN1BJX2xfTzFFNnBQQWl4enpDZlpnczRPUmJNd09YRW5nQkVUR3FZeDFzR3ZvMlNsOUtnLWhSenlKYXBNSGlUN0l0a29wZ3RWVlhTT2I3V1BhbW8wb3RTd9IBzwJBVV95cUxNWUIxUERzQTh6c2hNLTF4c1Rlc19FQUVBYXZ1MXVpbEVqejBSX1JUeW1paWdLcDl3NXBSeTlFRW04elphVHB4V08yZFJQSnNzVUx1emdTekNwSHFrd0VabWZ4OHJ2aHFQVVlWWXpWSlE1QTYxNWhaZnlmTWtiR0RaM3lVM2xKcFRKQ2hvWGpwVXFURWNHMkhzNXRObXE3MzlaVTdMTXJDN1VpekN5M1dwOUR3anBOLXU1eUxEZ0l4RERINGxDNmFmamVEOWtDOGhacWk5Wlk1V0tWNTBlUzVqODl4elM5X2hkR01HdTNZXzE1eDhfSEtNN1BJX2xfTzFFNnBQQWl4enpDZlpnczRPUmJNd09YRW5nQkVUR3FZeDFzR3ZvMlNsOUtnLWhSenlKYXBNSGlUN0l0a29wZ3RWVlhTT2I3V1BhbW8wb3RTdw?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Boursorama",
@@ -585,17 +608,7 @@
       "excerpt": ""
     },
     {
-      "title": "Bahrain’s CrediMax Partners with Mastercard to Explore Agentic Commerce - TechAfrica News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTlqTWxvUnI1SDdrSGJtNHBJZk9DQmRiRUZHMnhVZi13WWFiZ04tYXZIR2h4MjM0TG50bGNQT01URHFUWEtqQzI5MEdGUDhveVlXeXNGdE9iYWdKY1REaS1ydXdGbGxtbUswZ2FqNnhIMzFKS0NqRXBxcjhnNXkwa3ZlX012YVhJZEUwckJDemwtVEF5VU9IdFFQZw?oc=5",
-      "source": "GNews - agentic commerce",
-      "publisher": "TechAfrica News",
-      "theme": "agentic",
-      "published": "2026-11-04T11:07:12+00:00",
-      "summary": "Bahrain’s CrediMax Partners with Mastercard to Explore Agentic Commerce TechAfrica News",
-      "excerpt": ""
-    },
-    {
-      "title": "ADWEEK Commerce Advantage: Ecommerce Agencies Are Buying Up TikTok Shop Specialists - ADWEEK",
+      "title": "ADWEEK Commerce Advantage: Ecommerce Agencies Are Buying Up TikTok Shop Specialists",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWndNNGQ2NTRUeFJ0NE00TXpISlk5Y1h3YnIxUzNobWF4WHdLMXIzaEt2T2dOWGtDODdYNmJCaVZGRXIxNWlncVBJRmt4SU1mcm9zR1hLUUNJZjRUaTc1UERQY21DWG9wQzVMX1BkTENhRGxQTHByU3NGazRwRk05TUdRUTNIV0dHbWRwcm5JUWZ5VzNYMWVQN2NtUGp3N2Myb2VSX0lrQWx4SHNSdFN2R3ZQZTdyUQ?oc=5",
       "source": "GNews - social commerce",
       "publisher": "ADWEEK",
@@ -605,7 +618,7 @@
       "excerpt": ""
     },
     {
-      "title": "OptimizeGEO launches tools to track AI search, shopping and advertising - BMI",
+      "title": "OptimizeGEO launches tools to track AI search, shopping and advertising",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHJoamY4UElIT293VE5ackZ3V1BFRDdaNmlERmdKTUFJY3Ayd0xib2gxaHBIRTJFUnJOc3FVdzdNcUlPOVRCUVlIeDdIbFUzNF9DNFpzb3dNbXZGdWs4UjhBdWZlcV9oeW1hN3V0UzE5RTgzcUNNUERoMUJMRG1xTmpGa3hmY2tiUHV6VHVHV01OUHlWZjE2R29OZERXY3BLd1pjV0hrb09xMG1BVllRNTRpMkZ5UGdNcml1SmE0WHctMzdEcXRHWXo4aHFOY0YtX3k5TmE0eDF5WUFM0gHcAUFVX3lxTE4wcmhqZjhQSUhPb3dUTlpyRndXUEVEN1o2aURGZ0pNQUljcDJ3TGJvaDFocEhFMkVSck5zcVV3N01xSU85VEJRWUh4N0hsVTM0X0M0WnNvd01tdkZ1azhSOEF1ZmVxX2h5bWE3dXRTMTlFODNxQ01QRGgxQkxEbXFOakZreGZja2JQdXpUdUdXTU5QeVZmMTZHb05kRFdjcEt3WmNXSGtvT3EwbUFWWVE1NGkyRnlQZ01yaXVKYTRYdy0zN0RxdEdZejhocU5jRi1feTlOYTR4MXlZQUw?oc=5",
       "source": "GNews - GEO",
       "publisher": "BMI",
@@ -615,7 +628,7 @@
       "excerpt": ""
     },
     {
-      "title": "Commerce agentique et IA : les enseignes visent-elles mal ? - https://www.republikgroup.com/",
+      "title": "Commerce agentique et IA : les enseignes visent-elles mal ?",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOUstc19VbGFwdl8zZUNVNVRMenQtUTB6M0JicktrREhNQ2szYmpKRDAxRlNYb1NQLXVvajJzbFVGT0QzdEI4UFJqNzd1VndXbEdpNDZFN1hrWmItdXRwMmZBYmt3RTlETFIzM3ZMeDJhM1c3aTVEdmVhMFU2VndadmFLMmdKMUVDaWo5Tjk2NDZCX19qN3h4NjZaVzBuM0JqU0Q5Ny00cW9LaWoxajNubnpBMFdmN01uVlN3aTdiUFB4ODFhYzBmc1hUZWdNTXR2VV82RW1ZQnFmMVA0RGdET2JyOURrcjdT?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "https://www.republikgroup.com/",
@@ -625,7 +638,7 @@
       "excerpt": ""
     },
     {
-      "title": "OptimizeGEO launches Integrated Demand Engine to strengthen brand visibility across AI Search, shopping and advertising - MediaNews4U",
+      "title": "OptimizeGEO launches Integrated Demand Engine to strengthen brand visibility across AI Search, shopping and advertising",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdEgtd21LQ3JxNXpjQTk2TUZ5Q2NOWmJVenFpaTFWeUYtNEZlUlNvV1Q0Zkw2U2lZeGxsQ3I3VXlpS3pkUmlSZjRBZF9oWTNtS0R2a1lteGphVEwzS3NTXzRlZjJxaHJ5MmRUUjk2ZU9WSmpMSVpRQmx0aXFXMWIwM1h6SXNYZ3ZMWEJXRDZ0SlRhLUFMcDB6cU04Ujlwa3M1X1hTLU1PV1BORER3NWFfYzdLVHpEaThQTVJjdXA2Vk1hbThndERrZE04eW9iM213aXI5YW9PS0kzelpVa0VNQQ?oc=5",
       "source": "GNews - GEO",
       "publisher": "MediaNews4U",
@@ -635,7 +648,7 @@
       "excerpt": ""
     },
     {
-      "title": "NIQ and Similarweb Advance Agentic Commerce Measurement for the AI Shopping Era - The National Law Review",
+      "title": "NIQ and Similarweb Advance Agentic Commerce Measurement for the AI Shopping Era",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaW5fQXZReU94bEQzVTZ2ZkVtMWRFN3NadGlmOXBiYlhRX3k3UFFjLUVGWFBsRmZCVE9UWVFzNE1PQkNUSGV1bTBqejQ1ZTRGQjZfVmhRSWkzVjRhTTZfaDZzQ2JzeWJhb0FrMVdmcUFWZlRzbmE5UWs3SGxsdG1ydURiYnFqV2hmWTlLYllKVy12TkFXa3ZjMExrSzN3aGZqcFlTd2l3anphcGJfMEp0Wi1BOUJpZw?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "The National Law Review",
@@ -655,7 +668,7 @@
       "excerpt": "En annonçant l’acquisition de son partenaire DAILY&CO, LENGOW étend son offre à l’exploitation quotidienne des marketplaces. Une manière de développer la relation avec les marques déjà équipées et de toucher celles qui manquent de ressources. L’enjeu sera de transformer ces services en revenus récurrents sans faire progresser les coûts humains dans les mêmes proportions. Une marque peut disposer du logiciel nécessaire pour distribuer ses produits sur plusieurs marketplaces sans pour autant avoir les équipes pour exploiter ce canal. Hors publier le catalogue ne règle pas toutes les questions : il faut enrichir les fiches, traiter les anomalies, activer les ventes, répondre aux clients et gérer la facturation. C’est ce vide entre équipement et exécution que LENGOW entend couvrir avec l’acquisition de son partenaire DAILY&CO, . « J’ai créé DAILY&CO parce qu’une marque ne devrait pas avoir à monter un département marketplaces pour vendre dans toute l’Europe », explique son fondateur, FRANÇOIS NIEUWLAET. Basée à Lisbonne, l’entreprise indique gérer les ventes de marques et de fabricants sur plus de 40 marketplaces en Europe et en Amérique du Nord. Parmi ses clients figurent DESSANGE, HOLCIM et MEDELA. Ainsi DAILY&CO apporte à la société nantaise, une combinaison d’outils de gestion des données et de services managés. Son offre couvre l’orchestration, la gouvernance et l’enrichissement de l’information produit, mais aussi la publication des catalogues et le suivi des opérations marketplace. LENGOW entend ainsi proposer une délégation plus complète aux marques qui manquent de temps, de ressources ou de comptes vendeurs. « Aujourd’hui, les marques attendent plus que de la technologie : elles veulent un partenaire capable de piloter leurs canaux avec elles », déclare NICOLAS APP"
     },
     {
-      "title": "Marché du commerce électronique au troisième trimestre 2026 : le nombre de magasins a diminué, mais le chiffre d’affaires a augmenté. - Vietnam.vn",
+      "title": "Marché du commerce électronique au troisième trimestre 2026 : le nombre de magasins a diminué, mais le chiffre d’affaires a augmenté.",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSENvMzR6aXFlMEJIVkljUWZyYjQzd1BHTXVVWHZmcmdfMW5RcUcwZF9DekNQVFJ6Z3QydnJqbmRlYnpoVTZrVkJ4eTBSbVlWNDVPUWV4UGRqdkZlaXlxeGJwYnkwMjF6OFQ3WUNfZEtVb0JWMDJCRDBJWFVzZS1qVUxxVmlXWjlMUXpTMnRmdTVRZUVnMHFKSXFaUUZ3WHBGS1E?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Vietnam.vn",
@@ -665,7 +678,7 @@
       "excerpt": ""
     },
     {
-      "title": "Le commerce électronique propose des produits spécialisés aux consommateurs. - Vietnam.vn",
+      "title": "Le commerce électronique propose des produits spécialisés aux consommateurs.",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN1NCTXdRV0ZYMlVlT2tHQW9kQ25yZDd3Q0plOGpaX003Yk8zMVhHSi13cUZrTzFnaG05UkpXWG4xR0h3YTQ4Qnd1ZGdZbEJsYUNQMGhONzJRRW1zN1RhTURJMktuaFNoRUVvV09xZkZuRWp4aVl3S1BkMWZ1TjRZMk1B?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Vietnam.vn",
@@ -675,7 +688,7 @@
       "excerpt": ""
     },
     {
-      "title": "Asia Pacific Takes 34 per Cent Share as Social Commerce Surges Toward 2.7 Trillion Dollars - Retail News Asia",
+      "title": "Asia Pacific Takes 34 per Cent Share as Social Commerce Surges Toward 2.7 Trillion Dollars",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1QtN2ROMUxxT0ZkTzM1bHFhNVNzQW02RlI4VjlKOElWLUxBc0pETHRKTklnSk1obm5ZY3BhY1hNZzBiVmE1RU9uaENaV1YzekZWV3BUc0FWYm53UWRhYTd2Zmd3YmI1c2VNV3NFaWhZVjE1al9fZTRzLWpPRVdObWFlaXNIQ2VVanZlOVZReGs5cUo2ajhDZlYyRl9QNXUyR1ZiRUo5V0tpenBUV0RIbHlkYjI?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Retail News Asia",
@@ -695,7 +708,7 @@
       "excerpt": "Building on the availability of Daybreak models on Amazon Bedrock, GPT‑5.6 Cyber is now available to approved customers in AWS GovCloud (US-East) ⁠ (opens in a new window) through Daybreak Red. This expansion gives government security teams a new way to apply advanced cybersecurity capabilities within the AWS environments they use to support critical missions. Daybreak Red provides access to OpenAI’s purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing. GPT‑5.6 Cyber can help defenders investigate complex software weaknesses, reproduce vulnerabilities in controlled settings, and develop mitigations. Qualified security practitioners should review findings and proposed fixes before implementation. For government organizations, adopting advanced cybersecurity capabilities requires more than model performance. Teams also need to work within established security, governance, and operational requirements. Availability in AWS GovCloud (US-East) gives eligible teams a path to incorporate GPT‑5.6 Cyber into those workflows through Amazon Bedrock. Defenders can use it to reason through security findings, assess their impact, and evaluate fixes, helping connect vulnerability research to practical improvements in defense. Daybreak Red gives verified defenders greater latitude for authorized cybersecurity work, with fewer refusals for these tasks alongside stronger identity verification, monitoring, and access controls. For Daybreak Red on Amazon Bedrock, inference data is not used to train models, and customers do not need to share their Daybreak Red data with OpenAI. Access requires OpenAI Daybreak Red approval and AWS provisioning. To get started, complete the Daybreak application or contact your OpenAI or AWS accoun"
     },
     {
-      "title": "OptimizeGEO Launches Integrated Demand Engine for AI Search, Shopping and Advertising - TheWire.in",
+      "title": "OptimizeGEO Launches Integrated Demand Engine for AI Search, Shopping and Advertising",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVVdhYnNhY2dCVkFnQjBObFNadXRQSDEyOEhQRldfYTBRTENuYkVGRVl2WGYyLUdpdjAybWVNRDFSOFRDaWloVmh2RTBEYTFXZnhLd1J3c2hvWF9haGRxYjY1VjQ2elZ5ZTlmVmRxUmluN2ZYV2ZFenRKT1loZVdvVmkxUlc4eUpaT01qR0ZBZUxsQVVlNXd0MmFXcGtjd0xocXl3WUlUSTdWWC1sakJrMDlQQTladGlVbThXNDd2TkXSAcYBQVVfeXFMT3NiVGY5QjNxX2NBdy1QSE5qRWJhSnVlOGN6MlFaNEpLNTd4YlJXU2RiREh0V1JZdDBUNkphRzFRN0I5QTU1WkRMTXc5VzNISXhyRGFqUjRtUmNXYXlSUVNJdk1RQmhMdU1Ea1ZIQXpuaXpZSHNPSEMtc0tPRlJvRjloTlQ3eG84NlJOQnhHMXpQbnozdjFtQ01VZWhXeGF1TXZlcEprdEhTTVJtWE1rc3pGMjhwR0ViZUdWZjNVMW1HQU9jX013?oc=5",
       "source": "GNews - GEO",
       "publisher": "TheWire.in",
@@ -755,7 +768,7 @@
       "excerpt": "For the Wellness Briefing, Glossy interviewed Anna Pione, partner at McKinsey and co-author of a new wellness report out this week, about what’s driving the $2.7 trillion wellness industry today. Additionally, Ulta Beauty partners with Whoop, Kimberly-Clark acquires Kenvue for $48 billion, and the wellness activations that won the NYC marathon. New report shows a splintering wellness consumer archetype who craves identity signals The global wellness consumer is rapidly evolving, according to a new report released Tuesday by global management consultancy firm McKinsey & Company. Based on a survey of 10,000 consumers across the United States, China, Germany, and the United Kingdom, the report chronicles a splintering wellness customer base, a dynamic shift in how consumers view and prioritize wellness, and unexpected new interest in the category among baby boomers. “One of the attitudes that struck us the most in the survey was that 38% of U.S. consumers said health and wellness is a core part of their identity [now],” Anna Pione, partner at McKinsey & Company and co-author of the report, told Glossy. “We also asked [respondents] about the prioritization and the ranking [of health and wellness in their life], and that’s where, across every single generation, wellness came in No. 2 behind friends and family,” she said. “When you put those two things together, it starts to tell a story of consumers placing a high priority on this and choosing the brands that allow them to publicly project that.” Pione compared this increased interest in wellness signals to that of luxury fashion, but she noted that one is not cannibalizing the other. “It’s ‘and’ not ‘or,’” she said. “A lot of the wellness offerings [used for lifestyle signaling] are kind of intersecting, or becoming more li"
     },
     {
-      "title": "Les piliers du modèle de JD.com : comment l’e-commerçant veut reproduire l’effet d’échelle en Europe - LSA conso",
+      "title": "Les piliers du modèle de JD.com : comment l’e-commerçant veut reproduire l’effet d’échelle en Europe",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmctRU5JMUMwRnJRQ0VXYnJxUnVhc0FxUHRTWlpLOC0zVmJWMU5hMHpiV0RIY3dyWGVXN3hSMXBZaWw5NTlPVnlPSXdGcTZ2TGJZRjNxZmRlT2FJd0NUNUhHRTRSeHJNOFlaYWtHQkZTQlo0WHZuR29jbjFkT3BsMEF1ZFZhTXhXeXdzbWVqRUU0VHVQMWlsUU1kYVl0QklEV1A1bzFNb1RYUUlzanktclNnMTAwZHdjOFJZcTFSX2ZNd1QyYnl4T2hzRlk?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "LSA conso",
@@ -765,7 +778,7 @@
       "excerpt": ""
     },
     {
-      "title": "L’Oréal Chile leverages the power of GenAI to capture social-commerce opportunities - NTT Data",
+      "title": "L’Oréal Chile leverages the power of GenAI to capture social-commerce opportunities",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORm5fSTR5NTViRDUxbFVndzJ5M0lEVkVaR2R3Q3JhRzlaQTcxZHlMbXhCcjBBVkRHaVJ3TzBLbE96MTZUbGtEVkhhRmdlZ3g2VGU2Zy1fVktrcjA5YjRhSk5hSW9zTDhHMWs0VEE3ZWsxVnRNLXBiVWg5cW93a1NHUEt5Zlc5dkZLb0NPNGk5Y2NyY2VzZDgxVDNqdlBmWVNjSjZ1Ulo0cFRxbDJXOElxUjZjci0yR0U3ZnpaUnZrOWJKQ3NoQ2RjbUxLU0RiUmM?oc=5",
       "source": "GNews - social commerce",
       "publisher": "NTT Data",
@@ -782,10 +795,10 @@
       "theme": "agentic",
       "published": "2026-11-04T00:00:00+00:00",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "excerpt": "Generate images faster and with more control over editing rounds. W e’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into an eye-catching loop. You can also create polished visuals faster and refine them with greater precision — keeping characters, products, and brand details consistent as you edit. People around the world now create 4 billion images per week across ChatGPT, Codex, and the API. On average, that’s more than half a billion images created per day. Images 2.6 generates images 50% faster than before. In the API, we offer GPT‑Image‑2.6 Flare and Sunburst for developers to choose from. When quality is set to low, Flare can generate images in as little as six seconds. For work that calls for greater detail and precision, GPT‑Image‑2.6 Sunburst brings higher-quality image generation and even greater image consistency across edits when quality is set to medium or high. Flare also improves layout quality for posters, product imagery, and other professional visuals. For moments that call for motion, GIFs bring another dimension to your ideas. Marketers and creators can animate a brand mascot for a campaign, create reactions and memes for social media, or use animated storyboards to explore character movement before video production. Prompt 1 : Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly plunging stock-market line chart. The sequence: hopeful expression, notices the chart falling, eyes widen, face crumples, large cartoon tears stream down both cheeks, then quietly wipes tears "
+      "excerpt": "Generate images faster and with more control over editing rounds. We’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into an eye-catching loop. You can also create polished visuals faster and refine them with greater precision — keeping characters, products, and brand details consistent as you edit. People around the world now create 4 billion images per week across ChatGPT, Codex, and the API. On average, that’s more than half a billion images created per day. Images 2.6 generates images 50% faster than before. In the API, we offer GPT‑Image‑2.6 Flare and Sunburst for developers to choose from. When quality is set to low, Flare can generate images in as little as six seconds. For work that calls for greater detail and precision, GPT‑Image‑2.6 Sunburst brings higher-quality image generation and even greater image consistency across edits when quality is set to medium or high. Flare also improves layout quality for posters, product imagery, and other professional visuals. For moments that call for motion, GIFs bring another dimension to your ideas. Marketers and creators can animate a brand mascot for a campaign, create reactions and memes for social media, or use animated storyboards to explore character movement before video production. Prompt 1 : Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly plunging stock-market line chart. The sequence: hopeful expression, notices the chart falling, eyes widen, face crumples, large cartoon tears stream down both cheeks, then quietly wipes tears w"
     },
     {
-      "title": "E-commerce: lancement de Mochi, un agent IA pour simplifier la gestion des boutiques en ligne - Le360",
+      "title": "E-commerce: lancement de Mochi, un agent IA pour simplifier la gestion des boutiques en ligne",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVUJnYk5aNHMxZmRrdGtxb0UzT2JkU2lQRXhxVXVyZTRuc0IyR1BFS044blE2bWptN3E3eDFYeDdGY0ZPNmlmS2p1dzZPQzFlRWxSOVNmb2VLZEdOVFRtc05pQTFRNXRQaXpfZHBHSUN3Vm9XZnJRVE10SmJNaDlLRkZtVjFiS09YMzhNcTVGaDFSdGxPLTZtRExzUEpiSVpXejhkaWg4NF9kaXV6NG1TYWM0aTlEOWlCNnR0T1liUnhhTGFiR18zSDRmOEttaGltNWxUcHdJbjJ0SDdSYmQyLW1n?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Le360",
@@ -805,7 +818,7 @@
       "excerpt": "ChatGPT's search-like queries equal about a fifth of Google's volume, its maker says, counting each question that sends it to the web. Traffic data differs. ChatGPT receives roughly one-fifth as many search-like queries as does Google, according to ChatGPT consumer product lead Adam Fry. The point he made about the volume of search-like queries was shared with Alex Kantrowitz in an open discussion during a Monday evening dinner in New York hosted by OpenAI. The transcript was later posted by Big Technology on Tuesday. OpenAI counts a search each time a question sends ChatGPT to the web, Fry said. The visits ChatGPT sends to websites are a separate measure, and outside data on that traffic puts ChatGPT far behind Google. Alex Kantrowitz of Big Technology asked Fry whether a conversation that includes a search counts as one, or whether each question requiring a web search counts separately. Fry replied: “Every time you ask a question and go search the web, that’s a search.” He said people first came to ChatGPT mostly for writing and coding help, which they wouldn’t have searched for. Over the past year, he said, they’ve brought questions about people, places and things that need up-to-date information, plus finance and health questions, where ChatGPT does a web search. He described the category as anything users would have taken to a traditional search engine. Fry, in the published interview, did not reveal which Google figure was referenced; for how long the comparison is based on; nor does he state which regions are covered. He has also been asked if one-fifth of Google’s size makes ChatGPT multiple times bigger than Bing. The report by Big Technology indicates that the number of weekly active users of ChatGPT grew by 20% (from 1 billion to 1.2 billion) over the last tw"
     },
     {
-      "title": "Let's Talk: Is social commerce worth the effort for small businesses? - Dynamic Business",
+      "title": "Let's Talk: Is social commerce worth the effort for small businesses?",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa3FqdGxVU3RPRWU5WGtvUDdpbklCTWVSTWRLZW85OWhXYUVQREJZa0JRWlNRc3ViYUtEWDZPdy14NnVCNW1FNF85S3Y4Vld5WlI1TjJXZVRTelkyY2taaWRqNWJpaTBYYm1ZM0h3a0ExNWtIUm9UaTFPUUtnalFZLVZYcWhDMXRVZEIzREE4RXFna1VGVHhlWHc5WUtEaUtPRm5sMlZ6UlM1SUQ4dGxzcm0wc3htVm9jLU93V1Z2YkxQYzlLTE9jWUM1ZXI?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Dynamic Business",
@@ -825,7 +838,7 @@
       "excerpt": "AI Mode, AI Overviews, and traditional Search are becoming one product. What Google’s Q3 earnings call revealed about the agentic era. Even though Wall Street is panicking over Google’s earnings call , it seems obvious to me what is happening. They are not going to slow down when it comes to AI. Throughout the call, they spoke of agents and how we are in the early days of how they are changing Search. They told us that AI Mode, AI overviews, and traditional Search are becoming one unified product. They also said to expect rapid improvement because of Recursive Self-Improvement (RSI). Things are about to get very interesting. I think new opportunities are arising, but also much of the way we have traditionally been able to make money from Search is disappearing. The main thing I took away from this earnings call is the emphasis on the shift to agentic search. I think this is still unfolding and no one fully knows what this new era of the web will look like. Google gave us a few hints in this call. I find it fascinating how Google’s stock plummeted after this call. Alphabet’s revenues were up 25% YOY and Cloud revenue was up 103%. The general concern seems to be that Google is pushing AI Mode more, and so far there are fewer opportunities for ads shown in AI Mode. Therefore, revenue from Search is lower than expected. Still, Search advertising is up 12% YOY. (Wall Street was expecting 15%.) I have no concerns over Google’s ability to continue to thrive. They mentioned in the call that their first priority is to make AI Mode a quality product and then it will focus more on monetizing it. Last week, Google announced that ads in AI Mode were expanding to more countries including Australia, Canada and more. “Our approach is deliberate – prioritizing the user experience and en"
     },
     {
-      "title": "Agentic Commerce Drives Shopify Revenue Up 32% - PYMNTS.com",
+      "title": "Agentic Commerce Drives Shopify Revenue Up 32%",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFkzT2ktc0U4UDJXQ1FadnZGdWhGc0FTeXV3eE5FZGh0NEZDN2JId1MxTmNERTVNWlF3QjlzTFMxMkZZRnJWNTdsSmdPTjRlOHQxV1lhY1ZFeGt4WWx2YU1CRHlHNUE0bWZHMVdqRWRYMGV3YnZNX2NjdUhBa1ZMUFNDaVFNSkRDd2wtdkIyMmZWc0w1VkxHX3k5cE93WEVUSVFJ?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "PYMNTS.com",
@@ -835,7 +848,7 @@
       "excerpt": ""
     },
     {
-      "title": "PAYS D'ARLES Recrutement : la Chambre de commerce met l’IA au service des petites entreprises - Objectif Gard",
+      "title": "PAYS D'ARLES Recrutement : la Chambre de commerce met l’IA au service des petites entreprises",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQVMwMXh2QnJjOFAyZDF4aXFvX0VkakJYOVRIazI3b3dlRi0weHYxZEMzWjJqb2NIMElnSkNfWDlteHcxTExhallzTTFXWUNnRGNuT0o3ZVZ0T0NiVWJ4VjNBVkdXYVJjZm5ZRFZKX2p6aHdCcGZGTVRLTkw5dXlHSVJJaDlwM21jM0haVGxFbUtJMHFGa3ZsdS1DbUE3Q0E1OVlNUGFPSW9hOTh2cnFSSDB6eTZ1ZVl2OXlXRFRENS1QaFk3c0dRQU92b3Zvenc2bjhoSA?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Objectif Gard",
@@ -845,7 +858,7 @@
       "excerpt": ""
     },
     {
-      "title": "Zalando lance un nouvel agent IA au service de partenaires - Les Echos",
+      "title": "Zalando lance un nouvel agent IA au service de partenaires",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa1BJY1pSQVVBNWpJeGJBUDlTdTNnM3dSTjlGMUFPNXljRWpMZGtUNmxFMnlfcWpkc1ZPdlVMOGc5TkVpRDdwWXdkY1dRYnRqQ004a1RvYTRBUHNBR05STWl3Y09zVjZJVUxUZklEUkZYdmwwXzRteUdCUUI0dE4xeTlDbG9nMFhxQzlPSTNYNmxIMUN6bVV6MFc5WDBxdllFQ3hsMjFqV0U5ampUZmwwMFFvcnpKMkJKR3hWU2hrYU9wV01PUUhj?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Les Echos",
@@ -855,7 +868,7 @@
       "excerpt": ""
     },
     {
-      "title": "Zalando dépasse à nouveau les prévisions et lance un nouveau projet avec l'IA - FashionNetwork France",
+      "title": "Zalando dépasse à nouveau les prévisions et lance un nouveau projet avec l'IA",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORlRxUl9qOHlYTmlMM0VIVE5vVWJDMTN1blFxNnhHbTNuUlNncktDT1U2MFlNQ0lvUlREaFV4RG9QU09MM0RMYWN4SmwwRzBvV09iNGMwd05NNnIzUWljV0ZoYXZZbDh5M3VNclNRQXBoMmFhb1BQLVFXQU03YzR0QlRJSmdCWFN3YTNhZF9Zc2RJX19mOW9QVEg0WDZuSU5sdTQzN0dkck41aFFoMlRya2x4M3RlUC1GOGdtMEFlRldlMFU?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "FashionNetwork France",
@@ -865,7 +878,7 @@
       "excerpt": ""
     },
     {
-      "title": "Google makes big plans for wallet - Payments Dive",
+      "title": "Google makes big plans for wallet",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT0x0Z2JWV1hWeXAzZVVRbGx1WnFXdzhYSHo0akUtMnJmVmpQa3lqS3k3NFUzdkV0R2FiNHFiaGNfdDVUNDJpNVN4d3FUdUNBTFQ5YTgtNmozUk1Zc2RXMkhDSXFoMDVfRHFtcFRQWnEtQmRIMnJGRFNpbnFnZGtqbnRMTGRoWHFfQy1sRk1FWXBWd2MzaFlhSU9zamJwdUx2NUx1eA?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Payments Dive",
@@ -882,10 +895,10 @@
       "theme": "retail",
       "published": "2026-11-03T16:36:00+00:00",
       "summary": "Judd Nystrom returns to the company's C-suite several years after supporting its move into the public trading market.",
-      "excerpt": ""
+      "excerpt": "Judd Nystrom returns to the company’s C-suite several years after supporting its move into the public trading market. At Home is betting on company experience by tapping a former executive as its new CEO. \"Judd combines deep familiarity with At Home, strong financial discipline and a commitment to developing people,\" John Eck, executive chairman of At Home, said in a statement. \"He understands the work underway and the opportunity ahead. We are confident he is the right leader to partner with the At Home team to drive brand growth across stores and digital, modernize our supply chain, and deliver a more inspiring, differentiated and rewarding customer experience.\" Nystrom most recently served as CFO of Caliber, an automotive repair and services company, until February. He also previously served on the board for children’s toy brand Melissa & Doug and has financial retail experience at companies such as Best Buy and Advance Auto Parts. Aaron Rose will continue to serve as president and chief commercial officer — which he was promoted to in May — with oversight of At Home’s merchandising, marketing, e-commerce, planning, supply chain, stores and more. Under Rose’s leadership the last few months, At Home relaunched a loyalty program and “accelerated its assortment reinvention,” per the release. Despite a tough housing sales market, demand for furniture has picked up throughout the year, according to a 2026 research holiday note from Telsey Advisory Group last month. However, much of that demand is coming from affluent consumers, creating a potential benefit to higher-end brands. “These customers have been reengaging with home products and updating their homes,” the analysts said. “Several home furnishings retailers also stepped up their merchandising initiatives, including"
     },
     {
-      "title": "How JD Sports and Braze Are Building The Future of Agentic Commerce - WWD",
+      "title": "How JD Sports and Braze Are Building The Future of Agentic Commerce",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2lFdmttUVh6V3o3UXduV1hUaHdPNVlSTk51M0FZbWpEZlVEclg3MnRtS1Q1WC04UmZIbkg5SS01dFdnR0VrcXRyZkVVU3ItN2pzam9aUWtJSkFnZUw5RTBBYTN6OUktbXZybFV3VFBMNGtSTkd3ejB4UFJMN05LQ0ZWeEF5RnhEaC1mNTdnVHRwb3VIdnh1TGktVlRUUVFMR09MenFULWZOZmFNRFF5Tk54LXl6aXF6?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "WWD",
@@ -902,7 +915,7 @@
       "theme": "retail",
       "published": "2026-11-03T16:28:00+00:00",
       "summary": "The denim label is officially part of the Authentic Brands Group stable and will expand into adjacent “lifestyle offerings.”",
-      "excerpt": ""
+      "excerpt": "The denim label is officially part of the Authentic Brands Group stable and will expand into adjacent “lifestyle offerings.” Lee jeans is officially part of the Authentic Brands Group stable. The deal — which could add up to $1 billion based on Lee’s performance — was announced in May and closed Tuesday. Authentic has already lined up a series of operating partners for the denim brand, including One Jeanswear Group in the U.S. and Canada; Experience Group in Europe; HiMaxx in China; and Union Group in Mexico. Authentic said it aims to expand Lee into activewear and workwear, as well as “lifestyle offerings that build on the brand's heritage of denim craftsmanship, innovation and authentic American style.” Lee was founded in 1889 and makes roughly $1.5 billion in annual sales. The acquisition by Authentic places Lee in the same portfolio as Lucky Brand, Vince, Eddie Bauer, Billabong and more. Earlier this year, Authentic bought a majority stake in Guess’ intellectual property and in 2025 the brand management firm bought Dockers from Levi’s . Lee’s former owner Kontoor Brands now has just two brands in its portfolio: Wrangler and Helly Hansen. Kontoor CEO Scott Baxter said in a statement that the company was “grateful to the Lee team” but emphasized that the sale would better position its remaining businesses . “We now have a more focused, growth-oriented portfolio positioned to deliver stronger returns for our shareholders,” Baxter said."
     },
     {
       "title": "AI recommendations are leading to returns",
@@ -912,7 +925,7 @@
       "theme": "retail",
       "published": "2026-11-03T15:59:00+00:00",
       "summary": "The problem may not have to do with the technology itself, but rather the product description data, according to a new report.",
-      "excerpt": ""
+      "excerpt": "The problem may not have to do with the technology itself, but rather the product description data, according to a new report. Despite the promise of deeper personalization, AI agents aren’t yet able to bypass the thorny issue of returns . However, the reasons for the return of AI-recommended products differ from those in more traditional retail channels. While incorrect size or fit is the most common factor leading to U.S. returns in general (42%), according to the survey, the most frequently cited problem with AI-recommended products is that the item doesn’t live up to its description. AI assistants may be doing a better job of finding the right fit, but they struggle with describing products accurately, and the culprit is most likely the information retailers are offering up to answer engines. “Shoppers are taking AI’s advice faster than retailers are getting ready for it, and nearly half of them are sending something back,” Duncan Angove, CEO of Blue Yonder, said in a statement. “That’s not really an AI problem. It’s a data problem. An AI assistant is only as good as the product information it can find, and most product data was written for a search bar, not for a machine suggesting products for someone. When what arrives doesn’t match what the shopper expected, it goes back in the box.” Consumers are increasingly turning to AI assistants, especially among younger generations . Nearly a third of teenagers said they trusted AI-generated product recommendations over a friend, according to a recent Mastercard survey. Of the 2,000 U.S. shoppers surveyed by Blue Yonder, 43% of Gen Z bought a product based on an AI recommendation, compared to 36% of millennials, 19% of Gen X and 9% of baby boomers. But trust in these platforms remains shaky. A recent survey by SmartCustom"
     },
     {
       "title": "Find Site Errors with AI before Ads Run",
@@ -935,7 +948,7 @@
       "excerpt": "The company, now known as Neighborhood Intelligence, relied on acquisitions to expand its business beyond retail. With two deals called off, where does that leave its turnaround? Cracks are starting to appear in Neighborhood Intelligence’s turnaround strategy. At the start of the year, CEO Marcus Lemonis laid out a plan that focused on three pillars : omnichannel retail, home services and home ownership. A big part of that strategy relied on acquisitions as a way to build out its company and move into areas beyond traditional retail. The company, formerly known as Bed Bath & Beyond, initiated a string of acquisitions that have included The Brand House Collective, The Container Store and more. But more recently, weaknesses have emerged in Neighborhood Intelligence’s strategy. In September, the company called off its deal with F9 Brands , the owner of Cabinets To Go and Lumber Liquidators. And last month, it canceled its acquisition of real estate platform Fathom Holdings . The turnaround strategy was an ambitious one, according to industry experts. “It struck me as one that could only succeed if everything went right, and that doesn't tend to happen,” James Gellert, executive chair of financial analysis firm RapidRatings, said. “What we've seen here is, some of these component parts have not come together for a variety of reasons.” Neighborhood Intelligence last month said it is now putting future acquisitions on hold as it focuses on organic growth at its core businesses. “You can't execute a comprehensive and complex strategy when there are a lot of low common denominators that don't come together. The diversification that Neighborhood Intelligence was trying to achieve is not yet realized and may not be realized,” Gellert said. “You've got cash issues, you've got debt"
     },
     {
-      "title": "Walmart Builds Infrastructure for Agentic Commerce, With Implications for Brands - Consumer Goods Technology",
+      "title": "Walmart Builds Infrastructure for Agentic Commerce, With Implications for Brands",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN0h1RU9MQ0tvY1IyVGJwWUdWc2EwN3BXNkQxWWF3QXhQTVhrMkpHaHhhWnBYWWNCZVktMnNOMzdsVFdUc2lfdjlrNjFnd24tempKOEhXcDF4WFhEcHVOWmNVTDFPUmpFbjZFSlBxNG1MWFB5UlFjeENFczhrY043OF9WaFAtem5qTTI5T1I2cGxmQXRqcTVj?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Consumer Goods Technology",
@@ -965,7 +978,7 @@
       "excerpt": "This is the latest installment of the Brands Briefing, a weekly Modern Retail+ column about the growth strategies of modern brands. More from the series → From Vera Bradley to Coach to Anthropologie , fashion brands have jumped on the burgeoning bag-charm trend. Now, food and beverage brands are getting involved, too. In October, Kraft Natural Cheese rolled out Pocket Parm , a mini, portable version of its shelf-stable grated parmesan cheese that people can take to the movie theater or the mall. In August, Cava converted its staple yellow takeout bag into a limited-edition charm , available for one day only. In January, Jack in the Box launched Jibbis , a series of blind-bag collectible charms featuring the restaurant’s mascot. Bag charms have become popular among young consumers in recent years as a way to personalize their accessories and reflect their interests on the bag they carry every day. On Etsy, searches for purse bag charms are up 27% in the last three months, compared to the same period a year ago, the marketplace told Modern Retail. In May, toy company Funko said bag charms and pins drove double-digit growth for its bag brand Loungefly. Now, more food companies and restaurants are in the mix, as part of a broader push into branded merch. These players are making their own bag charms, alongside merchandise like hats, sweatshirts and socks. For companies like Kraft and Cava, branded merchandise is a way to position themselves more as lifestyle brands and as companies attuned to what’s popular in culture. It’s also a way for these companies to spark conversations around new products or menu items and, ideally, get customers thinking about their brands outside of mealtime. Cava saw an uptick in sales and traffic the day it launched its yellow bag charm this sum"
     },
     {
-      "title": "Hostinger Premium : 48 mois d’hébergement pour seulement 119,52 € - Les Numériques",
+      "title": "Hostinger Premium : 48 mois d’hébergement pour seulement 119,52 €",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQN3JnZzJJRHdXdWlsNU91RTZlaHVVSUxvMEpGRmtJOElCNlFsOVZtX18zNk9Gc3cxWnpVYm80NHJlMmdIMlB3YlQzeDVmX2c0TUpHSGc2YlIxX3hqeHp2aldIYV83bzRwWEpLaHp4Mm4wVTF5VHlMVkNaLVE0Z1dSOWRNcVg3WFBqV0cwR2RkRmJBNGg2bXgySDNibU1OZ09aYnFVc0ZwYm1JNG9ZN0dFUEx4V2xTaDJWRFBjcDAxRXpOcklFeTVYQ0d1Tm1kNkxEcGtlUTJYN0pPalVp?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Les Numériques",
@@ -975,7 +988,7 @@
       "excerpt": ""
     },
     {
-      "title": "Les internautes venant de ChatGPT et des autres IA dépensent davantage sur les sites marchands - Siècle Digital",
+      "title": "Les internautes venant de ChatGPT et des autres IA dépensent davantage sur les sites marchands",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDFGTWxpeWtTaE9FbGphNVFySE9VMGhROWRuQXN2YUZCRktmTG5tQVZkOXRqUWRxb21zTTdiRUhENURsZEROczNRYmp3QnVKYm1ISkdQa1BpZGMxeHZIUjE5MGpyS0JucU5ISzg3S2dBR0NINmpHZkhKNUwxcXdOcUk2dWFVOFZGN09pUlhXRFdmb2QxSUdCZ1U2d0s1TzJuRXVNYXRwQUgwSDJxWFZRVExMWTlpTDlmMGliYkg5SnU1LTJ6Wm9ENWNOWQ?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Siècle Digital",
@@ -985,7 +998,7 @@
       "excerpt": ""
     },
     {
-      "title": "EXCLUSIVE: MCM Launches Its Live Shopping Channel on Whatnot - WWD",
+      "title": "EXCLUSIVE: MCM Launches Its Live Shopping Channel on Whatnot",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdjVGdWhBemtuQ1hOYzJtME5jRmtqLU9PR2ppbkZOaURIemtEZHhHQkcyMXZXcEtkVnE2ZFFTY0tLejhsTEhPelpQQkZZX1U4MkpzV1M5UndFem5GUmNGWnQ5dHVUSS1VYXhGb0FHel9vOURtZ1EtU2cxbWc5bnN0ZDZxb2RaSGJiWmNFWHgwanMxNnFic1BDNzlOMUYyU1VWWFFKYW04Q0c?oc=5",
       "source": "GNews - social commerce",
       "publisher": "WWD",
@@ -995,7 +1008,7 @@
       "excerpt": ""
     },
     {
-      "title": "« Une acquisition à 2,2 milliards d’euros » : le rachat de Ceconomy (MediaMarkt, Saturn) par le géant chinois JD.com approuvé par la Commission européenne - LSA conso",
+      "title": "« Une acquisition à 2,2 milliards d’euros » : le rachat de Ceconomy (MediaMarkt, Saturn) par le géant chinois JD.com approuvé par la Commission européenne",
       "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPRzNhTUFkZHpUVlozUEpzNGRLZVI4cnl6TnVYeUF4MXpMd2djMi0xSXR5V0xXNF9EWVY1RUU3cGJyblV6Rkl0TjBwU1pfSThDV3V5WWFCTDFncU11eXB0b2ZUMk9md1NIejJKMmNRMWxlN09nZU9iUldIY1JLcVowOHdQNWlnRlZybEtEb0xTTlJqaklSV2FpQ3FqZURNOGlTeEV6ZlhsOE5QLUxqczQ4MVpmTjhNenRSTEZlWF9fSllCT0p5OE5HOUJxaHRBQmZsMDZmdDhWb2dFTEl5RFlHUmJHbzhPd3JvcThmdEJBLXEyOFUycHB3MjE2eThwLVAxWGhqT3V0aUhKRHpaMnhSWlZjZFBhSVktZV81QkVjUHktRkx0aThabzR2SlJSN2M0SkFkWjBjczA1ZGFSUDhJ?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "LSA conso",
@@ -1005,7 +1018,7 @@
       "excerpt": ""
     },
     {
-      "title": "iSpiderMedia Enhances China GEO Solutions as AI Search Reshapes Brand Discovery in China - markets.businessinsider.com",
+      "title": "iSpiderMedia Enhances China GEO Solutions as AI Search Reshapes Brand Discovery in China",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZFJQWHRoNmM5QzBqcGNocTBjRThtTHNGTzhTRnhsRnJoZkt5QjRSdlU2MXpheTlockJTUzkxQVJ1TTJ2Z0RieUQ1RlJxYUMwZVlFTmhiOFdIaVFDZmNhaHFaUURaVWU0MzloMDJGd083Mkd6ZFp1NjE0NExYZTR1SjRjWktqTE5nMWp2bjc3bDNVUDM5ZWQ1SmtxalVRYzZWN0pfNEtxNld4djJodmQ3Y1NlM0Niem9RMV84RVJlSFVLTU1Sdld0S3hHUnUwTWF3OUIzdzMtMVpLU0FES0Jtdw?oc=5",
       "source": "GNews - GEO",
       "publisher": "markets.businessinsider.com",
@@ -1035,7 +1048,7 @@
       "excerpt": "Baked by Melissa has built a cult following over the past 18 years for its bite-sized cupcakes, selling more than 500 million of the tiny desserts since launch. But historically, people could only get Baked by Melissa’s cupcakes by visiting one of its nine New York City-area bakeries or by ordering them online. Now, Baked by Melissa is making it easier to try its cupcakes with a significant new category launch. On Nov. 1, Baked by Melissa launched at-home baking kits in Target, its first foray into non-perishable products. Target is now carrying bite-sized cupcake kits from Baked by Melissa in three flavors: Christmas Tie-Dye, Marshmallow Hot Cocoa and Red Velvet. Target is also selling bite-sized cupcake liners and silicone bite-sized cupcake pans in a one-piece or two-piece version. For now, products are available exclusively on Target.com and nationwide in Target stores. Launching into retail for the first time is a significant milestone for Baked by Melissa. “We’ve been talking about it for years,” said Melissa Ben-Ishay, co-founder and president of Baked by Melissa. “Quite frankly, I’ve been unpopular at times … because I wasn’t ready [to bring the brand into retail]. I didn’t have the conviction around expanding our product line into a new category and channel.” When asked why she feels like the brand is ready now, Ben-Ishay replied that “it’s like when you’re ready to have a baby. … You feel it in every ounce of your bones.” In March of this year, Baked by Melissa promoted its chief financial officer, Sanjay Khetan, to CEO. A press release said that the promotion came after “a year of operational and financial groundwork designed to prepare the company for its next stage of expansion.” Ben-Ishay said she’s focused right now on “getting our product into the hands "
     },
     {
-      "title": "E-commerce : à un mois du du Black Friday, votre OMS tiendra-t-il le choc ? - JDN",
+      "title": "E-commerce : à un mois du du Black Friday, votre OMS tiendra-t-il le choc ?",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2N4b2JITUhLZHV6VThMTmtSdm51S041RlFnbkR5a21ZZWRPNFp3VkVsLUc1Zkd1VGhGMWZvTnludm1zQnpFMXZoMzFVSm1lRWotem5ZUnJfektMWThqN1NlRTRkajN1a3gxWG5Ba2pyNmlkbXR6a0dLR21jaTdnLTBVRGUyblNLWkdSWkRaVjNmNUljTldjS0lWbkJKOE1vNFVGT3BLMTlZUGpVMmI1Z2E0TGsydw?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "JDN",
@@ -1045,7 +1058,7 @@
       "excerpt": ""
     },
     {
-      "title": "Agentic reality check (1/2) - no, it's really not going to be an agentic AI shopping frenzy this Holidays season - diginomica",
+      "title": "Agentic reality check (1/2) - no, it's really not going to be an agentic AI shopping frenzy this Holidays season",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMFFLTS1ZYkRoREY4WDZKdmlzeHVkbnYwOE55QWVSS0NUQzdKeGZzMmtqOElyVGxjWkxHeDBjOEE0MlhSel9CTkdoNVNOY1RrOEdxR2NZYVJnbkhmbVNLOW4zVU9pSml5aHBQdEE1Y1NPaS15Zy1ISlUtRzdDU0hkcEt1VnZ0U09YN1dyN01UenMycVpYNFNVSW1yVmw5WTRIV3dUdE9hY3A3Q3NXczVPTTRtbGpnMGhn?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "diginomica",
@@ -1055,7 +1068,7 @@
       "excerpt": ""
     },
     {
-      "title": "Profound opens Singapore HQ as AI search reshapes brand visibility - Marketing Tech News",
+      "title": "Profound opens Singapore HQ as AI search reshapes brand visibility",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZHE4c3lRWGJfWWExYUFIS1k2UmtoQ0VHbFZBSWlSNEs0TTlmSXducG9iOEhKVFotRHR4X0RTbE4ycy0zd3JBRDZUZGM5ZmhrSzRzUFY5UnJOSTRzbzd4Q3lxdEQ4RUlNeUxXQTZWWWxsQnA5NGEyMS1JMVNKRTc2NFk5aFY3T3hnZ1pOVmdB?oc=5",
       "source": "GNews - GEO",
       "publisher": "Marketing Tech News",
@@ -1065,7 +1078,7 @@
       "excerpt": ""
     },
     {
-      "title": "Tech for Retail 2026 : l'IA est-elle en train de rebattre toutes les cartes du commerce ? - Archimag",
+      "title": "Tech for Retail 2026 : l'IA est-elle en train de rebattre toutes les cartes du commerce ?",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZnZ6QnJFbTFvOG9lSmpDQS0wT18tRmFZTWZIVzFvVjl5WjMyYWtfZjM4WUprNXFtZkRqaGhwNldUeFdnVXNmU0wwVERzUDRNRDRjanZRc1BRZFdtZ25HUXpDbzF1a0tlY3E3anFabWhJNjRFakZoUkFzSTBKamZHS19BNXRTcGg1cjFqSTFLbGhUNHpCTVE?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Archimag",
@@ -1075,7 +1088,7 @@
       "excerpt": ""
     },
     {
-      "title": "Mastercard and OpenAI sign agentic commerce partnership - The Paypers",
+      "title": "Mastercard and OpenAI sign agentic commerce partnership",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVVxZURsVm5oLWtRQ0xkeVlZeUlHaUR3TTVEanVYaTZEeWo3VFRQQ2l2Q053SGFfdDhuRGl6NTlXSnIzRUhBbUZwRk1OWjNPbWNVX0J1OHF1Z3FUU0hITWRQOXRYaURaY2JhWEptLTZyTlpOUHB2aF9iZ2ZQaEZWUjQ3ajJKVVY3TzlGV1BnMkR1VzVFNDBWTHU3UkhxU3p0LTBhS2x3?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "The Paypers",
@@ -1085,7 +1098,7 @@
       "excerpt": ""
     },
     {
-      "title": "Omnicom urges brands to turn data into action - KLSE Screener",
+      "title": "Omnicom urges brands to turn data into action",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUpnRlFsTXAySUJWaDl0a2Rkb0RSeG5zdzUwM21FR3ZPQnBwWS00QlFpaFlnZURMRnRlblVxWDdSVGtNZGE0Um5VaURUZEZtZXo5Y2k5WU5pNzV2TXBBaFQ4a2pRa0c4eXA2OVc4aHE0VzBlbkM1T1g0bVVFUkc2VVFQYkttN3dHY3VWQXJvNGNwR3hNcVpXY18wNA?oc=5",
       "source": "GNews - social commerce",
       "publisher": "KLSE Screener",
@@ -1103,16 +1116,6 @@
       "published": "2026-11-03T08:00:00+00:00",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "excerpt": "From rethinking how homes are rented out to building AI-powered property operations, Heimstaden is using OpenAI to improve how it manages homes. A hundred years ago, managing a residential building meant finding tenants, collecting rent and keeping properties in good condition. Today, these fundamentals remain remarkably similar. What is changing is how that work gets done. For European residential real estate operator Heimstaden ⁠ (opens in a new window) , this presents an opportunity: what if AI could fundamentally change how thousands of homes are managed? In June 2025, Heimstaden’s leadership decided to accelerate its bet on AI. After evaluating several platforms, the company chose OpenAI. The goal was twofold; empower employees and rethink the processes at the heart of its business. The ambition is to move towards increasingly self-operating buildings, where AI can help anticipate needs, coordinate work and support decisions across the property lifecycle. “The purpose of our buildings hasn’t changed.” says Helge Krogsbøl, Co-CEO at Heimstaden. “We provide homes for people. But the way we operate them continues to change as we challenge conventions and adopt new technology.” “We see AI as one of the biggest opportunities to accelerate that transformation.” Traditionally, getting it back onto the market involves assessing rental value, arranging photography, producing advertisements and responding to market demand. Each stage requires time, coordination and specialist input. And it is an information challenge; understanding what you own, what the competition has, and what the customer wants. Pricing: Intelligence and recommendations based on tools built in ChatGPT Sites Advertising: Image styling and apartment descriptions done by AI Review listings: Agent reviews al"
-    },
-    {
-      "title": "Comment l'IA aide le fisc à traquer les contribuables - Les Echos",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEd2c24yRk5hU1F6SzBudmtPdVJhTzRUdXVHVlcyWjBhdTdwcUd5NllMdklQbVZYMWc1Umowcy13NUctZ2lJNkZRWVU0T050VDh0TUVnRnk5ZTRZUm04U3Bnb21Dc21zakZRM20tckFrV2dHbHdMYnVQUkhqWW1LT1JraTNabC02QVpCcm5PeUdxUm45VkkwVjZHekktcXRsaG92aQ?oc=5",
-      "source": "GNews - e-commerce FR",
-      "publisher": "Les Echos",
-      "theme": "france",
-      "published": "2026-11-03T06:15:08+00:00",
-      "summary": "Comment l'IA aide le fisc à traquer les contribuables Les Echos",
-      "excerpt": ""
     },
     {
       "title": "Commerce agentique : guide pratique pour préparer votre entreprise",
@@ -1155,7 +1158,7 @@
       "excerpt": "This week, I checked in on how Violet Grey is looking to fill the void for premium beauty retail in new markets. Additionally, buyers are eyeing niche fragrance brand Parfums de Marly, and Maybelline is embracing ChatGPT as a discovery platform. Why Violet Grey is opening its next stores in Dallas and Aspen With the opening of its Upper East Side store in 2025, Violet Grey turned itself from a Los Angeles beauty mainstay to a bicoastal shopping destination. But for its next stage of growth, the specialty beauty retailer is moving beyond the coasts: Plans are underway to open a Violet Grey store in Dallas and Aspen. Violet Grey aims to open the Dallas location by February and get Aspen up and running before Christmas. The new stores will join the premium beauty retailer’s existing shops on Melrose Place in Los Angeles, Palisades Village, New York City’s Madison Avenue and East Hampton. “We see a pretty big gap in white space in the premium end of the market for the products we’re selling,” said Violet Grey CEO Sherif Guirgis, who joined founder Cassandra Grey to reacquire the business from Farfetch in 2024. “I expect in the markets maybe outside of L.A. and New York, there is a customer that is really discerning, and there’s a customer that probably is not being served in that sort of high-touch, high-service way.” Dallas is home to a potent example of such a white space. In September, Neiman Marcus shuttered its historic flagship store in downtown Dallas after a century in business. The department store giant’s parent company, Saks Global, has been mired in bankruptcy proceedings for years. Meanwhile, competing chains like Nordstrom and Macy’s have revamped their New York stores in recent years to place renewed emphasis on beauty . Guirgis believes Violet Grey’s smaller"
     },
     {
-      "title": "Les produits authentiques dominent le marché du commerce électronique. - Vietnam.vn",
+      "title": "Les produits authentiques dominent le marché du commerce électronique.",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0ZpMk1zR3NwZ0k1aFo4QXppOG5JTlVYcE1mTEczeTRxM0xNX2lxY09wS0x2ZmwtQXU2OGl0N2RMcnBBSDQzSElpbjFsc0k4cVZTVG04VkkwaDAxaHVGUmZxRG9RSjE5S0RYbjQyMzczY2tieTdjdjhBQ1ppaUJtU24wUUt6TGV6VU9ZZTdXWHBpQVk?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Vietnam.vn",
@@ -1165,7 +1168,7 @@
       "excerpt": ""
     },
     {
-      "title": "Mastercard Forms OpenAI and Tencent Partnerships to Drive Agentic Commerce - PYMNTS.com",
+      "title": "Mastercard Forms OpenAI and Tencent Partnerships to Drive Agentic Commerce",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR085TUQtTFhyempjMDdaQUlpdzdrOHJ2RGVMUXlMTi1hME1IZVZiRXZLckFkM0hIcjFtT0FrN0p6d28zMzJ6RWEzbHBzY2dnVHNlTGlWa2dEN1Z0TmNaMHFtdW9lR0w2eHhHOE5tMkxETl9oRTA2bVdKNHgtSWVBVTRZRm1qcDY3SG5MMWhFd1J2OGVtYTdHdk1ySFpRMG1LZDFlWUZFVHpTZXF1TU5WUTJDb0pFVEU?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "PYMNTS.com",
@@ -1175,7 +1178,7 @@
       "excerpt": ""
     },
     {
-      "title": "netpulse AG Reveals Measurement Findings on AI Search Visibility, Google Ads Automation and Smart Bidding - USA Today",
+      "title": "netpulse AG Reveals Measurement Findings on AI Search Visibility, Google Ads Automation and Smart Bidding",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOLWdlTVB6MG9fenNDdkFydE05YU9GVGZQUExWb2Znc2NqTGdZd09VUjlWZjJ0X1VzQ0VYNXFIaXI4M3RvcWVLNmdlb0UxR25JaHNjTG5TS18yeS0wTlkxZ2JQZzFpZ1dReGlscWVzZXBQekl4U0NieGVsS2FzQUZXMDVaOW9Oell3QTREamhmMTNnOXpjc21adExLcjdvbG1mckROTHpxX2VYWmVZdngtcnN4WjZEbEVqZEpOT3M3ZERmMjRIRDlKZTdUSjVrcUhHR0xiUXZ3Z1ptN2d5dHd4TGFUZ2xHeExWd2Zpcg?oc=5",
       "source": "GNews - GEO",
       "publisher": "USA Today",
@@ -1185,7 +1188,7 @@
       "excerpt": ""
     },
     {
-      "title": "How agentic commerce is changing the customer experience - American Banker",
+      "title": "How agentic commerce is changing the customer experience",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmFlYXpJbnVPb2tzWnBWeEM5bXR0amJ1SlkxbGwtNW1yNjRZXzdObG9CNjhONnJqNlVHWWg5RVRFcFRfbTZROWpGRk9rWVQ4TmJXSWxLeFNqcGpwUU1QbE5pbXpvcF9rVk1lVnNROXFZSndkd1JlNXhCWEQ0ZUQxMGFlZDVzWndlYlRfMjJsWUVDYm5sbEVMUTkzRTd2TFo3ZlhN?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "American Banker",
@@ -1215,7 +1218,7 @@
       "excerpt": "Squarespace, the web company that helps customers build and host their own websites, is laying off about one-fifth of its workforce, in a move that will affect hundreds of jobs. Jeff Seedman, a public relations specialist representing Squarespace, confirmed the layoffs to TechCrunch. The Verge initially reported the layoffs. “Squarespace is restructuring its organization and reducing its global workforce by approximately 19%, representing around 300 employees,” said Seedman. “The changes are intended to simplify how we operate, sharpen our priorities and enable the company to move faster as we position Squarespace for its next phase of growth.” Website building has changed immensely over the last few years as a result of the generative AI boom. “Vibe-coding” website builders, which only require simple prompts from users to spin up functional front-end designs, have largely upended the industry, making it possible for users to create sites with significantly less effort. These kinds of sites have become an increasingly central part of the website-building business. Last year, web host rival Wix bought Base44 for $80 million . Similar offerings, like Lovable, have generated significant investor interest; Lovable raised a $400 million Series C round in August that valued the company at $13.3 billion. Google also recently launched Stitch , a feature that allows users to swiftly generate user-interface designs. Squarespace has also begun a big push into AI. In 2024, the company launched an AI tool called Blueprint. The company also recently announced Forma, an upcoming AI native platform, whose waitlist users can join . Squarespace was founded in 2004 and went public in 2021 at a $10 billion valuation. However, the company struggled in the ensuing years to generate enthusias"
     },
     {
-      "title": "Muse, l’assistant d’achat IA de Meta, fait ses premiers pas dans l’e-commerce et pourrait menacer l’activité publicitaire d’Amazon, qui pèse près de 70 milliards de dollars ! - www.tmgm.com",
+      "title": "Muse, l’assistant d’achat IA de Meta, fait ses premiers pas dans l’e-commerce et pourrait menacer l’activité publicitaire d’Amazon, qui pèse près de 70 milliards de dollars !",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0VRZ1drUWtlelBMVFFVd3FxSzFsVzdhamZuNkdPNXhISVlPYzdlZGM4c1J3U3dJakpMaTd6ckczYnJSQ2NoUk92UGViNl9YSEtJT2pJN3NiRHo5NVo0SW5BZE1VcXlFZ3ZTdHlfeldOMFI3OEl6WkV6SXJtcTNNaw?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "www.tmgm.com",
@@ -1235,7 +1238,7 @@
       "excerpt": "GALLIUM DEFENSE lève 7,1 millions d’euros pour industrialiser un radar de détection des drones destiné aux infrastructures critiques et aux forces armées. La startup parisienne mise sur des composants du commerce et le calcul embarqué pour réduire les coûts. Après ses premiers essais en extérieur, elle prévoit d’ouvrir les commandes du GDS-10 au premier trimestre 2027. « Comment répondre à 80 % du besoin pour 20 % du prix ? » La question posée par ERIC FOURNIER, cofondateur et CEO de GALLIUM DEFENSE , résume le pari de la jeune entreprise : réduire suffisamment le coût des radars pour permettre leur déploiement en nombre. Pour un opérateur d’infrastructures critiques comme pour une armée, le budget consacré à chaque équipement conditionne l’étendue de la surveillance. Un radar moins coûteux pourrait permettre de protéger davantage de sites ou de multiplier les points de détection. GALLIUM DEFENSE annonce une levée de 7,1 millions d’euros pour avancer sur cette équation. Son premier produit, le GDS-10, vient de franchir l’étape des essais en extérieur. La société mise sur une utilisation importante de composants disponibles dans le commerce, associés à du calcul embarqué et à une architecture largement pilotée par logiciel. L’objectif est de bénéficier de composants produits en volume, tout en adaptant leur assemblage et leur traitement des données aux besoins de la détection. « Notre réponse : une architecture radar AESA radicalement repensée, faisant massivement appel aux composants du commerce et à la puissance du calcul embarqué », explique ERIC FOURNIER. Le GDS-10 est un radar à antenne active, dit AESA : l’orientation de son faisceau s’effectue électroniquement. Il doit repérer des objets et suivre leurs déplacements, tandis que les traitements logiciels contribuen"
     },
     {
-      "title": "TikTok lance Must Eat, un guide pour choisir son restaurant sans passer par Google Maps - L’Express Franchise",
+      "title": "TikTok lance Must Eat, un guide pour choisir son restaurant sans passer par Google Maps",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KYTgtTnFEclpRM1FxQVBieXRLeGdrNTV1MC1qX1pQb3dlNFFpaTdoR0NaNUhLbV9UZDNidnpLYjFlUEJUQ0E4ekZ2RmxHY1gzNndHbUxGNDVzcjJzaWxCZjRJYWRoRWtJS0oxX3dtUVpld1h6ZWpB?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "L’Express Franchise",
@@ -1245,7 +1248,7 @@
       "excerpt": ""
     },
     {
-      "title": "« Je suis tombée mega bas ! » : de papesse des influenceurs à vendeuse sur TikTok, la nouvelle vie de Magali Berdah - Le Parisien",
+      "title": "« Je suis tombée mega bas ! » : de papesse des influenceurs à vendeuse sur TikTok, la nouvelle vie de Magali Berdah",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOOE5tM0JuZHNTXzFKMjd0Z3BfWlpudm9DaW0zYUVWcjJKaUZfaTAxRDRpSFgwb3VQZHUzOE51M3dOcWpKUU5kWmswa2Z4a0NMZjJwdTM4elpYQjZYX0RXOHM4eG1SOVJyQ3RBbmU4cjl5a2tFUGROeDY2ay1MLVlnMDNYZTNRbGRIc2FjVmZESGVfbTJhcXBPaG9tSi1lOVBQUjZmWHk0b094djdidzgwUjVGeUE2MzNOUkszaEo1MlBVZF9RZjdCMXV1XzRzS0k3SzZuaTd4aEFZSDVmdDBmWk1ZbGg5SlRfOVZDMVhDRV9nT19DZ2VZdm9lc0hSUGtmVU5ZXzJoWi1TRUFZNWZkVTYxM1VKUQ?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Le Parisien",
@@ -1255,7 +1258,7 @@
       "excerpt": ""
     },
     {
-      "title": "Huddled Peeko Live draws 3,000 viewers in first broadcast - Direct Commerce Association",
+      "title": "Huddled Peeko Live draws 3,000 viewers in first broadcast",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHSnZoZUI4Vm45b0VfaWQ5VFZuOFNXbk9WLUxEX0FBb2d2azhleWV2MG9ab2d2NnhzTWV2WDB6ZzFtQ01DUDlmdlJDUHZZc2x0T0poQ2dEV3RWUzN1azZBLUdxclZ0aFJzU1hwSDF2enNQQQ?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Direct Commerce Association",
@@ -1265,7 +1268,7 @@
       "excerpt": ""
     },
     {
-      "title": "How AI Search Is Changing the Way Customers Discover Automotive Brands - AutoServiceWorld.com",
+      "title": "How AI Search Is Changing the Way Customers Discover Automotive Brands",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZjc5ZEVkSnlGWXpxQzRaMnBVYXBUcDVTTnpmRUQtZ19NRVhPdXEwVFBiV3k3a0VRaG12eVg4RndKcTZZNkFuZDJSVklXemh6b0pVSC05TXFuN0J2VHR4Vkg2RXNVZk9hVENxLXAzRUdNRzd6R3lHcWdfS0dlWXJWSE1Cdjk5aUk0aWxVai1ZTWVJZXBlaDM5YV9uMDNOVmlFazRjN3hHaw?oc=5",
       "source": "GNews - GEO",
       "publisher": "AutoServiceWorld.com",
@@ -1285,7 +1288,7 @@
       "excerpt": "In the web’s early days, developers placed a summary of links to a site’s key sections, such as categories, company pages, policies, and more. The summaries could appear in footers or on standalone pages. Developers called the summaries “sitemaps.” In 2005, Google introduced a new version of sitemaps based on Extensible Markup Language, a 1990s text-based format for storing data, that site owners could submit to Google (via what became Search Console). The aim was to help search engines crawl and index all pages on a site. In time, the industry referred to the versions as “HTML sitemaps” and “XML sitemaps.” XML sitemaps help with discoverability. Search engines can find pages quickly in the sitemap without landing on the site itself. Whether the search-engine bots access and index the newly discovered pages depends on crawl budget, site authority, content relevance, depth and originality , internal linking, and external backlinks, among other signals. Conversely, HTML sitemaps provide no backdoor to a site. Crawlers must land on a site to access an HTML sitemap, likely via internal links. Search engine optimizers disagree on the impact of HTML sitemaps. In my experience, such sitemaps likely help indexing by revealing the internal links to every page. When placed in the footer, HTML sitemaps spread internal link equity to the listed pages. They minimize the number of pages in Search Console’s “ Crawled, currently not indexed ” status. Both sitemaps — HTML and XML — help search engines discover, crawl, and index more pages, especially on larger sites. But neither replaces a website hierarchy that naturally prioritizes important pages. Only a fast, well-structured, and well-interlinked website ensures solid organic search visibility. I sometimes advise temporary HTML site"
     },
     {
-      "title": "Why card collectors won't want to miss eBay Live at Sport Card Expo Toronto - blogTO",
+      "title": "Why card collectors won't want to miss eBay Live at Sport Card Expo Toronto",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoWFZyV2ZUNXpzTUR0am1TTlpKcnpnRG1EQmhzZUNNaVJ4bk9fbEJRWjRkSVB1NWpHNjZNMG4yRUxySG1fNXFZR0h6RDZ0WEplNVJKUGRtd2VQS3c2U3M3MEJidnhPb0RYTmdOSnpDbXYyRTdNclF4Rg?oc=5",
       "source": "GNews - social commerce",
       "publisher": "blogTO",
@@ -1295,7 +1298,7 @@
       "excerpt": ""
     },
     {
-      "title": "How three brands are using TikTok Shop this holiday season - Retail Brew",
+      "title": "How three brands are using TikTok Shop this holiday season",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOEMwV0ZMUm8xYjZCeVpSajZoOXo4WWdUYm9IN2ptWUFMRzlsNzYyaFA0TnVJWlhHM280cElSbVdSajNYYXZaaXFPZTk5SGVxc1RsZXRteFZEMUpaZnZtTU1FWktpbWg4U0VPTmdLMFBJaDRBM2MzWUtUSHpuM01OTjJUT0NlUFAxeXNwYzJMX1UxMGJvUDQ4Vg?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Retail Brew",
@@ -1305,7 +1308,7 @@
       "excerpt": ""
     },
     {
-      "title": "Your catalog may already be visible to AI agents. Making it trustworthy is the next step. - Retail Dive",
+      "title": "Your catalog may already be visible to AI agents. Making it trustworthy is the next step.",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXIyN3RPSUtXanJpNzZxa1VMNTdnWXFuZWUtY2d2YWx5QnFpd2dLbGdyNU1GRFZMOTNJdnhqcGdkTzZmcTFOZktsRlZnNU5fUnoyV2xjaEkwUHdNWnM1TXJkWV9vamtrd0tzYl9PVFUwRG9ncXIxTF9QWG9aMTZyZjRYQ1J1X3BGSDlpdmdZaWlZWnJzRXQwbldBV1hIdlkyYUMtelNwbUc4YmVtWWtoelcyZ2s?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Retail Dive",
@@ -1335,7 +1338,7 @@
       "excerpt": "On Monday, The Estée Lauder Companies reported a 7% net sales growth to $3.7 billion for the first quarter of fiscal year 2027. Three of its four categories saw sales increase during the period, but fragrance drove the lion’s share. Fragrance net sales rose 20% in Q1 2027, driven by luxury brands like Tom Ford, Le Labo and Kilian Paris. Skin-care net sales, meanwhile, increased 4%. Makeup sales grew 1%, with increased sales from MAC and a decline in the Estée Lauder brand, while hair-care sales were flat. “What is new is really what we’ve committed to go after, also the prestige price tier,” said Stéphane de La Faverie, ELC president and CEO. “In the East, there’s a high penetration of luxury fragrances, and we’ve always performed very well. We’ve demonstrated again strong share gain in China, in Korea, in Japan. But on the other hand, in the West, the large majority of France business is still done in the prestige price tier, which we haven’t really captured our fair share [of] over the past few years.” De La Faverie said the company is banking on launches like Estée Lauder Glimmer, launched in August, and Destin De Balmain, launched in February, to boost its share of the prestige fragrance category. But it is also betting on TikTok Shop as an emerging retail channel for fragrance. “We are seeing still younger consumers gravitating towards this category, thanks to platforms like TikTok Shop, [where] we are seeing a lot more activity in fragrance, and we are participating into it,” said de La Faverie. “We’ve launched many of our brands on TikTok Shop, and you’ll see more activity going forward.” The cosmetics giant continues to grow on emerging online channels like TikTok Shop. According to its earnings report, the company now has 13 brands across 17 markets on Amazon, "
     },
     {
-      "title": "Prompt Research from ThriveStack citedby finds the prompts buyers ask in AI search - StreetInsider",
+      "title": "Prompt Research from ThriveStack citedby finds the prompts buyers ask in AI search",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWWwzWFY0bDJsVWlHaTBEMmp6YU10el9sZGFHc19rN1Y2VVpRSFNYZGJQaEVIdVYySDItM1lsUXd3M3k3bFRpUDh3eEozRVlZckhfSlJ2RzFSMjJ3SmNCWkZQWld1NEJLZ3VnaHVxQVpSbkZYa29oeGhfbmg0bHpPZ3R0QmVtRlBZclVmZzJGRkwyWlIwc1JsUjBhWGVOWkl0aHVJeWNPa0lseDhLYmNOZ2NqZU9kTW9NOHlpYi00MW81S00xaGlKNTJOOUE4REU?oc=5",
       "source": "GNews - GEO",
       "publisher": "StreetInsider",
@@ -1345,7 +1348,7 @@
       "excerpt": ""
     },
     {
-      "title": "With Agentic Commerce, the Wallet Will Be as Important as the Bot - PaymentsJournal",
+      "title": "With Agentic Commerce, the Wallet Will Be as Important as the Bot",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnBWQ0pBaGtlUlY0bnVCSGJYNGZYRjN6QmFOT1BBYllOUWQycm5zOUZWSmd1cGdibjQ4dUcwN2E2TE9EVUVXeHFDWTA0LXlzVUVseWZTVF9DaW5sRHN1UUtDTFEwVnNZbHVPaUtBWTFVbEwxNU4yTDZVVmFDUFA1WGVqNlFQSWpRVmk5Snhwd3RiYjBWSGNEekhkVlhSd9IBowFBVV95cUxOSWQ2OWV6Y1JJMnpSVjVMdmtGa09qZTQwSE9aZHdjOGRwQWlRckZETGdFZnFQYXBWN05uRmZCdEFhZ2NxUmp4eVR2NDVDdUZkSjVKTzM0c0hPcmNRWmVrVHRBbm5JbmJNY1l0SW43NGFHWDlyam4zU3Vjb0dDeG9KcXpkN09WbGlsZGI5bk16YTNGZ0l6ekVzcDRtYjh2bElVLXF3?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "PaymentsJournal",
@@ -1355,7 +1358,7 @@
       "excerpt": ""
     },
     {
-      "title": "Jean-Émile Rosenblum (Pixmania) : «Nous assistons aujourd’hui à une véritable révolution du fron... - EcommerceMag.fr",
+      "title": "Jean-Émile Rosenblum (Pixmania) : «Nous assistons aujourd’hui à une véritable révolution du fron...",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQkktWVN1SlVOMnRUQkFGa3lGZUNUY2o3Zkpzcm1pbExuNXRrdnYwcThZY0YybWFwUHpQTUNMVzkzbXNqcnNMMzlhZGY3WDhHWWJ5TjBXOTRxT3hQSkJySlVnZ0txVWdkclJrWE1FU0pQNzREOGJacXdrQkQ2N2h2a2RROXJma3JTWlNCWlBhR2M3Z2hRNTBsa0Z4RVFNM3VlSlJTV0hnMEFTMGFZRjFCMnNZT3VZSlI5R0tkSkVVWWl2V0ZWWUZDaHJaME5HZFJHazZsX1hWTnF0RGxl0gHiAUFVX3lxTFAxNE5sSGJnbkNRcXI0ME5KdHVaNzh2amw0UjZ3ZFlVLU9zMmZHczFyNmo4T082djY2WU5FaWNRSFNkb1o3OUcxS3lNYjlnWm10Y0lIMC1BLWt0V25tMUN6Q0NMVkE5VjVKV2NwM3VGZ2M0UEdnSWMweDU3NUVBWGw5SUc5Vm5RVzRVZkdmM2Nob0xkNzJwVmp2b0JjNllZalpXNVB5aGluYXJrRTNxRzI4b0M3azlMWDhDTHRRTzBHQjNDZmVsalVlT1MyT09fQ3ljVmlkX2l6UF9JZnByYkk5LVE?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "EcommerceMag.fr",
@@ -1365,7 +1368,7 @@
       "excerpt": ""
     },
     {
-      "title": "Muse and Dots: the human-AI dyad enters commerce - Capgemini",
+      "title": "Muse and Dots: the human-AI dyad enters commerce",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQVctZ1hqVTRoWWNEZmRiSVFlZkR1VG5jbE96bDVPVllYenhCRlN2XzgtNHltWmF3Xy1JWmdvUWdZdXJIR1pjcFdjQjRKUjhTVjAxS3ZtWUJtTEpNamVrVG1kbm9NS3p0MmtwNjB5TkphXzluQVdoS1FQUlE2b0ZoOWRrU2hHc1dFd0lwQ1kza0VJdURFQm4xMmlvazkyV3JsdFUwYTl3?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Capgemini",
@@ -1375,17 +1378,17 @@
       "excerpt": ""
     },
     {
-      "title": "Comment TD SYNNEX veut s’imposer dans l’AIaaS et l’automatisation industrielle - ITforBusiness.fr",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRF9pczRSM1cxemZ5b3lKdmh2RmxuOENITHlTdVRsMzliUGJpS2c1Nk5fRDlDQjJrLVBKYjVkN0Z0c3VxLVRRMnJQR19jX1pKbEtqamQ3NUFXakdyZXpiZ2dvSU9sQngzdmhneUVqNE1HM0FFcGV1MjFHZm90MUNxM3d6ZGhIV1NTblo0ZmJPVllhT3lxdzJBLXlmUVl6Y1dBUlM5Z0FJSElBbXFPZnJKekhaYWxzaGZuQ2Zrd2hKY2IxSThpcFdPaDNpVHVMVFRfLTNJdHMxcw?oc=5",
+      "title": "Bilan 2025 du e-commerce : 200 Md€ dépensés et l’essor de l’IA dans les achats en ligne (FEVAD / ODOXA)",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQmtjNk5rUnhtV1dodUlqRXlxTGJfY1dpYVp0aTZsUEFWUW9wSG44RGFBRGFIV25KZEFmZG1CZXVBRV85cG9rR3BjVHZxMEVraWxJY1VxS2Yxdzd0RHk4YWZDTjV4WHRsVEt4V09URWRKT2tnUTIzS0ZuR1o2bWI2aHBKeElHRGZhdWIyVHFvLUFJNzRTS21nV1RsblRWakF6WkJXdFlMNlQxNGladEF3WW12Qk5FbkkxdzJOVGJ3?oc=5",
       "source": "GNews - e-commerce FR",
-      "publisher": "ITforBusiness.fr",
+      "publisher": "viuz",
       "theme": "france",
-      "published": "2026-11-02T08:16:30+00:00",
-      "summary": "Comment TD SYNNEX veut s’imposer dans l’AIaaS et l’automatisation industrielle ITforBusiness.fr",
+      "published": "2026-11-02T08:00:00+00:00",
+      "summary": "Bilan 2025 du e-commerce : 200 Md€ dépensés et l’essor de l’IA dans les achats en ligne (FEVAD / ODOXA) viuz",
       "excerpt": ""
     },
     {
-      "title": "The Handbag Clinic expands further at Selfridges, recruits for eBay role - FashionNetwork - The World's Fashion Business News",
+      "title": "The Handbag Clinic expands further at Selfridges, recruits for eBay role",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORGVYNlVWMmpQNFFKbEROazdoSzR6SVhvemlNdmZncnhjOGpBRl9QclZBZTdONzdiajA0WVcyUkk0ZC1oZFBVT1pvaGsyX29vUDlNWk9Pd2JHT29wRU9hNGVOV0ItUU0yTFJXQnRaWEM5V3l5SWZUNmpOWklqSVgwNm4wTHgzTzg0ZUZTS241ZXRmZXRQMmc0a3djTnkxRENkcm5OX19SY2NkRmdwWE1SbHRhZXdnMHBNMXVr?oc=5",
       "source": "GNews - social commerce",
       "publisher": "FashionNetwork - The World's Fashion Business News",
@@ -1395,7 +1398,7 @@
       "excerpt": ""
     },
     {
-      "title": "The Future of Agentic Commerce in Japan - Boston Consulting Group",
+      "title": "The Future of Agentic Commerce in Japan",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT3FJLUVwc0Z5TEx5OXIxeHJpSmJoSGxCa0lmWEdnQ2JURHc4X1FSRmFGSHN4MTdJU2JSYkVMdzZLcENmRkY5a1VzSmtQenBuRVVWMFg3UnhpcGN2am9VaW1zMElnVXhTR2JQUHVjNEF0MFBuWjJsUUF0QWZONDJjRTNJOEpqc285eWVJ?oc=5",
       "source": "GNews - agentic commerce",
       "publisher": "Boston Consulting Group",
@@ -1405,7 +1408,7 @@
       "excerpt": ""
     },
     {
-      "title": "Profound expands AI search marketing into APAC - ContentGrip",
+      "title": "Profound expands AI search marketing into APAC",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PZTg1TmZ3UTkzd1UtcURBaTdpUUVzdzdqdTRCT1dLTmxVV2t6UFpDYXgxNkZLandyWWs0b0VNY3NxbWxYQ0JoOXA5WXpmT2xrOXJfcWtEamE1b1lfaDBjTHFkb19SSTlHSmgyN0ZR?oc=5",
       "source": "GNews - GEO",
       "publisher": "ContentGrip",
@@ -1445,7 +1448,7 @@
       "excerpt": "The holiday season is typically the most important time of year for retailers. It’s where most of their sales come from, and they often invest in the splashiest creative campaigns to capitalize on it. But the pool of reference they can draw on can be frustratingly limited. There are only so many variations of candy canes and snowmen one can come up with. That’s why for Nordstrom’s holiday campaign this year, the team decided to swerve. The campaign’s main focus is the iconic musician David Bowie. Nordstrom has an exclusive partnership with the Bowie estate to create merchandise tied to the deceased singer’s upcoming 80th birthday. Since the birthday is in January, it made sense to combine the two occasions. The result is a campaign featuring two young dancers who surprise their family on Christmas morning with an impromptu dance routine set to Bowie’s “Let’s Dance.” The routine is choreographed by Nina McNeely, who has worked with artists including Doja Cat and films like Gaspar Noé’s “Climax.” The campaign knowingly sidesteps tired holiday clichés. At the beginning of the spot, as “The Dance of the Sugar Plum Fairy” plays, one character begs for different music. “For us, there’s a notion of, ‘How do you cut through the noise when everything is candy canes and snowmen?'” said Olivia Kim, svp of brand creative at Nordstrom. “There are these traditions around the holidays that can be repetitive, so the idea was to have this breakout thing that shakes it up.” The holiday shopping season has historically been a major sales driver for Nordstrom. In 2024, the fourth quarter accounted for close to 30% of the company’s annual revenue. Nordstrom went private last year and stopped reporting financial figures publicly, but sales reportedly grew by 7% last year compared to the year"
     },
     {
-      "title": "De reine de l’influence à vendeuse sur TikTok : la nouvelle vie de Magali Berdah - Le Parisien",
+      "title": "De reine de l’influence à vendeuse sur TikTok : la nouvelle vie de Magali Berdah",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNd2E3U2wzUm1PbXlFcjhmLUJMRGtWcUVyMlphX3RUZkxqRXlYMTdVYnF6Qk1oUXNwN3RnZ0VLd2V2ZkE1M244MC1ldmtzcW56Z0NMNGs4M2RuWU5NZDRONkVMcElpMmM4aE5SSVpHNkpqVC1MdllXcTBkYzlJZTgyTEtuWGN4M0ZDY0t4eTVMbmM3SDM3cml6eGtTbWxjbUZEbV9Ncm9XUGdheG1VSFFhQlZlY0M5MnVwQXpvYTBYV3UxQzFzZ25fOHlZenRYSHpnVGtEOUtKTEozSlctWjRxZFc4MU5xbmk4dVlqWEhjTnlQMHdERjFEUXNCTVhDY0t2Q1owRmpjYV9zZw?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Le Parisien",
@@ -1465,7 +1468,7 @@
       "excerpt": "A family-owned florist in Spain tracked ChatGPT-driven orders and found revenue blooming. “Your 22 October column, ‘ AI Shopping Metrics Considered ‘, and ‘ Mixed Reports on AI Ecommerce Traffic ‘ from April are why I’m writing,” explained José Pérez Sánchez of Persa Flores in an email message. “Since September 2026, one in five of our online orders has come from someone who found us in ChatGPT.” Pérez Sánchez had used his company’s own data to extend the arguments made in those earlier articles. He says AI-referred shoppers are difficult to identify without order-level attribution. Persa Flores, a Spain-based florist, has received 20% of online orders from ChatGPT since September. “For every order, Shopify records the customer’s first and last visit before buying: where they came from, the referring site, the landing page with its full URL, and the date,” wrote Pérez Sánchez in response to questions about how his business identified which sources lead to sales. “We count an order as ChatGPT when either [the first or last] visit came from ChatGPT or OpenAI,” Pérez Sánchez explained. “Every one of these orders arrived on a link tagged utm_source=chatgpt.com , which ChatGPT adds itself. [But] only about one in eight also showed ChatGPT as the referrer, so a shop that checks referrers alone will miss most of this traffic.” The missing data can be confusing, and so can the word. In technical parlance, the word “referrer” is traditionally misspelled as “referer.” Regardless, a “referrer” is a visitor’s last URL before arriving at the target website. A web browser passes the referrer in the HTTP header, where various analytics tools read it. Yet those tools can miss a referrer for many reasons — policies, privacy settings, or a protocol downgrade from HTTPS to HTTP — and inst"
     },
     {
-      "title": "Les entreprises et les entreprises à domicile participant au commerce électronique recevront un soutien de 200 millions de VND. - Vietnam.vn",
+      "title": "Les entreprises et les entreprises à domicile participant au commerce électronique recevront un soutien de 200 millions de VND.",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWjlZY08zeDkyUnl4RlZRUVpzbjZGdXN5X3hiRGhYbDlvVzVRN01uR2x1dG5QdFRIQVRBdW8wUTI5YmcybHZvcjVFOVctNUpzdTk3Ul9PQ3lfVGRQWXhSSHhCNW0tWTExaTR5dUlNdXdiM08ta0RtY21qVE9JSm8wYzR3Nks3bk1sd3pnR2Z2cnd6Zktpa3hGTmU5MDBMRnp1SHJoU19TbmJHQm8?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Vietnam.vn",
@@ -1475,7 +1478,7 @@
       "excerpt": ""
     },
     {
-      "title": "Voici le top 7 des meilleures plateformes e-commerce en 2026 - Clubic",
+      "title": "Voici le top 7 des meilleures plateformes e-commerce en 2026",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONVNRbWxXNmtNaXlia2gyc3ZJY3pIOVl1OHd6RXQ1VWJkZm1zUTVUb0V6c1VYcFVjclFlanRVNUZfOHFDaUp0TEoyaTQ0ZUpaMXZxV210RWhSMTVQTnRxMHhYaExDd1F1THBDQ1hpeUpSdGZJRUoyeUtYbFVlNjdzd1ZMdkVjZ09oUVBTSmhSWXUxMFEySlIzNnVKZkJfdWZISmc?oc=5",
       "source": "GNews - e-commerce FR",
       "publisher": "Clubic",
@@ -1485,7 +1488,7 @@
       "excerpt": ""
     },
     {
-      "title": "MediaLabs Announces 8-Figure Series A Round to Accelerate Social Commerce Growth - The National Law Review",
+      "title": "MediaLabs Announces 8-Figure Series A Round to Accelerate Social Commerce Growth",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbEp1Q2VhVHRudEpHZ2RuOVpIdVM5ckQwR1A3ZW92ZmdnaFFtNmRDaTRZbEVPUXNCT0tVc3VlZDlfblRhZ3pRSkZGbS1HeGc4UUttSzZITkp1RnJIN0MtOU5WdUVsSU96TFFTZ3NQeHNnWU1pQ29RczZWcTZZbTVoc1hkOXZ3YUFWeTBPaHAtczlmbDZ0VDUxUkVJRmVfN3g1VnZOblN2djM5cWxKRWpwOFI0Z1RDUQ?oc=5",
       "source": "GNews - social commerce",
       "publisher": "The National Law Review",
@@ -1495,7 +1498,7 @@
       "excerpt": ""
     },
     {
-      "title": "MediaLabs raises 8-figure Series A for its TikTok Shop creator network - Dealroom",
+      "title": "MediaLabs raises 8-figure Series A for its TikTok Shop creator network",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUw4cFAwV0pYUDJlMW1oUTVfejN0c0IzRXlxUU44SUxoNHUxdU45azR0RkwzWXZuU3pEcDlJNzZfV3ZJWFBSQy1WdDg1ZzVYSlg3S1B4eGtLWU1mWU85ckxNZC1JRmQ1Z0R6dWltMVhrQkhYUE1KOEg0bEZZaGx3MzRFTldSNVhuUjZlVURvMllPSmtCamZQc3dLUDJIU1lEVGc3VThrZw?oc=5",
       "source": "GNews - social commerce",
       "publisher": "Dealroom",
@@ -1505,7 +1508,7 @@
       "excerpt": ""
     },
     {
-      "title": "Apple Maps floute des sites de la NASA, de l’US Space Force et de l’US Air Force - Mezha.net",
+      "title": "Apple Maps floute des sites de la NASA, de l’US Space Force et de l’US Air Force",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnM2amFnTnR6eGlhTTVXM2dJU25MVzRpX3d6bnptSU9rV3oxQmM5Q0ZPTGxqd080bnUxWU43VVZFUzVMNXJKSF9naGhlV2lfel9aaWlLcUUwd1hPeG53d2dBYzJoSHhkczVuN1hTSmUyalIycVcyaS0tenZ6Sm5aMXdGb2hMRmlkbV9NN0N1bVV5QQ?oc=5",
       "source": "GNews - TikTok Shop FR",
       "publisher": "Mezha.net",
