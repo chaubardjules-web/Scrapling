@@ -1,0 +1,47 @@
+name: Veille e-commerce
+
+on:
+  schedule:
+    # Lundi et jeudi, 04:17 UTC (5h17 l'hiver, 6h17 l'été à Paris) : les données
+    # sont prêtes avant la rédaction de la newsletter à 7h40.
+    - cron: "17 4 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ecommerce-watch
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer Scrapling depuis ce repo
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[fetchers]" pyyaml
+
+      - name: Scraper les sources
+        run: python ecommerce_watch/scrape.py
+
+      - name: Commit des résultats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ecommerce_watch/data
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau"
+          else
+            git commit -m "Veille e-commerce $(date -u +%Y-%m-%d)"
+            git push
+          fi
