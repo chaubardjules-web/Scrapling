@@ -22,7 +22,8 @@ Format de contenu.json :
       "kpis": [{"value": "+45 %", "label": "ce que mesure le chiffre, 70 car. max"}],  // 1 ou 2
       "points": ["info clé 1", "info clé 2", "info clé 3"],   // 2 à 3 puces, 120 car. max
       "why": "Pourquoi ça compte, 1 à 2 phrases",
-      "visual": {"type": "image", "file": "images/doordash-1.jpg"}
+      "visual": {"type": "image", "file": "images/doordash-1.jpg", "focus": 0.5}
+             // focus : cadrage horizontal quand la photo est rognée (0 = gauche, 1 = droite)
              // ou {"type": "chart", "chart_type": "column" | "bar" | "line" | "doughnut",
              //      "title": "...", "categories": [...], "series": [{"name": "...", "values": [...]}],
              //      "number_format": "0"}
@@ -179,15 +180,17 @@ def hairline(slide, left, top, width):
     return ln
 
 
-def photo(slide, path, left, top, width, height):
-    """Photo recadrée pour remplir le cadre, coins arrondis, ombre douce."""
+def photo(slide, path, left, top, width, height, focus=0.5):
+    """Photo recadrée pour remplir le cadre, coins arrondis, ombre douce.
+    focus : position horizontale à garder quand on rogne (0 = gauche, 1 = droite)."""
     with Image.open(path) as im:
         iw, ih = im.size
     pic = slide.shapes.add_picture(str(path), Inches(left), Inches(top), Inches(width), Inches(height))
     box_ratio, img_ratio = width / height, iw / ih
     if img_ratio > box_ratio:          # trop large : on rogne les côtés
-        crop = (1 - box_ratio / img_ratio) / 2
-        pic.crop_left = pic.crop_right = crop
+        crop = 1 - box_ratio / img_ratio
+        focus = min(max(focus, 0.0), 1.0)
+        pic.crop_left, pic.crop_right = crop * focus, crop * (1 - focus)
     else:                              # trop haute : on rogne en haut et en bas (un peu plus en bas)
         crop = 1 - img_ratio / box_ratio
         pic.crop_top, pic.crop_bottom = crop * 0.4, crop * 0.6
@@ -290,7 +293,7 @@ def news_slide(prs, news, page, assets):
     chart = visual if visual.get("type") == "chart" and visual.get("series") else None
 
     x = M["gauche"]
-    vis_x = 7.35
+    vis_x = 7.0
     col_w = (vis_x - 0.55 - x) if (img or chart) else 8.6
     kpis = [k for k in (news.get("kpis") or []) if k.get("value")][:2]
 
@@ -341,9 +344,9 @@ def news_slide(prs, news, page, assets):
               line=1.05)
 
     # visuel
-    vis_w, vis_top, vis_h = W - vis_x - M["droite"], 0.65, H - 1.35
+    vis_w, vis_top, vis_h = W - vis_x - M["droite"], 0.95, H - 1.65
     if img:
-        photo(s, img, vis_x, vis_top, vis_w, vis_h)
+        photo(s, img, vis_x, vis_top, vis_w, vis_h, focus=visual.get("focus", 0.5))
         cred = assets.credit(visual["file"])
         if cred:
             write(s, cred, vis_x, vis_top + vis_h + 0.06, vis_w, 0.2, 7.5, color=C["gris_clair"],

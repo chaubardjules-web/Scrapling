@@ -16,22 +16,22 @@ brands:
   - {match: [uber eats], query: "uber eats delivery"}
   - {match: [deliveroo], query: "deliveroo rider"}
   - {match: [amazon], query: "amazon delivery"}
-  - {match: [shein], query: "shein"}
+  - {match: [shein], query: "fast fashion parcels"}
   - {match: [temu], query: "temu parcel"}
   - {match: [tiktok], query: "tiktok smartphone"}
   - {match: [shopify], query: "shopify"}
-  - {match: [chatgpt, openai], query: "chatgpt"}
+  - {match: [chatgpt, openai], query: "chatbot smartphone screen"}
   - {match: [perplexity], query: "artificial intelligence chatbot"}
-  - {match: [google], query: "google search"}
+  - {match: [google], query: "search engine laptop"}
   - {match: [sephora], query: "sephora store"}
   - {match: [e.l.f., rhode], query: "makeup cosmetics"}
   - {match: [l'oréal, loreal], query: "cosmetics store"}
   - {match: [lvmh, louis vuitton, dior], query: "luxury boutique"}
-  - {match: [zalando], query: "fashion parcel"}
+  - {match: [zalando], query: "online fashion shopping"}
   - {match: [walmart], query: "walmart store"}
   - {match: [target], query: "target store"}
   - {match: [stripe, visa, mastercard, paypal, klarna], query: "contactless payment"}
-  - {match: [instagram, meta], query: "instagram phone"}
+  - {match: [instagram, meta], query: "smartphone social media"}
   - {match: [youtube], query: "youtube creator"}
   - {match: [carrefour], query: "carrefour supermarket"}
   - {match: [vinted], query: "second hand clothes"}
@@ -39,13 +39,13 @@ brands:
 # Sujets génériques, toujours disponibles.
 topics:
   - {id: livraison, query: "delivery courier bicycle"}
-  - {id: entrepot, query: "warehouse robots logistics"}
-  - {id: shopping-mobile, query: "online shopping smartphone"}
+  - {id: entrepot, query: "warehouse shelves"}
+  - {id: shopping-mobile, query: "mobile shopping app"}
   - {id: colis, query: "cardboard parcels"}
   - {id: magasin, query: "retail store interior"}
   - {id: cosmetiques, query: "cosmetics products"}
   - {id: live-shopping, query: "live streaming phone"}
-  - {id: recherche-ia, query: "laptop artificial intelligence"}
+  - {id: recherche-ia, query: "person typing laptop"}
   - {id: paiement, query: "card payment terminal"}
   - {id: mode, query: "fashion clothing rack"}
   - {id: supermarche, query: "supermarket aisle"}
