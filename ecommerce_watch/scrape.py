@@ -88,8 +88,21 @@ def fetch(url: str):
 
 # ---------------------------------------------------------------- parsers
 
+def _xml_root(body: bytes):
+    """Parse strict, puis tolérant (flux mal formés : entités HTML, BOM, octets parasites)."""
+    try:
+        return ET.fromstring(body)
+    except ET.ParseError:
+        from lxml import etree
+        root = etree.fromstring(body.lstrip(b"\xef\xbb\xbf \r\n\t"),
+                                etree.XMLParser(recover=True, huge_tree=True, resolve_entities=False))
+        if root is None:
+            raise
+        return ET.fromstring(etree.tostring(root))
+
+
 def parse_rss(body: bytes) -> list[dict]:
-    root = ET.fromstring(body)
+    root = _xml_root(body)
     items = []
     for node in root.iter():
         if local(node.tag) not in ("item", "entry"):

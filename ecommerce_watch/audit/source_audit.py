@@ -53,12 +53,14 @@ def audit(src: dict, keywords: dict) -> dict:
         span = max((now - dates[0]).total_seconds() / 86400, 1) if dates else 7
         scored = [weigh(f"{i['title']} {i['summary']}", keywords) for i in items]
         relevant = sum(1 for s, _ in scored if s >= 2)
+        broad = sum(1 for s, _ in scored if s >= 1)
         core = sum(1 for _, c in scored if c)
         per_day = len(items) / span
         freshness = (now - dates[-1]).total_seconds() / 86400 if dates else None
         row.update(
             ok=True, items=len(items), span_days=round(span, 1), per_day=round(per_day, 2),
             relevance=round(relevant / len(items), 2), core=round(core / len(items), 2),
+            broad=round(broad / len(items), 2),
             last_post_days=round(freshness, 1) if freshness is not None else None,
             score=round(per_day * 7 * (relevant / len(items)) + per_day * 7 * (core / len(items)) * 2, 1),
             examples=[i["title"][:110] for i, (s, c) in zip(items, scored) if c][:3],
@@ -86,14 +88,14 @@ def main() -> int:
     (HERE / "latest.json").write_text(json.dumps({"generated_at": now.isoformat(), "sources": rows},
                                                  ensure_ascii=False, indent=2), encoding="utf-8")
     lines = [f"# Audit des sources — {now:%Y-%m-%d}", "",
-             "| Source | Famille | Articles/jour | Pertinence | Cœur de l'offre | Dernier article (j) | Score |",
-             "|---|---|---|---|---|---|---|"]
+             "| Source | Famille | Articles/jour | Pertinence | Cœur de l'offre | Périmètre élargi | Dernier article (j) | Score |",
+             "|---|---|---|---|---|---|---|---|"]
     for r in rows:
         if r["ok"]:
             lines.append(f"| {r['name']} | {r['family']} | {r['per_day']} | {int(r['relevance']*100)} % | "
-                         f"{int(r['core']*100)} % | {r['last_post_days']} | {r['score']} |")
+                         f"{int(r['core']*100)} % | {int(r['broad']*100)} % | {r['last_post_days']} | {r['score']} |")
         else:
-            lines.append(f"| {r['name']} | {r['family']} | — | — | — | — | KO ({r.get('error', '')[:40]}) |")
+            lines.append(f"| {r['name']} | {r['family']} | — | — | — | — | — | KO ({r.get('error', '')[:40]}) |")
     (HERE / "latest.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return 0
 
