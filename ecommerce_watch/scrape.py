@@ -88,16 +88,27 @@ def fetch(url: str):
 
 # ---------------------------------------------------------------- parsers
 
+XML_ENTITIES = {"amp", "lt", "gt", "quot", "apos"}
+
+
 def _xml_root(body: bytes):
     """Parse strict, puis tolérant (flux mal formés : entités HTML, BOM, octets parasites)."""
     try:
         return ET.fromstring(body)
     except ET.ParseError:
+        import html
         from lxml import etree
-        root = etree.fromstring(body.lstrip(b"\xef\xbb\xbf \r\n\t"),
+        text = body.decode("utf-8", errors="replace").lstrip("\ufeff \r\n\t")
+        text = re.sub(r"&([A-Za-z][A-Za-z0-9]*);",
+                      lambda m: m.group(0) if m.group(1) in XML_ENTITIES
+                      else html.escape(html.unescape(m.group(0)), quote=False),
+                      text)
+        text = re.sub(r"&(?!(?:[A-Za-z][A-Za-z0-9]*|#\d+|#x[0-9A-Fa-f]+);)", "&amp;", text)
+        root = etree.fromstring(text.encode("utf-8"),
                                 etree.XMLParser(recover=True, huge_tree=True, resolve_entities=False))
         if root is None:
             raise
+        etree.strip_tags(root, etree.Comment, etree.ProcessingInstruction)
         return ET.fromstring(etree.tostring(root))
 
 
