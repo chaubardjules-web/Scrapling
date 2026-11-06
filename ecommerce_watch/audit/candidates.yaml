@@ -1,0 +1,72 @@
+# Sources candidates pour la veille agentic commerce, auditées par source_audit.py.
+# Chaque source est mesurée sur ses publications récentes : rythme (articles/jour)
+# et pertinence (part des articles qui touchent le périmètre, via les mots-clés ci-dessous).
+
+# Mots-clés du périmètre, avec un poids : 3 = cœur de l'offre, 2 = sujet direct, 1 = contexte.
+keywords:
+  3: [agentic commerce, commerce agentique, agentic checkout, agentic payment, ai agent, ai agents,
+      shopping agent, agent payments, agentic ai, acp, agent commerce, buy for me, instant checkout,
+      generative engine optimization, " geo ", ai search, ai overviews, answer engine, llm visibility,
+      ai mode, chatgpt shopping, perplexity shopping]
+  2: [social commerce, tiktok shop, live shopping, livestream shopping, shoppable, creator commerce,
+      affiliate, retail media, marketplace, chatgpt, openai, perplexity, gemini, copilot, shopify,
+      checkout, conversational commerce, personalization, personnalisation, ia générative, generative ai]
+  1: [e-commerce, ecommerce, e-commerce, online retail, retail, retailer, dtc, d2c, amazon, walmart,
+      temu, shein, zalando, beauty, luxury, luxe, payments, paiement, stripe, visa, mastercard, paypal]
+
+candidates:
+  # --- Médias e-commerce / retail
+  - {name: Modern Retail, url: "https://www.modernretail.co/feed/", lang: en, family: retail}
+  - {name: Retail Dive, url: "https://www.retaildive.com/feeds/news/", lang: en, family: retail}
+  - {name: Retail TouchPoints, url: "https://www.retailtouchpoints.com/feed", lang: en, family: retail}
+  - {name: Digital Commerce 360, url: "https://www.digitalcommerce360.com/feed/", lang: en, family: retail}
+  - {name: Practical Ecommerce, url: "https://www.practicalecommerce.com/feed", lang: en, family: retail}
+  - {name: Marketplace Pulse, url: "https://www.marketplacepulse.com/rss", lang: en, family: retail}
+  - {name: Chain Store Age, url: "https://chainstoreage.com/rss.xml", lang: en, family: retail}
+  - {name: Internet Retailing, url: "https://internetretailing.net/feed/", lang: en, family: retail}
+  - {name: Retail Gazette, url: "https://www.retailgazette.co.uk/feed/", lang: en, family: retail}
+  - {name: Ecommerce News Europe, url: "https://ecommercenews.eu/feed/", lang: en, family: retail}
+  - {name: Tamebay, url: "https://tamebay.com/feed", lang: en, family: retail}
+  - {name: Retail Brew, url: "https://www.retailbrew.com/feed", lang: en, family: retail}
+
+  # --- Paiements et commerce agentique
+  - {name: PYMNTS, url: "https://www.pymnts.com/feed/", lang: en, family: agentic}
+  - {name: PYMNTS Agentic Commerce, url: "https://www.pymnts.com/trends/agentic-commerce/feed/", lang: en, family: agentic}
+  - {name: Payments Dive, url: "https://www.paymentsdive.com/feeds/news/", lang: en, family: agentic}
+  - {name: Finextra, url: "https://www.finextra.com/rss/headlines.aspx", lang: en, family: agentic}
+  - {name: GlobeNewswire agentic commerce, url: "https://rss.globenewswire.com/search/tag/agentic%2520commerce", lang: en, family: agentic}
+
+  # --- Sources primaires
+  - {name: OpenAI News, url: "https://openai.com/news/rss.xml", lang: en, family: primaire}
+  - {name: Google Ads & Commerce, url: "https://blog.google/products/ads-commerce/rss/", lang: en, family: primaire}
+  - {name: Google Search blog, url: "https://blog.google/products/search/rss/", lang: en, family: primaire}
+  - {name: Stripe Blog, url: "https://stripe.com/blog/feed.rss", lang: en, family: primaire}
+  - {name: Shopify News, url: "https://www.shopify.com/news/feed", lang: en, family: primaire}
+  - {name: Amazon News, url: "https://www.aboutamazon.com/news/rss", lang: en, family: primaire}
+
+  # --- GEO / AI search
+  - {name: Search Engine Journal, url: "https://www.searchenginejournal.com/feed/", lang: en, family: geo}
+  - {name: Search Engine Roundtable, url: "https://www.seroundtable.com/index.xml", lang: en, family: geo}
+
+  # --- Tech, marketing, social, retail media
+  - {name: TechCrunch Commerce, url: "https://techcrunch.com/category/commerce/feed/", lang: en, family: tech}
+  - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, family: tech}
+  - {name: The Verge, url: "https://www.theverge.com/rss/index.xml", lang: en, family: tech}
+  - {name: VentureBeat AI, url: "https://venturebeat.com/category/ai/feed/", lang: en, family: tech}
+  - {name: Digiday, url: "https://digiday.com/feed/", lang: en, family: media}
+  - {name: AdExchanger, url: "https://www.adexchanger.com/feed/", lang: en, family: media}
+  - {name: Social Media Today, url: "https://www.socialmediatoday.com/feeds/news/", lang: en, family: social}
+  - {name: Glossy, url: "https://www.glossy.co/feed/", lang: en, family: beauty}
+  - {name: WWD, url: "https://wwd.com/feed/", lang: en, family: beauty}
+  - {name: Business of Fashion, url: "https://www.businessoffashion.com/arc/outboundfeeds/rss/", lang: en, family: beauty}
+
+  # --- France
+  - {name: FrenchWeb, url: "https://www.frenchweb.fr/feed", lang: fr, family: france}
+  - {name: Journal du Net e-business, url: "https://www.journaldunet.com/ebusiness/rss/", lang: fr, family: france}
+  - {name: LSA, url: "https://www.lsa-conso.fr/rss", lang: fr, family: france}
+  - {name: E-commerce Nation, url: "https://www.ecommerce-nation.fr/feed/", lang: fr, family: france}
+  - {name: Siècle Digital, url: "https://siecledigital.fr/feed/", lang: fr, family: france}
+  - {name: Maddyness, url: "https://www.maddyness.com/feed/", lang: fr, family: france}
+  - {name: Ecommerce Mag, url: "https://www.ecommercemag.fr/rss", lang: fr, family: france}
+  - {name: Journal du Luxe, url: "https://journalduluxe.fr/feed/", lang: fr, family: france}
+  - {name: Stratégies, url: "https://www.strategies.fr/rss", lang: fr, family: france}
