@@ -1,81 +1,97 @@
-# Sources de la veille e-commerce.
-# type: rss  -> flux RSS/Atom récupéré avec Scrapling, parsé en XML
-# type: html -> page listing scrapée avec les sélecteurs CSS de Scrapling
-# filter: true -> on ne garde que les articles qui matchent les mots-clés ci-dessous
-# fetch_article: false -> pas de récupération du texte de l'article (ex. liens Google News)
+# Sources de la veille agentic commerce — liste consolidée à partir de l'audit
+# (audit/latest.md : rythme de publication et part d'articles dans le périmètre, mesurés
+# sur les flux réels). L'audit tourne le 1er de chaque mois ; on ajuste la liste à partir de lui.
+#
+# type: rss  -> flux RSS/Atom récupéré avec Scrapling
+# filter: true -> on ne garde que les articles qui matchent les mots-clés (médias généralistes)
+# fetch_article: false -> pas de récupération du texte (liens Google News)
 
 settings:
-  window_days: 5          # fenêtre glissante couverte par chaque run
+  window_days: 5
   max_items_per_source: 25
-  article_chars: 1800     # longueur max de l'extrait récupéré par article
+  article_chars: 1800
 
 keywords:
   - agentic
   - agent
+  - agents
   - checkout
   - commerce
   - ecommerce
   - e-commerce
   - shopping
+  - shopper
   - retail
+  - retailer
   - marketplace
   - tiktok shop
   - social commerce
   - live shopping
+  - livestream
   - creator
   - affiliate
   - geo
   - generative engine
   - ai search
+  - ai mode
   - ai overviews
   - answer engine
   - chatgpt
+  - openai
   - perplexity
   - gemini
   - shopify
   - amazon
+  - walmart
   - temu
   - shein
   - zalando
   - retail media
+  - payments
+  - paiement
   - beauty
   - luxury
   - luxe
   - commerce agentique
 
 sources:
-  # --- Médias e-commerce / retail (tout est pertinent)
+  # --- Cœur : publient tous les jours et couvrent le périmètre (score d'audit élevé)
+  - {name: PYMNTS, type: rss, url: "https://www.pymnts.com/feed/", theme: agentic, filter: true}
+  - {name: Search Engine Journal, type: rss, url: "https://www.searchenginejournal.com/feed/", theme: geo, filter: true}
+  - {name: Search Engine Roundtable, type: rss, url: "https://www.seroundtable.com/index.xml", theme: geo, filter: true}
+  - {name: TechCrunch AI, type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/", theme: tools, filter: true}
+  - {name: TechCrunch Commerce, type: rss, url: "https://techcrunch.com/category/commerce/feed/", theme: tools}
+  - {name: The Verge, type: rss, url: "https://www.theverge.com/rss/index.xml", theme: tech, filter: true}
+  - {name: Tamebay, type: rss, url: "https://tamebay.com/feed", theme: marketplaces}
+
+  # --- Retail & e-commerce : le contexte marché, filtré quand le volume est fort
   - {name: Modern Retail, type: rss, url: "https://www.modernretail.co/feed/", theme: retail}
-  - {name: Retail Dive, type: rss, url: "https://www.retaildive.com/feeds/news/", theme: retail}
+  - {name: Retail Dive, type: rss, url: "https://www.retaildive.com/feeds/news/", theme: retail, filter: true}
   - {name: Practical Ecommerce, type: rss, url: "https://www.practicalecommerce.com/feed", theme: ecommerce}
+  - {name: Internet Retailing, type: rss, url: "https://internetretailing.net/feed/", theme: europe, filter: true}
+  - {name: Ecommerce News Europe, type: rss, url: "https://ecommercenews.eu/feed/", theme: europe}
+  - {name: Digiday, type: rss, url: "https://digiday.com/feed/", theme: media, filter: true}
   - {name: Glossy, type: rss, url: "https://www.glossy.co/feed/", theme: beauty}
+
+  # --- France
+  - {name: Siècle Digital, type: rss, url: "https://siecledigital.fr/feed/", theme: france, filter: true}
+  - {name: E-commerce Nation, type: rss, url: "https://www.ecommerce-nation.fr/feed/", theme: france}
   - {name: FrenchWeb, type: rss, url: "https://www.frenchweb.fr/feed", theme: france, filter: true}
 
-  # --- Médias tech / marketing (filtrés par mots-clés)
-  - {name: TechCrunch Commerce, type: rss, url: "https://techcrunch.com/category/commerce/feed/", theme: tools}
-  - {name: Digiday, type: rss, url: "https://digiday.com/feed/", theme: media, filter: true}
-  - {name: The Verge, type: rss, url: "https://www.theverge.com/rss/index.xml", theme: tech, filter: true}
-  # Search Engine Land bloque les requêtes automatisées (HTTP 403)
-  # - {name: Search Engine Land, type: rss, url: "https://searchengineland.com/feed", theme: geo, filter: true}
-  - {name: Search Engine Journal, type: rss, url: "https://www.searchenginejournal.com/feed/", theme: geo, filter: true}
-
-  # --- Sources primaires
+  # --- Sources primaires : peu d'articles, mais ce sont les annonces qui font l'actu
   - {name: OpenAI News, type: rss, url: "https://openai.com/news/rss.xml", theme: agentic, filter: true}
   - {name: Google Ads & Commerce, type: rss, url: "https://blog.google/products/ads-commerce/rss/", theme: agentic}
-  - {name: Stripe Blog, type: rss, url: "https://stripe.com/blog/feed.rss", theme: agentic, filter: true}
+  - {name: Google Search blog, type: rss, url: "https://blog.google/products/search/rss/", theme: geo}
 
-  # --- Recherches thématiques Google News (titres + source uniquement)
+  # --- Recherches ciblées Google News : couvrent les sujets que les flux ne couvrent pas assez
   - {name: "GNews - agentic commerce", type: rss, url: "https://news.google.com/rss/search?q=%22agentic+commerce%22+when:7d&hl=en-US&gl=US&ceid=US:en", theme: agentic, fetch_article: false}
+  - {name: "GNews - commerce agentique FR", type: rss, url: "https://news.google.com/rss/search?q=%22commerce+agentique%22+OR+%22agents+IA%22+e-commerce+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: agentic, fetch_article: false}
   - {name: "GNews - GEO", type: rss, url: "https://news.google.com/rss/search?q=%22generative+engine+optimization%22+OR+%22AI+search%22+brands+when:7d&hl=en-US&gl=US&ceid=US:en", theme: geo, fetch_article: false}
   - {name: "GNews - TikTok Shop FR", type: rss, url: "https://news.google.com/rss/search?q=%22TikTok+Shop%22+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: social, fetch_article: false}
   - {name: "GNews - social commerce", type: rss, url: "https://news.google.com/rss/search?q=%22social+commerce%22+OR+%22live+shopping%22+when:7d&hl=en-US&gl=US&ceid=US:en", theme: social, fetch_article: false}
-  - {name: "GNews - e-commerce FR", type: rss, url: "https://news.google.com/rss/search?q=e-commerce+IA+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: france, fetch_article: false}
 
-  # --- Exemple de page HTML scrapée (décommenter et adapter les sélecteurs)
-  # - name: Exemple
-  #   type: html
-  #   url: "https://example.com/news"
-  #   item: "article"
-  #   title: "h2 a::text"
-  #   link: "h2 a::attr(href)"
-  #   theme: tools
+# Écartées à l'audit du 6 nov. 2026 (trop peu pertinentes ou flux mort) :
+# Finextra, Digital Commerce 360, Payments Dive, Stripe Blog, Shopify News, Amazon News,
+# Social Media Today, WWD, Journal du Net, Maddyness, Ecommerce Mag, AdExchanger, Retail Gazette,
+# VentureBeat AI ; flux inaccessibles : Retail TouchPoints, Chain Store Age, Business of Fashion,
+# Marketplace Pulse, Retail Brew, LSA, Journal du Luxe, Stratégies.
