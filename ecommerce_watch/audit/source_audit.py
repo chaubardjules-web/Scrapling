@@ -8,11 +8,12 @@ récupère le flux avec Scrapling, puis mesure sur les articles récupérés :
   - score     : articles pertinents par semaine, avec un bonus pour le cœur de l'offre
 
 Écrit audit/latest.json et audit/latest.md (classement), conservés dans le repo.
-Usage : python ecommerce_watch/audit/source_audit.py
+Usage : python ecommerce_watch/audit/source_audit.py [--candidates FICHIER.yaml --out DOSSIER]
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -71,7 +72,13 @@ def audit(src: dict, keywords: dict) -> dict:
 
 
 def main() -> int:
-    cfg = yaml.safe_load((HERE / "candidates.yaml").read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description="Audit des sources de veille")
+    parser.add_argument("--candidates", type=Path, default=HERE / "candidates.yaml")
+    parser.add_argument("--out", type=Path, default=HERE)
+    args = parser.parse_args()
+    out = args.out
+    out.mkdir(parents=True, exist_ok=True)
+    cfg = yaml.safe_load(args.candidates.read_text(encoding="utf-8"))
     keywords = {int(k): v for k, v in cfg["keywords"].items()}
     seen, rows = set(), []
     for src in cfg["candidates"]:
@@ -85,7 +92,7 @@ def main() -> int:
                  if row["ok"] else row.get("error", "")))
     rows.sort(key=lambda r: (r["ok"], r.get("score", 0)), reverse=True)
     now = datetime.now(timezone.utc)
-    (HERE / "latest.json").write_text(json.dumps({"generated_at": now.isoformat(), "sources": rows},
+    (out / "latest.json").write_text(json.dumps({"generated_at": now.isoformat(), "sources": rows},
                                                  ensure_ascii=False, indent=2), encoding="utf-8")
     lines = [f"# Audit des sources — {now:%Y-%m-%d}", "",
              "| Source | Famille | Articles/jour | Pertinence | Cœur de l'offre | Périmètre élargi | Dernier article (j) | Score |",
@@ -96,7 +103,7 @@ def main() -> int:
                          f"{int(r['core']*100)} % | {int(r['broad']*100)} % | {r['last_post_days']} | {r['score']} |")
         else:
             lines.append(f"| {r['name']} | {r['family']} | — | — | — | — | — | KO ({r.get('error', '')[:40]}) |")
-    (HERE / "latest.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (out / "latest.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return 0
 
 

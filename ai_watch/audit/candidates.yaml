@@ -1,0 +1,60 @@
+# Sources candidates pour la veille IA (Taskforce IA), auditées le 1er de chaque mois par
+#   python ecommerce_watch/audit/source_audit.py --candidates ai_watch/audit/candidates.yaml --out ai_watch/audit
+# Mots-clés avec un poids : 3 = cœur du périmètre, 2 = sujet direct, 1 = contexte.
+keywords:
+  3: [ai agent, ai agents, agentic ai, agentic, large language model, llm, frontier model, foundation model,
+      openai, anthropic, claude, chatgpt, gemini, mistral, model context protocol, mcp, ai act,
+      generative ai, ia générative, intelligence artificielle, enterprise ai, ai adoption]
+  2: [ai, ia, copilot, deepmind, llama, deepseek, qwen, grok, xai, hugging face, nvidia, ai startup,
+      y combinator, raises, funding, ipo, regulation, régulation, cnil, sovereign, souveraineté, gpu]
+  1: [machine learning, automation, automatisation, data, cloud, startup, chips, robotics, cybersecurity]
+
+candidates:
+  # --- Actives (sources.yaml)
+  - {name: OpenAI News, url: "https://openai.com/news/rss.xml", lang: en, family: labs}
+  - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", lang: en, family: labs}
+  - {name: Google AI blog, url: "https://blog.google/technology/ai/rss/", lang: en, family: labs}
+  - {name: Microsoft AI blog, url: "https://blogs.microsoft.com/ai/feed/", lang: en, family: labs}
+  - {name: Hugging Face blog, url: "https://huggingface.co/blog/feed.xml", lang: en, family: labs}
+  - {name: NVIDIA blog, url: "https://blogs.nvidia.com/feed/", lang: en, family: labs}
+  - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, family: tech}
+  - {name: The Verge AI, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", lang: en, family: tech}
+  - {name: VentureBeat AI, url: "https://venturebeat.com/category/ai/feed/", lang: en, family: tech}
+  - {name: MIT Technology Review AI, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", lang: en, family: tech}
+  - {name: Ars Technica AI, url: "https://arstechnica.com/ai/feed/", lang: en, family: tech}
+  - {name: The Decoder, url: "https://the-decoder.com/feed/", lang: en, family: tech}
+  - {name: Simon Willison, url: "https://simonwillison.net/atom/everything/", lang: en, family: agents}
+  - {name: Latent Space, url: "https://www.latent.space/feed", lang: en, family: agents}
+  - {name: Import AI, url: "https://importai.substack.com/feed", lang: en, family: labs}
+  - {name: MIT Sloan Management Review, url: "https://sloanreview.mit.edu/feed/", lang: en, family: entreprise}
+  - {name: Harvard Business Review, url: "https://feeds.hbr.org/harvardbusiness", lang: en, family: entreprise}
+  - {name: TechCrunch Venture, url: "https://techcrunch.com/category/venture/feed/", lang: en, family: emergents}
+  - {name: Crunchbase News, url: "https://news.crunchbase.com/feed/", lang: en, family: emergents}
+  - {name: Launch HN (YC), url: "https://hnrss.org/launches", lang: en, family: emergents}
+  - {name: Y Combinator blog, url: "https://www.ycombinator.com/blog/rss/", lang: en, family: emergents}
+  - {name: EU AI Act Newsletter, url: "https://artificialintelligenceact.substack.com/feed", lang: en, family: regulation}
+  - {name: CNIL, url: "https://www.cnil.fr/fr/rss.xml", lang: fr, family: regulation}
+  - {name: ActuIA, url: "https://www.actuia.com/feed/", lang: fr, family: france}
+  - {name: Le Monde Informatique IA, url: "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml", lang: fr, family: france}
+  - {name: Siècle Digital, url: "https://siecledigital.fr/feed/", lang: fr, family: france}
+  - {name: FrenchWeb, url: "https://www.frenchweb.fr/feed", lang: fr, family: france}
+  - {name: Maddyness, url: "https://www.maddyness.com/feed/", lang: fr, family: france}
+
+  # --- Candidates à tester
+  - {name: AWS Machine Learning blog, url: "https://aws.amazon.com/blogs/machine-learning/feed/", lang: en, family: labs}
+  - {name: Meta Engineering, url: "https://engineering.fb.com/feed/", lang: en, family: labs}
+  - {name: Wired AI, url: "https://www.wired.com/feed/tag/ai/latest/rss", lang: en, family: tech}
+  - {name: ZDNet AI, url: "https://www.zdnet.com/topic/artificial-intelligence/rss.xml", lang: en, family: tech}
+  - {name: SiliconANGLE AI, url: "https://siliconangle.com/category/ai/feed/", lang: en, family: entreprise}
+  - {name: InfoQ AI, url: "https://feed.infoq.com/ai-ml-data-eng/", lang: en, family: agents}
+  - {name: Ben's Bites, url: "https://www.bensbites.com/feed", lang: en, family: agents}
+  - {name: One Useful Thing (Ethan Mollick), url: "https://www.oneusefulthing.org/feed", lang: en, family: entreprise}
+  - {name: Interconnects, url: "https://www.interconnects.ai/feed", lang: en, family: labs}
+  - {name: Stratechery, url: "https://stratechery.com/feed/", lang: en, family: entreprise}
+  - {name: Sifted, url: "https://sifted.eu/feed", lang: en, family: emergents}
+  - {name: Product Hunt, url: "https://www.producthunt.com/feed", lang: en, family: emergents}
+  - {name: Journal du Net IA, url: "https://www.journaldunet.com/intelligence-artificielle/rss/", lang: fr, family: france}
+  - {name: Usine Digitale, url: "https://www.usine-digitale.fr/rss", lang: fr, family: france}
+  - {name: Numerama, url: "https://www.numerama.com/feed/", lang: fr, family: france}
+  - {name: 01net, url: "https://www.01net.com/feed/", lang: fr, family: france}
+  - {name: Silicon.fr, url: "https://www.silicon.fr/feed", lang: fr, family: france}

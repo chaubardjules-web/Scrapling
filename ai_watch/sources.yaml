@@ -1,0 +1,112 @@
+# Sources de la veille IA hebdomadaire (Taskforce IA Deloitte), publiée le mercredi.
+# Même moteur que la veille e-commerce : ecommerce_watch/scrape.py avec --config/--data.
+# L'audit mensuel (audit/candidates.yaml) mesure rythme et pertinence pour ajuster cette liste.
+#
+# type: rss  -> flux RSS/Atom récupéré avec Scrapling
+# filter: true -> on ne garde que les articles qui matchent les mots-clés (médias généralistes)
+# fetch_article: false -> pas de récupération du texte (liens Google News)
+# theme : labs | agents | entreprise | regulation | emergents | france
+
+settings:
+  window_days: 8          # une édition par semaine, avec un jour de recouvrement
+  max_items_per_source: 25
+  article_chars: 1800
+  whole_words: true       # « ai » ne matche ni « air » ni « aid »
+  keep_archives: 13       # ~3 mois à 1 run/semaine
+
+keywords:
+  - ai
+  - a.i.
+  - artificial intelligence
+  - intelligence artificielle
+  - ia
+  - l'ia
+  - genai
+  - generative ai
+  - ia générative
+  - llm
+  - llms
+  - large language model
+  - foundation model
+  - frontier model
+  - agent
+  - agents
+  - agentic
+  - agentique
+  - copilot
+  - chatbot
+  - openai
+  - chatgpt
+  - gpt-5
+  - anthropic
+  - claude
+  - gemini
+  - deepmind
+  - mistral
+  - llama
+  - meta ai
+  - xai
+  - grok
+  - deepseek
+  - qwen
+  - hugging face
+  - nvidia
+  - mcp
+  - model context protocol
+  - ai act
+  - machine learning
+  - y combinator
+  - ipo
+
+sources:
+  # --- Labs et éditeurs : sources primaires des annonces
+  - {name: OpenAI News, type: rss, url: "https://openai.com/news/rss.xml", theme: labs}
+  - {name: Google DeepMind, type: rss, url: "https://deepmind.google/blog/rss.xml", theme: labs}
+  - {name: Google AI blog, type: rss, url: "https://blog.google/technology/ai/rss/", theme: labs}
+  - {name: Microsoft AI blog, type: rss, url: "https://blogs.microsoft.com/ai/feed/", theme: labs}
+  - {name: Hugging Face blog, type: rss, url: "https://huggingface.co/blog/feed.xml", theme: labs}
+  - {name: NVIDIA blog, type: rss, url: "https://blogs.nvidia.com/feed/", theme: labs, filter: true}
+
+  # --- Médias tech IA : le flux quotidien
+  - {name: TechCrunch AI, type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/", theme: labs}
+  - {name: The Verge AI, type: rss, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", theme: labs}
+  - {name: VentureBeat AI, type: rss, url: "https://venturebeat.com/category/ai/feed/", theme: entreprise}
+  - {name: MIT Technology Review AI, type: rss, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", theme: labs}
+  - {name: Ars Technica AI, type: rss, url: "https://arstechnica.com/ai/feed/", theme: labs}
+  - {name: The Decoder, type: rss, url: "https://the-decoder.com/feed/", theme: labs}
+
+  # --- Agents, outils, praticiens
+  - {name: Simon Willison, type: rss, url: "https://simonwillison.net/atom/everything/", theme: agents, filter: true}
+  - {name: Latent Space, type: rss, url: "https://www.latent.space/feed", theme: agents}
+  - {name: Import AI, type: rss, url: "https://importai.substack.com/feed", theme: labs}
+
+  # --- IA en entreprise et conseil
+  - {name: MIT Sloan Management Review, type: rss, url: "https://sloanreview.mit.edu/feed/", theme: entreprise, filter: true}
+  - {name: Harvard Business Review, type: rss, url: "https://feeds.hbr.org/harvardbusiness", theme: entreprise, filter: true}
+
+  # --- Acteurs émergents : startups, levées, YC, IPO
+  - {name: TechCrunch Venture, type: rss, url: "https://techcrunch.com/category/venture/feed/", theme: emergents, filter: true}
+  - {name: Crunchbase News, type: rss, url: "https://news.crunchbase.com/feed/", theme: emergents, filter: true}
+  - {name: Launch HN (YC), type: rss, url: "https://hnrss.org/launches", theme: emergents}
+  - {name: Y Combinator blog, type: rss, url: "https://www.ycombinator.com/blog/rss/", theme: emergents}
+
+  # --- Régulation et souveraineté
+  - {name: EU AI Act Newsletter, type: rss, url: "https://artificialintelligenceact.substack.com/feed", theme: regulation}
+  - {name: CNIL, type: rss, url: "https://www.cnil.fr/fr/rss.xml", theme: regulation, filter: true}
+
+  # --- France
+  - {name: ActuIA, type: rss, url: "https://www.actuia.com/feed/", theme: france}
+  - {name: Le Monde Informatique IA, type: rss, url: "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml", theme: france}
+  - {name: Siècle Digital, type: rss, url: "https://siecledigital.fr/feed/", theme: france, filter: true}
+  - {name: FrenchWeb, type: rss, url: "https://www.frenchweb.fr/feed", theme: france, filter: true}
+  - {name: Maddyness, type: rss, url: "https://www.maddyness.com/feed/", theme: emergents, filter: true}
+
+  # --- Recherches ciblées Google News : ce que les flux couvrent mal
+  - {name: "GNews - Anthropic", type: rss, url: "https://news.google.com/rss/search?q=Anthropic+Claude+when:7d&hl=en-US&gl=US&ceid=US:en", theme: labs, fetch_article: false}
+  - {name: "GNews - Mistral AI", type: rss, url: "https://news.google.com/rss/search?q=%22Mistral+AI%22+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: france, fetch_article: false}
+  - {name: "GNews - AI agents enterprise", type: rss, url: "https://news.google.com/rss/search?q=%22AI+agents%22+enterprise+deployment+when:7d&hl=en-US&gl=US&ceid=US:en", theme: agents, fetch_article: false}
+  - {name: "GNews - IA en entreprise FR", type: rss, url: "https://news.google.com/rss/search?q=%22intelligence+artificielle%22+entreprises+d%C3%A9ploiement+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: entreprise, fetch_article: false}
+  - {name: "GNews - conseil et IA", type: rss, url: "https://news.google.com/rss/search?q=(Accenture+OR+Capgemini+OR+McKinsey+OR+BCG+OR+Deloitte+OR+PwC+OR+KPMG)+%22AI%22+when:7d&hl=en-US&gl=US&ceid=US:en", theme: entreprise, fetch_article: false}
+  - {name: "GNews - AI Act", type: rss, url: "https://news.google.com/rss/search?q=%22AI+Act%22+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: regulation, fetch_article: false}
+  - {name: "GNews - AI startups funding", type: rss, url: "https://news.google.com/rss/search?q=AI+startup+(raises+OR+funding+OR+IPO)+when:7d&hl=en-US&gl=US&ceid=US:en", theme: emergents, fetch_article: false}
+  - {name: "GNews - Y Combinator AI", type: rss, url: "https://news.google.com/rss/search?q=%22Y+Combinator%22+AI+when:7d&hl=en-US&gl=US&ceid=US:en", theme: emergents, fetch_article: false}

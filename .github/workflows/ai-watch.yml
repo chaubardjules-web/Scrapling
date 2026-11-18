@@ -1,0 +1,54 @@
+name: Veille IA
+
+on:
+  schedule:
+    # Mercredi, 05:23 UTC (6h23 l'hiver, 7h23 l'été à Paris) : les données sont prêtes
+    # avant la rédaction de la veille IA, livrée vers 8h30.
+    - cron: "23 5 * * 3"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ecommerce_watch/scrape.py"
+      - "ai_watch/sources.yaml"
+      - ".github/workflows/ai-watch.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-watch
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer Scrapling depuis ce repo
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[fetchers]" pyyaml
+
+      - name: Scraper les sources IA
+        run: python ecommerce_watch/scrape.py --config ai_watch/sources.yaml --data ai_watch/data
+
+      - name: Commit des résultats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai_watch/data
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau"
+          else
+            git commit -m "Veille IA $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi

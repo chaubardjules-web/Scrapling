@@ -1,11 +1,14 @@
-"""Veille e-commerce : scrape les sources de sources.yaml avec Scrapling
-et écrit les articles récents dans data/latest.json (+ une archive datée).
+"""Veille : scrape les sources d'un fichier sources.yaml avec Scrapling
+et écrit les articles récents dans <data>/latest.json (+ une archive datée).
 
-Usage : python ecommerce_watch/scrape.py
+Usage :
+  python ecommerce_watch/scrape.py                      # veille e-commerce (par défaut)
+  python ecommerce_watch/scrape.py --config ai_watch/sources.yaml --data ai_watch/data   # veille IA
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -158,16 +161,26 @@ def article_excerpt(url: str, max_chars: int) -> str:
     return ""
 
 
-def matches(item: dict, keywords: list[str]) -> bool:
+def matches(item: dict, keywords: list[str], whole_words: bool = False) -> bool:
     haystack = f"{item['title']} {item['summary']}".lower()
+    if whole_words:  # « ai » ne doit matcher ni « air » ni le « j'ai » français
+        return any(re.search((r"(?<![\w'’])" if len(k) <= 2 else r"(?<![\w])")
+                             + re.escape(k.lower()) + r"(?![\w])", haystack) for k in keywords)
     return any(re.search(rf"\b{re.escape(k.lower())}", haystack) for k in keywords)
 
 
 # ---------------------------------------------------------------- main
 
 def main() -> int:
-    config = yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("--config", type=Path, default=ROOT / "sources.yaml")
+    parser.add_argument("--data", type=Path, default=DATA)
+    args = parser.parse_args()
+    data_dir = args.data
+    config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
     settings = config.get("settings", {})
+    whole_words = settings.get("whole_words", False)
+    keep_archives = settings.get("keep_archives", 24)  # ~3 mois à 2 runs/semaine
     window = timedelta(days=settings.get("window_days", 5))
     per_source = settings.get("max_items_per_source", 25)
     max_chars = settings.get("article_chars", 1800)
@@ -191,7 +204,7 @@ def main() -> int:
                     continue
                 if item["published"] and item["published"] < cutoff:
                     continue
-                if src.get("filter") and not matches(item, keywords):
+                if src.get("filter") and not matches(item, keywords, whole_words):
                     continue
                 seen.add(item["url"])
                 # Google News suffixe les titres par " - Éditeur"
@@ -230,14 +243,14 @@ def main() -> int:
         "sources": report,
         "articles": articles,
     }
-    DATA.mkdir(exist_ok=True)
+    data_dir.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(output, ensure_ascii=False, indent=2)
-    (DATA / "latest.json").write_text(payload, encoding="utf-8")
-    (DATA / f"{now:%Y-%m-%d}.json").write_text(payload, encoding="utf-8")
-    archives = sorted(p for p in DATA.glob("????-??-??.json"))
-    for old in archives[:-24]:  # ~3 mois d'historique à 2 runs/semaine
+    (data_dir / "latest.json").write_text(payload, encoding="utf-8")
+    (data_dir / f"{now:%Y-%m-%d}.json").write_text(payload, encoding="utf-8")
+    archives = sorted(p for p in data_dir.glob("????-??-??.json"))
+    for old in archives[:-keep_archives]:
         old.unlink()
-    print(f"\n{len(articles)} articles écrits dans {DATA / 'latest.json'}")
+    print(f"\n{len(articles)} articles écrits dans {data_dir / 'latest.json'}")
 
     ok_sources = sum(1 for r in report if r["ok"])
     return 0 if ok_sources else 1
