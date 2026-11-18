@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T09:21:25.927693+00:00",
-  "window_start": "2026-11-10T09:21:25.927693+00:00",
-  "count": 417,
+  "generated_at": "2026-11-18T09:27:29.475892+00:00",
+  "window_start": "2026-11-10T09:27:29.475892+00:00",
+  "count": 444,
   "sources": [
     {
       "source": "OpenAI News",
@@ -22,11 +22,10 @@
       "kept": 9
     },
     {
-      "source": "Microsoft AI blog",
-      "url": "https://blogs.microsoft.com/ai/feed/",
-      "ok": false,
-      "kept": 0,
-      "error": "RuntimeError: HTTP 410"
+      "source": "Microsoft blog",
+      "url": "https://blogs.microsoft.com/feed/",
+      "ok": true,
+      "kept": 2
     },
     {
       "source": "Hugging Face blog",
@@ -53,10 +52,11 @@
       "kept": 10
     },
     {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/category/ai/feed/",
-      "ok": true,
-      "kept": 0
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "ok": false,
+      "kept": 0,
+      "error": "RuntimeError: HTTP 429"
     },
     {
       "source": "MIT Technology Review AI",
@@ -89,24 +89,10 @@
       "kept": 12
     },
     {
-      "source": "Import AI",
-      "url": "https://importai.substack.com/feed",
-      "ok": false,
-      "kept": 0,
-      "error": "RuntimeError: HTTP 403"
-    },
-    {
       "source": "MIT Sloan Management Review",
       "url": "https://sloanreview.mit.edu/feed/",
       "ok": true,
       "kept": 0
-    },
-    {
-      "source": "Harvard Business Review",
-      "url": "https://feeds.hbr.org/harvardbusiness",
-      "ok": false,
-      "kept": 0,
-      "error": "SSLError: Failed to perform, curl: (35) BoringSSL SSL_connect: Connection closed abruptly (SSL_ERROR_SYSCALL; error queue empty) in connection to feeds.hbr.org:443. See https://curl.se/libcurl/c/libcu"
     },
     {
       "source": "TechCrunch Venture",
@@ -131,13 +117,6 @@
       "url": "https://www.ycombinator.com/blog/rss/",
       "ok": true,
       "kept": 0
-    },
-    {
-      "source": "EU AI Act Newsletter",
-      "url": "https://artificialintelligenceact.substack.com/feed",
-      "ok": false,
-      "kept": 0,
-      "error": "RuntimeError: HTTP 403"
     },
     {
       "source": "CNIL",
@@ -206,6 +185,12 @@
       "kept": 25
     },
     {
+      "source": "GNews - EU AI Act (EN)",
+      "url": "https://news.google.com/rss/search?q=%22EU+AI+Act%22+OR+%22AI+Office%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "kept": 25
+    },
+    {
       "source": "GNews - AI Act",
       "url": "https://news.google.com/rss/search?q=%22AI+Act%22+when:7d&hl=fr&gl=FR&ceid=FR:fr",
       "ok": true,
@@ -225,6 +210,16 @@
     }
   ],
   "articles": [
+    {
+      "title": "Anthropic | History, Controversies, & Claude AI",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41Q1h2QkF0SGRpMFZSMVN5al9RNkhQLTR4MDc0cHJNbndmdndTbHE5cGswRFk4SS1JbVhmXzdWNm5KRDlJa3FiUkt6T01MZUNiTjhON2R6cFJtQQ?oc=5",
+      "source": "GNews - Anthropic",
+      "publisher": "Britannica",
+      "theme": "labs",
+      "published": "2026-11-18T09:02:29+00:00",
+      "summary": "Anthropic | History, Controversies, & Claude AI Britannica",
+      "excerpt": ""
+    },
     {
       "title": "L'Appel de Paris laisse aux développeurs le pouvoir d'arrêter leurs IA",
       "url": "https://www.actuia.com/actualite/lappel-de-paris-laisse-aux-developpeurs-le-pouvoir-darreter-leurs-ia/",
@@ -276,6 +271,16 @@
       "excerpt": "H Company, la société parisienne spécialisée dans les agents d'IA pour les entreprises, a annoncé le 16 novembre que sa plateforme est disponible sur l'AWS European Sovereign Cloud. Les organisations européennes des secteurs réglementés et du secteur public peuvent ainsi, dès maintenant, faire travailler ses agents sur une infrastructure où leurs données et leurs métadonnées ne quittent pas l'Union européenne. Le partage est net. H Company exécute sur le cloud souverain d'AWS l'inférence des clients européens qui le demandent, sur des instances gérées par Nvidia. L'entraînement de ses modèles, lui, reste sur l'infrastructure mondiale d'AWS. Ce qui reste dans l'Union, ce sont les contenus des clients et les métadonnées qu'ils créent, autrement dit tout ce que les agents voient et produisent quand ils travaillent. Pour ce type d'agents, la localisation compte. Ceux de H Company utilisent les logiciels comme le ferait un salarié : ils cliquent, saisissent du texte, naviguent d'un écran à l'autre, et opèrent directement sur les systèmes existants, sans intégration d'API ni modification des applications. Ils traitent donc en temps réel les données opérationnelles de l'organisation, celles qui s'affichent à l'écran d'un conseiller bancaire ou d'un gestionnaire de dossiers. Lancé début 2026, l'AWS European Sovereign Cloud est une infrastructure distincte des autres régions d'AWS, située dans l'Union européenne. AWS prévoit d'y investir 7,8 milliards d'euros d'ici 2040. Sa gouvernance est indépendante. Son exploitation est confiée exclusivement à des résidents de l'Union, avec une transition annoncée vers des citoyens de l'Union, et il ne dépend d'aucune infrastructure critique située hors de l'UE. « Pour nous, la souveraineté numérique et la souveraineté de l'IA s'inscrivent d"
     },
     {
+      "title": "French AI startup H Company puts agents on AWS European Sovereign Cloud",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVdlR3lEbTYtcDk2aDRHVkw0dW0weHAwMnktd1NyTk4tS3RLZ3dCU3FVdzJaRl9ZTmJ3eUQ5eXdJRS01M3g2bkQ3YnJqNUpBS2x5dGFqc0JyWGZFQUVmN2MtTWh3N3VrTjlCRU9xTF9fRElQcGUwdVFwbDl3ek1SRmwtR0RuTXhuTUp6TDJ5RHE4ZlRTd0lCTkFOV3R3SW0wZHkxVmdR?oc=5",
+      "source": "GNews - AI agents enterprise",
+      "publisher": "ActuIA",
+      "theme": "agents",
+      "published": "2026-11-18T07:00:00+00:00",
+      "summary": "French AI startup H Company puts agents on AWS European Sovereign Cloud ActuIA",
+      "excerpt": ""
+    },
+    {
       "title": "Droit d’auteur et IA : l’appel de 11 États à l’UE",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUS0wYlRkMk50M2NESmIyYmoydC1reFJZQlpqTF9BaFN6RDR6ZTNmQ0MzalZIVVJKbTllVXZuejNTUHZ1MGVNM2k4OFc1dEhqYXhOTjFRUGN3blJRNk5FbzVwdnNmQkl5UDdUV1JmSHRIYmpwU29PalRDT3dSMVVrOXY2enV6RXlib0xYOUtVeDdZWGdNd2JVT2hwcWM3ZU5HN3owTzE5ejM1bEEzSE53SjQycw?oc=5",
       "source": "GNews - AI Act",
@@ -293,6 +298,16 @@
       "theme": "entreprise",
       "published": "2026-11-18T06:25:00+00:00",
       "summary": "IA : Axway promet jusqu’à 40 % d’économies sur les tokens lebigdata.fr",
+      "excerpt": ""
+    },
+    {
+      "title": "AI Act rights assessment consultation: key dates",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9oYktJT2lSNGVFZjh3V0NKc3NILWZXT3NkT09YNzZ6M3cwUTBQRW5SWG1jeXd0RWhtVWpGUXVqbG90LUlNRGJSazJBSEpKWWVoWnBLZzJqNDhvQXlFVWdKX1ZiUFM4elpCeHdGSDZJLWxQTnRCTEJEbHh2RmlqNGFlWmxTbUk?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "NeoTeo",
+      "theme": "regulation",
+      "published": "2026-11-18T05:56:29+00:00",
+      "summary": "AI Act rights assessment consultation: key dates NeoTeo",
       "excerpt": ""
     },
     {
@@ -333,6 +348,16 @@
       "theme": "entreprise",
       "published": "2026-11-18T05:00:33+00:00",
       "summary": "AI asked ‘better questions’ than KPMG accountants in pilot audit Financial Times",
+      "excerpt": ""
+    },
+    {
+      "title": "Doubao Work, WorkBuddy & Qianwen Office Compete on the Same AI Office Track: Background-Hidden Large Models with Foreground-Shifted Access Entrances",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zdS1YdUg4MU1wcklYV3pGQ096M3d4RGdEemN3ckxpaHMwX2lzUGJBWFd0QnRUV1B5UG5EY3ByOWFhZC1lSmVEaW5KdEEyMUV0cm5B?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "eu.36kr.com",
+      "theme": "regulation",
+      "published": "2026-11-18T04:11:06+00:00",
+      "summary": "Doubao Work, WorkBuddy & Qianwen Office Compete on the Same AI Office Track: Background-Hidden Large Models with Foreground-Shifted Access Entrances eu.36kr.com",
       "excerpt": ""
     },
     {
@@ -403,6 +428,16 @@
       "theme": "labs",
       "published": "2026-11-18T00:07:00+00:00",
       "summary": "Anthropic Claude down: Why it said it was unable to authenticate code Mashable",
+      "excerpt": ""
+    },
+    {
+      "title": "European firms grapple with regulatory uncertainty amid AI takeup",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSjlmOV9QYXItRnJwQk1uaXhYbGhRQVZlam1tYkgxZXh4bkxMSl91ZVVwT0NlRkNrRnFEUmF2ZEg4U1RVQWU4djFPWWFSQk1JTXhLakt1cWl5cTdBaTRYcUNzMUg3dkk4ajUzQzNlVm9MOW4yQnMwa09nZ1k5SWZLYWx0QXAxeTJ3WTJPUzBzTlRLLVN3VHhPMllUYXdCWWh4OXc?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "Personnel Today",
+      "theme": "regulation",
+      "published": "2026-11-18T00:02:06+00:00",
+      "summary": "European firms grapple with regulatory uncertainty amid AI takeup Personnel Today",
       "excerpt": ""
     },
     {
@@ -504,6 +539,16 @@
       "published": "2026-11-17T22:29:05+00:00",
       "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
       "excerpt": "Anthropic on Tuesday disclosed more details about the biggest investment agreements with major cloud providers Amazon and Google. While we already knew that Amazon stood to make a killing on its Anthropic investments from the IPO, Anthropic revealed that Amazon’s total stake will come in at just shy of 15% (14.7% to be exact). Even more interesting is that Amazon could have, if it wished, owned an even bigger share of the company. When Amazon invested billions in Anthropic in 2023 and 2024 (long before Claude Code took the enterprise world by storm, back in the days when Anthropic looked like it would forever be a speck in OpenAI’s shadow), the cloud giant obtained promissory notes that could convert into equity. These notes carry conversion prices of about $2.09 or $5.05 per share, depending on the year of investment. Amazon has opted to convert a chunk of them as part of the IPO into a special class of non-voting shares that will give it about 15% ownership. (The shares can receive dividends and convert to standard voting Class A shares when sold, the filing says.) But it has also opted to hold on to billions of dollars’ worth of the notes for now. If it converted them all right now, it would own just under 24% of Anthropic (23.8% to be precise). Google, meanwhile, will own just under 14% (13.7%), also in non-voting shares, which come from the conversion of notes, as well as the “private placement” sale of shares as part of this IPO. A group of major tech companies (AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC Partners) have agreed to buy $26 billion worth of this non-voting stock. Google and Nvidia each agreed to buy $10 billion worth. So while a lot of investors stand to make billions of dollars in Anthropic’s IPO, Amazon is one of the biggest winners,"
+    },
+    {
+      "title": "North Carolina Reorganizes IT Leadership, Adds Dedicated AI Office",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkRQbnhHNm9RLVZiZll5dERjd3VqdHNxbmNzMGRHVUZZS2NkQ1AxanEzcThfakJsS0tnSzJfbkIyNlNxV0h1M3puOUM1N3VWcHB5UHBlU0hCTVUxVkVKS3NBWXJ4Z0Vnb2V0SlF5TmxaMEdkbUZJSktXYnZoYlM4cl9tZDY3RUEwUVQ1SFdYaFJCbXRkdlJjZGZKUkJSYzEz?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "GovTech",
+      "theme": "regulation",
+      "published": "2026-11-17T22:28:34+00:00",
+      "summary": "North Carolina Reorganizes IT Leadership, Adds Dedicated AI Office GovTech",
+      "excerpt": ""
     },
     {
       "title": "SEC reportedly investigating Nvidia amid Huang exit",
@@ -753,7 +798,7 @@
       "theme": "labs",
       "published": "2026-11-17T17:45:00+00:00",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "excerpt": ""
+      "excerpt": "We’re introducing GPT‑6.2 Astra , our new frontier model for your hardest projects, and GPT‑6.2 Sol , our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read less like AI, and more closely follow the templates you provide and the conventions of your field. It writes cleaner code and builds frontends that look and work better, particularly for websites, gaming, and 3D design. On Agents’ Last Exam, which tests multistep professional work, GPT‑6.2 Astra sets a new high, scoring 5.2 points higher than GPT‑6 Astra at less than a third of the cost, and 5.5 points ahead of Claude Fable 5.2 at just 5% of the cost. Agents’ Last Exam evaluates models on long-horizon professional workflows. Its leaderboard results for Fable 5.2 exclude nine tasks that used a fallback model. We believe GPT-6.2 Astra is the best model in the world for scientists. It sets a new high on Terminal-Bench-Science 0.1, which tests how well models can carry out scientific work in a terminal. GPT-6.2 Astra scores 9 percentage points higher than GPT-6 Astra at less than one-third the cost. It also sets a new high on the Vals Science Index, which asks models to interpret real biological data and run experiments to infer how a simulated system works. In the API, GPT‑6.2 Astra’s input and output token prices are 20% lower than GPT‑6 Astra’s, with a 60% discount on cached input ($8 for input, $0.40 for cached input, and $40 for output, all per million tokens). GPT‑6.2 Sol keeps"
     },
     {
       "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
@@ -984,6 +1029,16 @@
       "published": "2026-11-17T14:57:02+00:00",
       "summary": "Isomorphic Labs has raised $5 billion, just six months after a $2.1 billion round. Alphabet's AI drug discovery company, led by Demis Hassabis, plans to use the funding to push its drug pipeline toward clinical trials. The company has no approved drugs yet. The article Isomorphic Labs raises $5 billion in its second mega-round within six months appeared first on The Decoder .",
       "excerpt": "Alphabet's AI drug discovery company Isomorphic Labs has raised $5 billion, its second billion-dollar round in six months. Greenoaks and Sequoia Capital co-led the round, joined by new backer Andreessen Horowitz along with Alphabet and all existing investors. The company had already raised $2.1 billion back in May 2026. The money will go toward advancing its in-house platform IsoDDE (Isomorphic Drug Design Engine) and pushing its drug pipeline toward clinical trials. IsoDDE goes beyond AlphaFold 3, according to the company founded in 2021, and aims to better predict drug binding and docking sites. Isomorphic Labs works with Novartis, Eli Lilly, and Johnson & Johnson but has no approved drug to show for it yet. The company is led by Demis Hassabis, who stepped down from day-to-day leadership of Google Deepmind in August 2026 and now serves as Alphabet's Chief Scientist. Hassabis won the 2024 Nobel Prize in Chemistry alongside John Jumper for their work on AlphaFold. Deepmind's original AlphaFold team was disbanded in July 2026 . Many researchers moved to Isomorphic Labs or were reassigned to other projects. Nearly a quarter left Deepmind entirely. Deepmind still shipped AlphaGenome 2 in early November 2026, which predicts how DNA variants affect gene activity in specific cell types. Subscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section."
+    },
+    {
+      "title": "Onpoint and Vivo Care merge to link AI office tools with home care",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX09KM1hJLWZiZ2hTZWVBSWFQTW0tV25oaEUtZDRvTmsxU1ZBcjRKM0FZOS10V2hlZjh4MF9rREZYdVdGZS01T0xUTEkyeFZxSUF1MWJyZFRmaVZLRmZZNGFzVHFKM2NROHQ4LTNKTy1wcHdtZlBmUjNtc0g2WkFHZ1ZLX1ZkQXVGOTFOZFF5LU96YUd3UFQtbEQ3R2Q0cVN5SFE?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "Dealroom",
+      "theme": "regulation",
+      "published": "2026-11-17T14:54:28+00:00",
+      "summary": "Onpoint and Vivo Care merge to link AI office tools with home care Dealroom",
+      "excerpt": ""
     },
     {
       "title": "California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face",
@@ -1466,16 +1521,6 @@
       "excerpt": "Help every seller shorten the sales cycle, from finding the right accounts to following through on customer commitments, with a new Sales experience and over 30 new and expanded partner plugins. We’re introducing ChatGPT for Sales to help every sales team understand customers better, spend less time on busywork, and close more deals. It includes our new Sales plugin with dedicated skills for sellers, and more than 30 new and enhanced partner plugins in ChatGPT, so you can use information from the tools your team already relies on to prepare for calls, tailor proposals, and follow up faster. The new Sales plugin from OpenAI gives you ready-to-use workflows for everyday sales work, from deciding which accounts to pursue to preparing for a call and drafting the follow-up. Sales teams work best when everyone has a shared understanding of the customer. Which accounts are worth pursuing? What does a buyer need to move forward? Which deals need attention, and why? The answers often sit across teammates, prospecting tools, customer calls, and the CRM. Bringing that information together gives teams more time to make informed decisions and follow through on customer commitments. That starts with the work you do every day. ChatGPT for Sales brings your tools, customer context, and sales workflows into one place. It also gives your team access to partner plugins, so ChatGPT can use customer context from your existing tools to help move opportunities forward. Choose the partner plugins that fit your sales process. Create content and equip sellers . Learn your sales process and the latest product updates with Confluence, Guru, and Seismic. Rehearse pitches and practice handling objections with ChatGPT Voice. Build tailored presentations with ChatGPT Slides, Gamma, Figma, or Canva, or"
     },
     {
-      "title": "What to Know Ahead of Anthropic’s IPO This Week (NASDAQ: ANT)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNFNBR2Q0SFRtdTdYRW90WUJnX0dDSGhEVHhlSTdRSjBVX3JzQ1ltbEtFb3VuakNSY0dLSlJrei1iS3dPTm1ZWGk2M0hKTHJvdC1PbmhPZFE3dDZNcE1CU252cG0tWUtNdXkyc05OazVkbXFxM01LSldyc1B3MjJlQ0hDSi1MNTQ?oc=5",
-      "source": "GNews - Anthropic",
-      "publisher": "NerdWallet",
-      "theme": "labs",
-      "published": "2026-11-17T08:00:00+00:00",
-      "summary": "What to Know Ahead of Anthropic’s IPO This Week (NASDAQ: ANT) NerdWallet",
-      "excerpt": ""
-    },
-    {
       "title": "OVHcloud dévoile Olala mini, son premier LLM : des débits, pas de scores",
       "url": "https://www.actuia.com/actualite/ovhcloud-devoile-olala-mini-son-premier-llm-des-debits-pas-de-scores/",
       "source": "ActuIA",
@@ -1504,6 +1549,16 @@
       "published": "2026-11-17T07:26:09+00:00",
       "summary": "Quatre jours après la démission sans motif de Jensen Huang, le département américain du Commerce a publié, le 16 novembre 2026, une règle provisoire qui soumet à licence les puces avancées destinées aux centres de données fournissant plus de 12 millions de TPP à des groupes chinois, ainsi que toute livraison vers Singapour, la Malaisie, l'Indonésie, la Thaïlande et le Brésil. Elle vise le canal le mieux documenté du dossier Megaspeed, la location de GPU Nvidia par Alibaba en Malaisie, mais sa sanction porte sur les livraisons futures, pas sur les puces installées. Aucune preuve publique n'étab",
       "excerpt": "Quatre jours après le départ de Jensen Huang, Washington a changé la règle. Le 16 novembre 2026, le BIS, qui administre les contrôles à l'exportation au département du Commerce, a publié une règle provisoire qui soumet à licence l'envoi de puces d'IA avancées vers tout centre de données qui fournit, au-delà d'un seuil, de la puissance de calcul à des entreprises dont la maison mère est en Chine. Le même texte impose une licence pour Singapour, la Malaisie, l'Indonésie, la Thaïlande et le Brésil. Il vise le type de montage décrit dans le dossier Megaspeed, du nom de l'opérateur singapourien de centres de données visé par les enquêtes : des GPU Nvidia installés en Malaisie et loués à Alibaba. Jusqu'ici, le droit américain regardait où allaient les puces. Le 15 janvier 2026, le BIS avait ouvert l'examen au cas par cas des licences H200 vers la Chine, à condition notamment que le destinataire chinois accepte de vérifier ses propres clients et de bloquer l'accès distant interdit. Cette règle visait les exportations directes : un opérateur malaisien louant des GPU à un groupe chinois n'y était pas soumis. Le texte qui devait couvrir ce canal, le Remote Access Security Act, adopté par la Chambre le 12 janvier par 369 voix contre 22 , attend toujours le Sénat. En août, le Commerce avait remisé un projet de règle limitant les ventes vers la Malaisie et la Thaïlande, d'après Bloomberg. La règle provisoire du 16 novembre passe par la voie réglementaire. Une licence devient nécessaire pour exporter, réexporter ou transférer des puces avancées quand l'exportateur sait qu'elles iront dans un centre de données donnant accès à plus de 12 millions de TPP, l'unité de puissance de calcul des contrôles américains, à des sociétés dont le siège ou la maison mère se trouve à Macao ou dans un "
+    },
+    {
+      "title": "Bruegel proposes a global AI incident-reporting pact",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY3FiRERkZlc5TnZEZ2dyb21jRjRiTmtKUWJyV2NxbnNIb0lFaktMR3l3UU0xQVp1b1BYV2dxanBtdGFZTHFiMUFuM2luV2lSTmF0d3k4aDVtaklybkxKa2paODVaSDNUYzA4LWtNVHhnWFplNDBVSFMtSkpfT0lwdEVGSW8?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "NeoTeo",
+      "theme": "regulation",
+      "published": "2026-11-17T07:16:11+00:00",
+      "summary": "Bruegel proposes a global AI incident-reporting pact NeoTeo",
+      "excerpt": ""
     },
     {
       "title": "Pacte mondial IA : le projet de signalement de Bruegel",
@@ -1553,6 +1608,16 @@
       "theme": "france",
       "published": "2026-11-17T05:20:00+00:00",
       "summary": "Airbus décline son accord avec Mistral AI dans la cybersécurité La Lettre",
+      "excerpt": ""
+    },
+    {
+      "title": "The Second Round of AI Office Warfare Officially Kicks Off: Key Trends, Impacts and Industry Breakthroughs",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZU2hKY3BCNzFvd3o3Ty00cl9OdnE1VjhDTnlTc3hFUy1kSVpOV25GaW5ocmlpMk5zRUoxeHJZbWRfM04zSGtFZTNsMnk2SEtWZHBz?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "36Kr",
+      "theme": "regulation",
+      "published": "2026-11-17T04:51:09+00:00",
+      "summary": "The Second Round of AI Office Warfare Officially Kicks Off: Key Trends, Impacts and Industry Breakthroughs 36Kr",
       "excerpt": ""
     },
     {
@@ -1613,7 +1678,7 @@
       "theme": "labs",
       "published": "2026-11-17T00:00:00+00:00",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "excerpt": "Today we’re launching OpenAI for Chile, a partnership with the Government of Chile, led by the Ministry of Science, Technology, Knowledge and Innovation, to support responsible AI adoption in public administration, build civil servants’ skills and help local startups develop useful AI applications. The partnership builds on Chile’s National AI Policy and action plan ⁠ (opens in a new window) , which support talent development, research and responsible adoption. The Memorandum of Understanding was signed on the sidelines of Semafor’s Silicon Valley & The World conference in California, with Minister Ximena Lincolao leading the agreement on behalf of Chile. The partnership is supported by the U.S. Department of Commerce’s American SI Exports Program ⁠ (opens in a new window) , of which OpenAI is an anchor partner, helping Chile advance its own AI ambitions through public sector innovation, skills development, and entrepreneurship. The partnership will explore technology adoption in the ministry’s administrative processes, including potential support from OpenAI on adopting new models, alongside advice and training for ministry personnel. For civil servants, the partnership will explore practical AI literacy, upskilling and reskilling tailored to their roles. Activities could include workshops and a train-the-trainer approach, covering effective use of AI tools, checking outputs, protecting sensitive information and maintaining human oversight. To support Chile’s AI startup and innovation ecosystem, the partners will explore access to relevant OpenAI programs and technology, practical learning, technical guidance and mentorship. Cooperation could also connect entrepreneurs with public institutions, universities and other local partners to develop applications that support "
+      "excerpt": ""
     },
     {
       "title": "llm 0.37.3",
@@ -1713,7 +1778,7 @@
       "theme": "emergents",
       "published": "2026-11-16T20:29:48+00:00",
       "summary": "Hi HN! We’re Arsh and Max, founders of Axonnic ( https://axonnic.com ). We’ve developed a forearm sleeve that reads muscle activity to decode finger movements and estimate fingertip force, while leaving the hands bare. It’s used to record human movement and generate training data for dextrous robots. Here’s a demo video: https://youtube.com/shorts/xBrocTc9cfA We’ve found that electromyography (EMG) is a much better way to train robots than by video alone because video only captures movement, not muscle activity or the effort behind the movement. A useful signal can be present even when the han",
-      "excerpt": ""
+      "excerpt": "We’ve found that electromyography (EMG) is a much better way to train robots than by video alone because video only captures movement, not muscle activity or the effort behind the movement. A useful signal can be present even when the hand barely moves; just maintaining a grip involves muscle activation. The subtle muscle movements that can barely be picked up in video are the most important details for activities like sewing and delicate assembly. The sleeve has 64 channels of surface electromyography, or EMG. Electrodes on the skin detect electrical activity from muscles in the forearm. We distribute sensors across the forearm so as to not overfit to one muscle group. We synchronize EMG with hand tracking to train a model that predicts finger joint angles, then we run the decoder solely from EMG, adding in fingertip force estimates that have been calibrated from finger presses on force sensors. When the user takes the sleeve off then puts it back on again, the electrode positions change, so we run tests over separate wearings. In one case, we ran a 215-second recording, four days after training, without any recalibration, and compared the results with Apple Vision Pro hand tracking. The result was just 6.9° error across 20 joint angles. We’ve published the measurements and evaluation details here: https://axonnic.com/benchmarks . We faced many challenges doing recordings in factories, including wireless interference and unreliable off-the-shelf hardware. This led to some bad recordings and the need to repeat data collection. For that reason, we’re developing our own electronics that use a wired PCB design that will eliminate interference and timing inconsistencies. Axonnic grew out of Max's EMG research at Oxford. We looked at using the technology for computer control"
     },
     {
       "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
@@ -1863,7 +1928,7 @@
       "theme": "labs",
       "published": "2026-11-16T17:00:00+00:00",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "excerpt": "We’re expanding the ChatGPT for Academic Researchers program to give up to 200,000 researchers worldwide free access to ChatGPT. The program began as a pilot in July. Applications for the next round open Monday, November 23. We’ll award 50,000 new grants to eligible researchers on a first-come, first-served basis. Each grant gives the recipient and up to two collaborators free access to ChatGPT Plus. If you’re already on the waitlist and qualify, we’ll email you before applications open with instructions for activating your account. Participants can use OpenAI’s frontier models and get training on how to use ChatGPT in their research. By default, we don’t use data shared through the program to train our models. Waitlist signups by country or territory as of November 12, 2026. Darker colors indicate more signups on a logarithmic scale. 20,000 researchers in 33 countries have joined the program since the pilot began in July. Shuqi Li, a researcher at Brigham and Women’s Hospital and Harvard Medical School, looks for new drug targets that could ultimately shorten tuberculosis treatment. He is exploring whether ChatGPT can help link lab and patient data to speed up antibiotic development. Arthur Porto, assistant curator of AI biodiversity at the Florida Museum of Natural History, and his team uses AI tools to turn photographs of museum specimens into searchable databases. They also created a 3D model of a butterfly whose wings change color as you turn it, just like the real specimen. We’re also publishing Science at the Frontier: How Scientists Use ChatGPT , new research from our Economic Research team examining how more than 1,800 researchers used ChatGPT during the program’s summer pilot. Surveyed participants estimated that, without AI, the same research work at the same"
+      "excerpt": ""
     },
     {
       "title": "Strengthening the fight against online child sexual abuse with new tools and support",
@@ -1874,6 +1939,16 @@
       "published": "2026-11-16T17:00:00+00:00",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse. Today, we’re releasing a new tool to detect child sexual abuse material (CSAM), interventions that interrupt harmful behavior and point people toward help, practical resources for developers, and support for child-safety law enforcement investigators. These efforts build on our Child Safety Blueprint and our ongoing work to detect, block, and report abuse . For parents, the goal is simple: technology that helps keep children safe, with people in control. It is well ⁠ (opens in a new window) established ⁠ (opens in a new window) that combatting online child predators requires coordination across many organizations. Individual companies like OpenAI have a responsibility to prevent our technology from being exploited by predators to harm children, and we also must work together with the broader industry, child safety organizations and law enforcement to advance our collective efforts to protect children online. We’re building on our current protections with the release of a new image classifier that can detect potential CSAM, including AI-generated material. This new classifier looks for visual signs of abuse, helping teams identify novel images that may not have been seen before. It returns scores that help reviewers decide which images may need attention first. This is the first CSAM classifier with broad availability that has a specific signal on indicating if CSAM may be AI generated. Our teams trained, evaluated, and designed the classifier for real-world deployment with assistance from the National Center for Missing and Exploited Children (NCMEC) ⁠ (opens in a new window) , a nonprofit that operates the CyberTipline, a centralized repo"
+    },
+    {
+      "title": "Irish oversight bodies gained new skills to supervise Artificial Intelligence (AI) systems from equality perspectives",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPV2l3S2RwTWFDYVpwdnpTSzljZXRBXzJMdS1BTmNkVFk2MGNyd250M0xDdjFmbzM0TUJ1cmZuRjIyWlcxQlFrek9zM2lnSy1xY3dqRHhTR3ppam9QeUhIbTFUaHRaNXhMUmhQZlRiODhmdXF2VkxpR1VFRFhGWTdIQ1VIY2tncGpyUS1Qa1JwQ19ybm8zQVR2emRzMVZtVnhTYUkwSkoxMUdybHJpU1lrNXBLMHR5NFR2dFpsTGpubGRTV3VmVm1BU2dzVGNfLW1mU21ycGJ3c2JyV2pkNlljeTYzNldnVnlRQ1M2WWlXOFpPUTBwR1NVdXhycURqZE9IZWQzQUJya20?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "www.coe.int",
+      "theme": "regulation",
+      "published": "2026-11-16T16:16:45+00:00",
+      "summary": "Irish oversight bodies gained new skills to supervise Artificial Intelligence (AI) systems from equality perspectives www.coe.int",
+      "excerpt": ""
     },
     {
       "title": "Centres de données IA : la viabilité des projets en mer reste incertaine",
@@ -2233,6 +2308,16 @@
       "theme": "labs",
       "published": "2026-11-16T09:00:00+00:00",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "excerpt": "This news was originally shared by LVMH’s Media Division and can be read here ⁠ (opens in a new window) . Paris, 16 November 2026 —LVMH Group’s Media Division and OpenAI announce the signing of a strategic agreement to support new uses of artificial intelligence across all the division’s publications and make their journalism more accessible through ChatGPT. The agreement includes the deployment of OpenAI tools and ChatGPT Enterprise to teams across the media division, enabling them to develop AI applications tailored to their day-to-day work. Their shared ambition is to empower teams across the media division to experiment with and develop practical uses of AI that support journalism and high-quality reporting. Artificial intelligence is a powerful tool that, when put to work in newsrooms, enables journalists to focus on the core of their profession: investigating, analysing and writing. Teams will be able to explore applications such as document research, document comparison and preliminary translation. The goal is to enable them to devote more time to investigative reporting, analysis and reporting in the field. In addition, in an increasingly crowded information landscape, personalisation has become a major priority. Artificial intelligence is an essential tool for developing and delivering products and services that meet the needs of customers, readers and advertisers alike, helping to attract and retain them and grow revenue across the publications. This partnership is a company-wide initiative that also enhances the presence of content from LVMH Group’s Media Division in ChatGPT, providing summaries and excerpts in response to relevant user questions, identifying their sources and including direct links to the original articles. The partnership will extend across"
+    },
+    {
+      "title": "UK Government Has ‘No Plans’ To Adopt EU AI Rules",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4cDAzZUloOFJybHFVeEprYTNwcUdTQ3VjYWFJNU5HYkQ4VXdwVjRRVEV0Zm9qZFpfR0dwblFTTTdKZVBCTTF3S0ZCWmNuTGMzSlE2c3BDLVVYV2FrX0RZ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "Silicon UK",
+      "theme": "regulation",
+      "published": "2026-11-16T08:30:50+00:00",
+      "summary": "UK Government Has ‘No Plans’ To Adopt EU AI Rules Silicon UK",
       "excerpt": ""
     },
     {
@@ -2263,7 +2348,7 @@
       "theme": "labs",
       "published": "2026-11-16T08:00:00+00:00",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "excerpt": "We have signed agreements with four independent assessors—Apollo Research, METR, Transluce, and Goodfire—for our first phase of embedded assessments. As AI capabilities advance rapidly and the potential risks grow, public reporting from independent assessments can give people a clearer view of how labs are evaluating and managing those risks. Embedded assessments give independent experts deep access to a lab’s internal models and systems to assess model alignment and the effectiveness of safeguards over an extended period of time, especially where relevant to our safety cases. Based on what each evaluation needs, assessors receive access to some of the same internal resources our researchers use, including model checkpoints, source code, training and evaluation data, monitoring systems, technical documentation, and discussions with the researchers and engineers responsible for the work. This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated. Our initial assessments focus on alignment and safeguards for models during training and internal use, complementing our safety cases . They build on our priorities and principles for third party assessments and years of work with third party evaluators , including a recent pilot assessment of our internal monitoring systems ⁠ (opens in a new window) with deep internal access and an investigation of the Hugging Face incident ⁠ (opens in a new window) . We’ll use what we learn to deepen our work with independent experts in the coming months. These efforts also support our commitments under the White House Accord on Super Intelligence, where we agreed to independent assessments of our safety controls. These collaborations can contribute to stronger shared"
+      "excerpt": ""
     },
     {
       "title": "Nvidia : Jensen Huang envisage un retour à la direction",
@@ -2303,7 +2388,7 @@
       "theme": "labs",
       "published": "2026-11-16T06:00:00+00:00",
       "summary": "",
-      "excerpt": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer needs may be in a patient’s medical record, but a team member still needs to retrieve it and enter it into a separate portal to complete an authorization request. Computer-use agents carry out multi-step workflows by clicking, typing, and moving between applications. In healthcare, this enables AI to help with repetitive workflows in the software teams already use. Today, we’re sharing new results measuring model performance, safety, and cost in clinical and administrative workflows. We’re also sharing the ways we’re working with leading healthcare organizations like Abridge, Ambience, Cigna Healthcare, and CVS Health to advance and apply computer use, across authorization requests, referrals, discharge planning, and outreach between visits. Healthcare teams, developers, and individual clinicians can access these capabilities today through the OpenAI API, ChatGPT for Healthcare, and ChatGPT for Clinicians. Organizations can support HIPAA-compliant workflows, configure approvals and agent access, and record audit logs for secure deployments. To show how a computer-use agent can help a clinician and an authorization specialist work on the same MRI request, we built a demo using synthetic patient data. A patient messages their clinician about lower back pain. A computer-use agent reviews the patient’s visit notes, physical therapy records, and prior imaging in the EHR. It drafts an MRI order, an encounter note, and a reply to the patient for the clinician to review. The agent then uses the same records to prepare a prior authorization request in the insurer’s portal for an auth"
+      "excerpt": ""
     },
     {
       "title": "More ways to move care forward with ChatGPT for Healthcare",
@@ -2363,7 +2448,7 @@
       "theme": "labs",
       "published": "2026-11-16T00:00:00+00:00",
       "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
-      "excerpt": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work. The day after Holiday Extras ⁠ (opens in a new window) launched a new feature in its app, Liam Thompson, the company’s VP of AI Innovation, got a report on how it was performing. He hadn’t asked for one. His dot, which he calls Beast, noticed the launch, pulled data from Google BigQuery via the ChatGPT plugin, and brought him the results. Holiday Extras is a UK travel technology company that helps travelers book the practicalities around a trip, from airport parking and hotels to lounges and transfers. Its promise is simple: less hassle, more holiday. The promise of simplicity extends to employees too. ChatGPT Enterprise gives them a foundation for using AI, Codex helps them turn their expertise into working software and better customer experiences, and dots ⁠ simplify all the work in between. Liam and his colleague David Lee, Director of Innovation & Growth, shared how they use their dots as assistants and thought partners: to talk through what’s ahead, catch issues they might miss, and do work that would otherwise wait until they got back to their desks. David named his dot Brian and he calls him on his morning commute. They talk through the meetings ahead, and David can ask Brian to run a report using connected company data. “By the time I get into the office and sit at my desk, the report is there and it’s ready to go,” he says. When some API keys needed to be retired, Brian flagged the issue, went back through David’s email, and surfaced a list of people who might be affected. David could see who might need a heads-up without having to reconstruct it from old threads. “My dot is my orchestrator of everything,” says Liam. Beast reminds hi"
+      "excerpt": ""
     },
     {
       "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
@@ -2443,7 +2528,7 @@
       "theme": "labs",
       "published": "2026-11-15T22:00:01+00:00",
       "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "excerpt": "In the first guest post on our science blog , physicist Nathaniel Craig, a visiting scientist at OpenAI, describes how he worked with GPT‑6 Astra on a candidate lattice definition of the Standard Model. Craig leads the particle theory group at the University of California, Santa Barbara, and is a permanent member of its Kavli Institute for Theoretical Physics. The Standard Model of particle physics is an extraordinarily successful theory of nature, describing the known elementary particles and three of the four fundamental forces—the strong force, the weak force, and electromagnetism. The success of the theory rests on outstanding agreement between theoretical calculations and experiments across eighteen orders of magnitude, from the low energies of hydrogen’s 21-centimeter radio emission to the high energies of collisions at the Large Hadron Collider. And yet for all of its successes over the more than fifty years of its existence, a foundational problem remains: how to give the full theory a nonperturbative definition, one that does not rely on treating its interactions as small corrections. In an October preprint ⁠ (opens in a new window) prepared with the aid of GPT‑6 Astra, I proposed a candidate definition on a lattice—a grid representing spacetime. I had a strategy for tackling this problem, but had not been able to prove that it worked in all the cases it needed to cover. Astra helped turn that strategy into a construction and took the lead in developing the detailed proof. To explain what we did, it helps to start with what is missing from our existing description of the Standard Model. What does it mean to say that we lack a definition of the Standard Model? Quantum mechanics and special relativity tell us how the particles and forces of the Standard Model int"
+      "excerpt": ""
     },
     {
       "title": "Our new blog for science",
@@ -2473,6 +2558,16 @@
       "theme": "entreprise",
       "published": "2026-11-15T16:44:06+00:00",
       "summary": "McDonald's veut confier ses commandes au volant à l'intelligence artificielle : Archy prépare son déploiement à grande échelle en 2027 Baron Mag",
+      "excerpt": ""
+    },
+    {
+      "title": "EU AI Act Article 50 guidelines published",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjdmk2M0Q3MmlJR0drNmRSRnd6UlhHSGQwNlp6cDdxOWs4eFhhYnZ4dXllUzFlWkhEQ3RPT1NKM3EwU3lDeDRFWWtYZWpiTXFQY2JZaDdabXNfUC1UM1E5cnpIMGhKQ3pNUmZJZVBmSE8yWHY4SUVpNWpxUkw?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "CASRAI",
+      "theme": "regulation",
+      "published": "2026-11-15T13:13:14+00:00",
+      "summary": "EU AI Act Article 50 guidelines published CASRAI",
       "excerpt": ""
     },
     {
@@ -2563,6 +2658,26 @@
       "theme": "labs",
       "published": "2026-11-14T16:50:52+00:00",
       "summary": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 The Decoder",
+      "excerpt": ""
+    },
+    {
+      "title": "Wavestone’s EU AI Office Role Turns Regulation Into Revenue",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWmJIQ3NzMWhYWm1TdjNGazFKUE12SmJXZ1pMYjZvcmQ2am5HOU9TYS1GVWRMNklHR205VEdTczRaU2k4aDBaTU5ENGFrUHg5M3RlbFpGU1pwNF9CTzJYUHVSeXZ6MVl6eEZwOVJieWRhR1diOFRfd3AxZkhSS3NFQmpkNDZrcFNaakxYaERRS3lFUzhWcVF2cw?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "The Futurum Group",
+      "theme": "regulation",
+      "published": "2026-11-14T15:10:38+00:00",
+      "summary": "Wavestone’s EU AI Office Role Turns Regulation Into Revenue The Futurum Group",
+      "excerpt": ""
+    },
+    {
+      "title": "Drillbit raises $4.4M to put AI office workers inside home-services firms",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGZITjgtcEVPZVZ3RnpBdVhSQjFGbjZJdTRYQ3VzYVd1dEppZ01zLTFoOWsxYWZxQ0FBT2lOWGVzSjJocTlaaUx4SkVibFMxLXZsT3NKaERQU3ItcEZGSDVfV2pEM2ljekxJUDVaamE1cWhtUlVfQ0lsa3diNzdCU3hTcnJncktNa2R6N0dhNF9ncVlrYnYxcE9BSEh4QmYteW1YVU1qVUJxQQ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "Dealroom",
+      "theme": "regulation",
+      "published": "2026-11-14T10:52:06+00:00",
+      "summary": "Drillbit raises $4.4M to put AI office workers inside home-services firms Dealroom",
       "excerpt": ""
     },
     {
@@ -2673,6 +2788,16 @@
       "theme": "agents",
       "published": "2026-11-13T22:19:23+00:00",
       "summary": "10 reasons enterprise AI success hinges on platform teams in 2027 TechTarget",
+      "excerpt": ""
+    },
+    {
+      "title": "Pentagon renames its chief AI office the Super Intelligence Office",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2NRTlNUSUI5aU80RnBId3o4WjgwVDZoa0VyWngycmp2RTBYam00STBfS1ZOT1doY0pOZ2xhTmp1dXpPc1NkdXk5R0pCUUcwV0xUOFYxR0hRVVdEbkQzTkNRTUVVaDZfcTlvWjhLSlp4NXFqTkhod2dRVUZxaHVRd3ZqMndDblh0aVB5M05IY3k?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "MLQ.ai",
+      "theme": "regulation",
+      "published": "2026-11-13T21:42:10+00:00",
+      "summary": "Pentagon renames its chief AI office the Super Intelligence Office MLQ.ai",
       "excerpt": ""
     },
     {
@@ -2806,6 +2931,16 @@
       "excerpt": ""
     },
     {
+      "title": "Pentagon renames AI office the Superintelligence Office — Breaking Defense",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWUVNQ1QwS1habGRaY3U0MW0yREVZN3d5ZUYxTUJLRmJmRHdXOWVOalRyR1NXOUFNaFBVS29EMUF4X2YxeGNHbWJRZDRsd2NVNmNYcnRuMUZOQ2g4U0Z2VkJsaGE0dXJIN2x4Z1NtaHo4ZGhVM2dyckI0Y2w1U1ZKSDVvV0VqVXIwVjhnR3pGZVpmTWY0ZVo2djk0ZzNJZnFqZTE3VEZB?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "UA.NEWS",
+      "theme": "regulation",
+      "published": "2026-11-13T17:34:31+00:00",
+      "summary": "Pentagon renames AI office the Superintelligence Office — Breaking Defense UA.NEWS",
+      "excerpt": ""
+    },
+    {
       "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
       "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "source": "Ars Technica AI",
@@ -2843,6 +2978,16 @@
       "theme": "france",
       "published": "2026-11-13T16:47:51+00:00",
       "summary": "«Je déteste l’idée que l’UE aurait perdu la course de l’IA»: à Dublin, l’intelligence artificielle s’invite pour la première fois à un sommet européen Le Temps",
+      "excerpt": ""
+    },
+    {
+      "title": "The EU AI Act: What it really means for organisations on the ground",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSl9lSXFhYnlna05VeWNrV3o0TDRiM3BtSWM5T0VkWWVBODZEWTlDMFZJTnBhcWNSZDlzeXh1cjE4V19QQkJxSU1Rd3BOd0lQV0xpNXFiak54Q1pqY0liRE5BRkYxR09NeFJUbU1lMTNvdnd6bUc4RktETkNtQms3Wk1rWlFlZW1SUWVKZzYzWmY1Zw?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "HR News",
+      "theme": "regulation",
+      "published": "2026-11-13T16:18:36+00:00",
+      "summary": "The EU AI Act: What it really means for organisations on the ground HR News",
       "excerpt": ""
     },
     {
@@ -3026,6 +3171,16 @@
       "excerpt": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports that NVIDIA’s board was preparing to replace Jensen Huang following an NYT report of an affair with an accused Chinese spy . Following news of a second affair , today NVIDIA announced his resignation (correlation/causation is debatable here), presumably forced by the board: There is also some discussion of the extent that Chinese models can demonstrably be shown to be trained on Blackwell GPUs that they should not have access to… though the scale is debated . After 33 years, Jensen Huang has stepped down as CEO, president and boardmember. Colette Kress, NVIDIA’s CFO since 2013, will keep that job while serving as interim CEO… leading into what will presumably the best attended earnings call in the history of $NVDA next week. AI News for 11/11/2026-11/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! Launch : Google DeepMind released Gemini 4 Hydrogen, a speed-first model positioned alongside Carbon and Argon. Google says it completes tasks 2.5x faster than Gemini 3.8 Flash and edges Argon on the Artificial Analysis Intelligence Index, 51 vs 50 at default thinking and 54 at the new xhigh level ( DeepMind , Koray Kavukcuoglu ). Specs and pricing : The model offers four thinking levels (low, medium, high and xhigh) and a 1M context window. It costs $1.50/$7.50 per million input/output tokens, with a 95% discount on cached input ( Phi"
     },
     {
+      "title": "Top 10 Best AI Governance (AI TRiSM) Platforms in 2026 [Ranked & Scored]",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1paFBBSTMxMnVnTFQ2ZGRxb3hwaHJETlVGZHc3dE9pMllBY2xDbVhPLUdfN2poQmdBQ0o1aVZ0d280OHd1eEFmdnRUazJkUnlUMlY4NjNiRzBaU05GejB5NS0zU0R2TmMxclFZ0gFwQVVfeXFMTzRmZ05CWllkWmVwYzRLMURwdnZtMVJsRHRkU0t1TGhYN3ZsdThkeWlLM1RSR1dYTFZ4S3FMMERRdC14TWxhQU10ZkJvUjh5NUpmQkdFR3FQclc2Wl8xdTN5emZtVjdiUFN4S1ctZUpsWg?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "CyberSecurityNews",
+      "theme": "regulation",
+      "published": "2026-11-13T08:34:06+00:00",
+      "summary": "Top 10 Best AI Governance (AI TRiSM) Platforms in 2026 [Ranked & Scored] CyberSecurityNews",
+      "excerpt": ""
+    },
+    {
       "title": "Étiqueter ce que l'IA a produit : la Commission publie au Journal officiel son mode de lecture de l'AI Act — photos de produits, textes du site, dialogueur, ce qu'une entreprise de la région doit signaler",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ2dUV2xCZWZ6XzY0cFBPbnlBWnozTHBxamg1NDd0S2Z4QTZvbkRZLWpsOEdtU0xDQXJINDQtNW5Sa05fU2pUT29qWDI4X3FoNDY0Sjd5eGlFNF9XWVNjS1RNRU9iMlV5ZHZITFNzVjZxX2sxdTJrSEVfWm5vYWd2cWhNeXB3ODZzWERyM2JTb0ZDaVhFRUdrMV9JbnNsMXNoMFRxWWl1Ri1xd3l1THVSdw?oc=5",
       "source": "GNews - AI Act",
@@ -3043,7 +3198,7 @@
       "theme": "labs",
       "published": "2026-11-13T08:00:00+00:00",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "excerpt": ""
+      "excerpt": "With GPT‑6 Astra, the agents in Shield’s Forge platform navigate legacy portals so technicians can focus on issues that need their attention. For many small and medium-sized businesses, an outsourced IT services provider handles everything from an employee locked out of their laptop to a misconfigured firewall that took the office offline. Shield built Forge ⁠ (opens in a new window) , an AI operating system for IT services providers. The platform brings together business data and customer context to help providers complete IT support tasks end to end. That means its agents also need to work in the older portals technicians use every day. With OpenAI’s GPT‑6 Astra, Shield can now hand supported browser tasks to agents instead of leaving a technician to log in and finish them manually. “If a customer is locked out of their computer or there’s a phishing attack, speed is paramount,” says Jain. “Whether you’re going to solve their issue or you’re going to escalate to a human, you want to do either as fast as possible.” Before using GPT‑6 Astra, Forge’s agents could get stuck at systems they could not access. Customers then had to wait for a technician to complete that step. Shield tried computer use, where an AI model reads the screen, clicks, and types, with earlier models. Jain says they were not reliable or fast enough. “Usually, a system that doesn’t have an API is an old-school system that also doesn’t look very nice and is very hard to use, even by a human,” Jain says. Technicians spend much of their day in portals that manage tickets, devices and software licenses. Many of those systems lack APIs, so an agent needs to navigate the screen much as a person would. Forge’s AI Engineer assigns the work to a computer-use agent, and GPT‑6 Astra navigates the interface to c"
     },
     {
       "title": "Qu’est-ce que l’intelligence artificielle (IA) ?",
@@ -3066,13 +3221,13 @@
       "excerpt": ""
     },
     {
-      "title": "When AI agents become enterprise users, the infrastructure equation changes",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOTmVBem1sWUtnbC04QWhFd1hPbEtBOGFkZWpzckQ0cnFTVFl0LVhaMWpzZDVqVW04d1RXd2EzamtUTDJBeFUzUGhSeTY1MXdGQUdXSUNDaWdBTE95RHN2ajhONFV6YzBwWnZvc2RSNnRKbS1mdGVGVFp3RWY3TWo4RGh0UURna2lrS3Vqem91Tk8xdlFkLW9Vb1ZCTDgzNUh2c1BuSTBMUnZTVGFaUU10Njk4Z2prQl9peVJDUnpoVy1xelROazJ0WjBnbGNJRXByWnh1dWFZOUpMUEprUUVhbkRXMFdxOWRPNzJPd0Y0eDRyZk5CX3h1emRYbXVHcEpFb2ozNm5VckZ0X2tuU09GQnR1OVV1NlFkQWNSdlFxc3FLTEhuN3fSAeMBQVVfeXFMTnhJMU03d3BfRndnbGxaNTliN2sxMDE2YXE1YjVyNGM4MkFFX2ZFcUhRbjJKam5vR3RVaDlWbzhBbUk3aWROTkloZkhXSE9iaHN1MVhyZl9fa09vc05UaUxsSXptUW9CSzZ6UFZOazd4ZHdxX0lUMm90aTRDZW5lTFptT1FrMjAtRl9PczM2NGN4QW8zWFR2ZXdSNHl4cHhKWnQ0UEZwMGFoeF84ZmVjbG1SZmswclFnTml1TXpDUGpMTXkwSUJuaVVaVlF1N0dpb1dOS3M5MVZqbWRzdFZqY3lESFk?oc=5",
-      "source": "GNews - AI agents enterprise",
-      "publisher": "ET CIO",
-      "theme": "agents",
-      "published": "2026-11-13T06:59:56+00:00",
-      "summary": "When AI agents become enterprise users, the infrastructure equation changes ET CIO",
+      "title": "Modèles d'IA uncensored et abliterated, ce que c'est et qui est responsable",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDdYdWhia0VzZE9wT1djWG82ekQtNHdlcnhOT2RMUW1wLVhsM29tMG1JREQ4Tl9TQ2VHcHVQc25SeTBWQ0E0dUQxTUFTbkw4cklNd0JmQVRfLUFXTFczQ0p5Vl9BdEs5aWFLN0FYNXBXRDg5d1J5ZWluTmF4VWl6c2NnclFJSkZWWm9mS0RWYTlZdUF5bnFz?oc=5",
+      "source": "GNews - AI Act",
+      "publisher": "Pasquale Pillitteri",
+      "theme": "regulation",
+      "published": "2026-11-13T07:12:53+00:00",
+      "summary": "Modèles d'IA uncensored et abliterated, ce que c'est et qui est responsable Pasquale Pillitteri",
       "excerpt": ""
     },
     {
@@ -3124,6 +3279,16 @@
       "published": "2026-11-13T04:17:25+00:00",
       "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
       "excerpt": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI . And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools , starting with a Photoshop alternative built from scratch in Rust called PhotoCraft . You could feel the excitement in the room this morning when ArtCraft founder and CEO Brandon Thomas presented a kind of manifesto for AI-based open source at AIE Code. When he mentioned that ArtCraft had cloned Adobe’s Acrobat, with a product called PdfCraft, it got a round of applause from the audience. In wrapping up, his rallying cries of “let's take back the entire internet” and “let's rebuild everything” were greeted with whoops and cheers. Thomas began his presentation by reliving the internet’s early history. In his view, the web started out with the right intentions, but things got screwed up once Web 2.0 hit the mainstream. “We had a bunch of chat applications that were completely open,” he said, regarding the 1990s internet. “So, IRC is like Discord, but you can spin up your own servers that you actually own. You can use whatever programs to automate them and interrogate them without rules.” His point wasn’t necessarily that everything was open source, but that web users could freely build things. With Flash, for example — a commercial animation tool eventually acquired by Adobe — “kids were making all kinds of animations.” When Web 2.0 came along, with its superior broadband and smartphones, “it brought everybody into the fold.” Thomas acknowledged that this widened the scope of internet software, but at the cost of that freedom to build with leading apps. “The diffuse, experimental, early web started to disap"
+    },
+    {
+      "title": "Capgemini says it was selected to lead EU AI cyber-risk consortium",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc2NmVkZ2ZGJLVDZnQWpObWo5S0Fzd2VnWjdiZUVYNVpXX3lVV1o3ejg2cDBJVzhLWUw5ZnpTcjVpQ2R4Q2pyb0pfUjBMNFNodDJnUFJJLWp6OHVaVnU2YnYxbHdDcFNjOVltWldaTDhIZEpvWW93dERlY0NJc3lVX19tX3BpWVM4cHhFT21pb0dtOGJlSVVB?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "NeoTeo",
+      "theme": "regulation",
+      "published": "2026-11-13T04:07:02+00:00",
+      "summary": "Capgemini says it was selected to lead EU AI cyber-risk consortium NeoTeo",
+      "excerpt": ""
     },
     {
       "title": "Le patron de Mistral AI Arthur Mensch appelle l'Europe à \"agir maintenant\" pour rester dans la course à l'IA",
@@ -3286,6 +3451,16 @@
       "excerpt": "*Après 33 ans à la tête de NVIDIA, JENSEN HUANG quitte la direction générale et le conseil d’administration avec effet immédiat. COLETTE KRESS, directrice financière depuis 2013, assure l’intérim. HARVEY C. JONES devient le premier président du conseil d’administration du groupe.* Le conseil d’administration de NVIDIA a accepté la démission de son cofondateur le mercredi 11 novembre, selon le formulaire 8‑K déposé auprès de la SEC . Le groupe a rendu la décision publique jeudi. JENSEN HUANG abandonne également ses fonctions de président de la société. Il détient environ 3,6 % du capital, selon Reuters, qui rapporte une baisse de plus de 12 % de l’action en début de séance à Wall Street. COLETTE KRESS conservera la direction financière pendant que le conseil examine des candidatures internes et externes. HARVEY C. JONES, administrateur depuis la création de NVIDIA en 1993 et ancien dirigeant de SYNOPSYS, prend la présidence d’un conseil jusque-là coordonné par un administrateur référent indépendant. Dans le communiqué de NVIDIA, le nouveau président dit s’attendre à ce que le groupe tienne ses engagements envers ses clients et poursuive sa feuille de route produit. Mercredi, le Wall Street Journal avait rapporté que le conseil préparait l’éviction du dirigeant . NVIDIA n’a donné aucun motif à sa démission. Le groupe avait annoncé le 8 novembre une enquête indépendante après des informations selon lesquelles JENSEN HUANG aurait été la cible d’une opération de renseignement étrangère. Le conseil disait alors n’avoir aucune raison de penser que des secrets de l’entreprise ou la sécurité nationale américaine avaient été compromis. Deux jours plus tard, les administrateurs indépendants ont confié l’enquête à JOON H. KIM et à son cabinet WACHTELL, LIPTON, ROSEN & KATZ. FRENCHW"
     },
     {
+      "title": "From AI ambition to business impact",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/",
+      "source": "Microsoft blog",
+      "publisher": "Microsoft blog",
+      "theme": "labs",
+      "published": "2026-11-12T17:00:03+00:00",
+      "summary": "Most business leaders I meet no longer need to be convinced that AI works. They’ve seen the pilots, the demos and the copilots. The question I hear in boardrooms now is different: How do we move from AI that impresses to AI that changes how the business actually runs? That is the question Microsoft Frontier... The post From AI ambition to business impact appeared first on The Official Microsoft Blog .",
+      "excerpt": "Nov 12, 2026 | Rodrigo Kede Lima - President, Microsoft Frontier Company Most business leaders I meet no longer need to be convinced that AI works. They’ve seen the pilots, the demos and the copilots. The question I hear in boardrooms now is different: How do we move from AI that impresses to AI that changes how the business actually runs? That is the question Microsoft Frontier Company was built to answer, and to date, we have engaged on nearly 500 projects with over 200 customers across 28 countries. Customers including 3M, Alaska Airlines, BMW, Core42, KT, Land O’Lakes, London Stock Exchange Group, Mastercard, McKesson, Northern Trust, Novo Nordisk, P&G, Publicis Groupe, Saint-Gobain, Siemens and Unilever are seeing real value from working side by side with our Forward Deployed Engineering teams. More importantly, most customers where we have completed initial projects have returned for additional engagements, generating hundreds of follow-on projects. Customers don’t come back for engineers. They come back because the first engagement delivered something they could measure and they can see the next workflow worth redesigning. The technology is ready. What slows AI down is everything around it. That means identifying where AI can deliver the greatest value, building in trust and governance, redesigning the operating models and helping people work in new ways. Technology and people have to move forward together. Unilever is collaborating with Microsoft engineers to bring AI into its factories. On the factory floor, intelligent technology helps teams boost efficiency and deliver superior products to customers. In Pondicherry factory — Unilever’s largest Home Care Liquids factory in South Asia and a 2026 World Economic Forum Lighthouse site — a digital twin built on NVI"
+    },
+    {
       "title": "With IPO looming, Anthropic launches Claude product for manufacturers",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVFzTkpNdV9uc2JnQUFWcTF0c0Y1UnRVcU1ETUZHRGZVUjlRNGpBWXI5UGF4TThRWEFEc1J2alNTbmFYSUEzXzNhb1p4RlRpRDdmd1BSdi1xeXB4aFgwQTlUalZYc19yM2U1S2JYWFVWQWRvSUM3RF9ETkN2bWY0T2g1ZEtWemNpYThCM3lBZFhMRlM5VHRuTG94WDA?oc=5",
       "source": "GNews - Anthropic",
@@ -3304,6 +3479,16 @@
       "published": "2026-11-12T16:09:19+00:00",
       "summary": "Should you buy Anthropic’s IPO and which UK platforms offer access? Yahoo Finance",
       "excerpt": ""
+    },
+    {
+      "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
+      "source": "Microsoft blog",
+      "publisher": "Microsoft blog",
+      "theme": "labs",
+      "published": "2026-11-12T16:00:02+00:00",
+      "summary": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to maximize value as AI scales. The clearest lessons... The post Scaling AI value without losing control: Lessons from Frontier Firms appeared first on The Official Microsoft Blog .",
+      "excerpt": "Nov 12, 2026 | Alysa Taylor - Chief Marketing Officer, Commercial Cloud & AI Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC , commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to maximize value as AI scales. The clearest lessons come from Frontier Firms, the group last year’s research introduced: the top 10% of organizations on IDC’s AI maturity scale. “Organizations that scale AI value aren’t simply spending more. They manage AI investments, models, agents, governance and skills as one discipline, and that is what turns early results into value they can repeat across the business,” says Kathy Lange, Research Director, AI, Data and Automation Software, IDC. Organizations now use AI in 6.5 business areas on average, led by IT infrastructure, cybersecurity and customer service, with the fastest growth in industry-specific uses. Employee experience, revenue growth, customer experience, innovation and risk reduction now rank nearly even as the places AI strengthens the business. Cost is an important consideration, but it is evaluated alongside accuracy, security, compliance and scalability. 66% of leaders say AI has delivered substantial or transformative results, but only 48% are scaling that value across multiple business units. Agents follow the same pattern: 36% of organizations are still piloting them. The widest gap is people: workforce confidence is running well ahead of the plans to support it. The organizations pulling ahead are closing these gaps by design. IDC’s maturity scale weighs spending discipline, breadth of use, agent adoption, skills, confidence in managing AI risk and outcomes. On "
     },
     {
       "title": "Luminal raises $25M Series A to cut AI inference costs beyond Nvidia GPUs",
@@ -3433,7 +3618,7 @@
       "theme": "labs",
       "published": "2026-11-12T12:00:00+00:00",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "excerpt": ""
+      "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work. Increase in engineering output, with no change in headcount, using Codex Company revenue YoY, with no added payroll costs or significant overhead While running his creative production agency, Fresh Tape Media, Jared Kleinstein noticed a problem: incredible creative work was being made for social media, but the makers weren’t getting proper credit. So he built the Gondola ⁠ (opens in a new window) platform to help creatives show what they made, prove its impact, and turn their work into their next opportunity. For Gondola’s small team, one of the biggest constraints was how much product and operational work it could take on. Even small experiments competed with core product priorities for engineering time, and finding information and drafting work required sifting through tools and systems. Today, the team uses Codex to turn more ideas into software and ChatGPT to simplify daily operations. Monthly engineering output is up 25% across the team and up 50% for its lead engineer. Company revenue has more than doubled year over year. For Jared, this has changed what feels possible for the team. Many of Gondola’s product ideas come directly from customer conversations and operational problems that the business development and leadership team sees firsthand. Before Codex, they would have to define the need and write requirements and then wait for an engineer to have capacity to build the first version. Now the same team uses Codex Cloud to explore the codebase, prototype an interface or workflow, test assumptions, and often get to a functional first version before an engineer needs to step in. Jared and Gondola’s Creator and Client Partnersh"
     },
     {
       "title": "Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA",
@@ -3524,6 +3709,16 @@
       "published": "2026-11-12T10:01:29+00:00",
       "summary": "AGILE ROBOTS lève 425 millions d’euros auprès de SOFTBANK et NVIDIA pour accélérer dans la Physical AI",
       "excerpt": "AGILE ROBOTS annonce une levée de **500 millions de dollars (environ 425 millions d’euros)** en série F, conduite par SOFTBANK GROUP avec la participation de NVIDIA, HITACHI GROUP (HITACHI et HITACHI VENTURES), T.CAPITAL et d’autres investisseurs. L’opération valorise l’entreprise munichoise à **8,5 milliards de dollars (environ 7,2 milliards d’euros)** et porte à 2 milliards de dollars le total des financements qu’elle revendique depuis sa création. Fondée en 2018 par des chercheurs issus du Centre allemand de recherche aérospatiale , AGILE ROBOTS développe des bras robotiques, des robots mobiles et humanoïdes, ainsi que les logiciels et modèles d’intelligence artificielle nécessaires à leur fonctionnement. L’entreprise revendique **plus de 20 000 solutions robotiques déployées dans le monde**, dans l’automobile, l’électronique et la logistique. Ce chiffre concerne toutes ses catégories de robots, et non les seuls humanoïdes. Le groupe annonce plus de 3 500 collaborateurs, dont plus de 2 000 spécialistes de R&D, et plus de 650 brevets. Cette expansion intervient alors que l’Europe cherche à devenir un marché majeur des humanoïdes . Les fonds doivent accélérer le développement aux États-Unis, les nouvelles applications robotiques et les capacités de fabrication. Ouvert début 2026, le site de Fürstenfeldbruck, près de Munich, dispose selon AGILE ROBOTS d’une capacité théorique allant jusqu’à **10 000 robots humanoïdes à jambes ou à roues par an**. Il ne s’agit pas du nombre effectivement produit. Le groupe rassemble notamment FRANKA ROBOTICS, BÄR Automation, idealworks et KRAUSE Automation, récemment acquise auprès de THYSSENKRUPP. SOFTBANK, déjà investisseur, renforce sa participation. L’arrivée de NVIDIA illustre le rôle croissant des systèmes robotiques comme débouché"
+    },
+    {
+      "title": "Pixometry adds verified image provenance and a new Photoshop plugin",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRUlxNF8wc0Q1SkN0SmxTUmR1U2s0TkpDc0tCcmhMWWpSU1d0YWNmQlRBNndBbGtObGdPTnU2UF9MZ2xIc2s5UlVCQ0Y5eENXMGpFdmNFQ2g5c2dPakxIWk9YaUczc2p2RGljdHhKX253NXE0ZkQ0NVB1SXNFdGdua0hidkp0cTFzMEJZR2VhczRXRkdQNnl3SHM0bWtmc08xV3NmYjVWcHV4MWR5TmkyUEh1TQ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "InPublishing",
+      "theme": "regulation",
+      "published": "2026-11-12T09:34:39+00:00",
+      "summary": "Pixometry adds verified image provenance and a new Photoshop plugin InPublishing",
+      "excerpt": ""
     },
     {
       "title": "Bangladeshi-led startup Tilion lands Y Combinator spot, outpacing a $300m rival",
@@ -3716,6 +3911,16 @@
       "excerpt": "À l’approche des temps forts commerciaux de fin d’année, les PME doivent aussi travailler leur visibilité au-delà des promotions. Oscar ai propose d’automatiser la production et la publication de contenus pour les aider à faire découvrir leurs produits, leurs conseils et leur expertise. Black Friday, Cyber Monday, Noël : pour les petites entreprises, la fin d’année concentre les occasions de vendre, mais aussi les contraintes opérationnelles. Entre les commandes, la logistique et la relation client, le référencement passe facilement au second plan. Pourtant, ces entreprises disposent d’une matière précieuse pour alimenter leur présence en ligne : une connaissance des produits, des réponses aux questions des clients et un savoir-faire propre à leur activité. Le défi consiste à transformer cette expertise en contenus utiles, puis à les publier régulièrement. C’est à ce besoin qu’Oscar ai entend répondre avec un agent IA qui automatise les principales étapes de la production de contenus pour le référencement. Oscar ai analyse le site de l’entreprise et son environnement concurrentiel, identifie les sujets à traiter et construit une stratégie de contenu adaptée. L’agent prend ensuite en charge la rédaction, les illustrations, l’optimisation et la publication des articles. La solution s’intègre notamment à WordPress, Wix, Shopify et Webflow. Elle ajoute également des liens vers les pages pertinentes du site, pour relier les contenus aux produits et services présentés. L’objectif est de permettre aux PME de maintenir une activité éditoriale régulière sans mobiliser une équipe dédiée. Les entreprises peuvent choisir une publication automatique ou conserver une étape de validation avant la mise en ligne. Quel cadeau choisir selon son budget ? Quelles différences entre deux prod"
     },
     {
+      "title": "Anthropic expands Claude into an AI office suite.",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWXhTMm5NZ25vUXlnWV9JdXNra1lOeGNFZGpUQ2JTaGtNekI4UFBJSXg0bldKS25PTTVtYXhNR3pfX3FoWVpsRlJqZHJuMTFVajdTWUE3OHFqaEJtSWR2Y0c3Q2poZjFDNnVXN0FlaG1rQmpSdWlUYTlpbXdmWEVJZG9zNnNvajQ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "Vietnam.vn",
+      "theme": "regulation",
+      "published": "2026-11-12T05:33:08+00:00",
+      "summary": "Anthropic expands Claude into an AI office suite. Vietnam.vn",
+      "excerpt": ""
+    },
+    {
       "title": "[AINews] D-Day (Decision Models Day)",
       "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
       "source": "Latent Space",
@@ -3734,6 +3939,16 @@
       "published": "2026-11-12T05:08:20+00:00",
       "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
       "excerpt": "Today at the AI Engineer Code Summit , the main theme was system one models — non-generative models that return structured choices, scores, or probabilities. They’re also typically much faster and cheaper than reasoning LLMs (a.k.a. system two models). And who better to give an inspirational rallying cry for system one models than Diogo Almeida , co-founder and CEO of TypeSafe AI . Almeida was lead creator of Jev , the product that kicked off this trend less than two months ago. Jev was an instant revelation for AI engineers when it was released in September. In a podcast with Latent Space on launch (which quickly became our most popular episode of the year), Almeida explained the core problem with making LLMs the heart of software: reliability . In his keynote at AIE Code today, he took it a step further by claiming that Jev is “reliable intelligence” that should be used for “just automating everything.” Of particular interest to AI engineers is Almeida’s point that system one models should become integrated with code. As he put it in his keynote, “code is the language of automation , therefore you need to integrate with code.” Latent Space founder swyx interprets this as a call to “liberally sprinkle ‘System One’ model calls everywhere INSIDE application code to make smarter software instead of increasingly convoluted forms of ‘concat strings together and hope for the best\" AI engineering.’” The term “smart software” was used throughout Almeida’s presentation. It sounds like the kind of term used by companies like Microsoft or IBM during Web 2.0, but in the AI era it does actually signify a harsh reality about LLM-driven software: sometimes it’s just not very smart. As Almeida quipped during his presentation, “you get Einstein 95% of the time, but Mr. Bean 5% of the t"
+    },
+    {
+      "title": "EU AI Act: what applies from 2 December 2026 (AI-content marking for older systems, two new bans)",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5aSVdSVS1RWlJUdUw3WWhwaklSODFYVWltNExhSVgxeFhoUkJNbTB6eEVlcFN1ckg0ZFlXbXRQS3NBVHFGZmhlNjRaM0xzUEFBZHpFU0FVTmt4NWZNd3BpblNuZEhfOTcyeGxwbG82ZWtfc2huT0RPV2l2Nmc?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "CASRAI",
+      "theme": "regulation",
+      "published": "2026-11-12T04:47:35+00:00",
+      "summary": "EU AI Act: what applies from 2 December 2026 (AI-content marking for older systems, two new bans) CASRAI",
+      "excerpt": ""
     },
     {
       "title": "NVIDIA : le conseil envisage d’évincer JENSEN HUANG, selon le Wall Street Journal",
@@ -3776,6 +3991,16 @@
       "excerpt": ""
     },
     {
+      "title": "Anthropic Launches AI Office Suite: Next-Generation Intelligent Productivity Tool for Modern Workflows",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kN0ZMMm45WlZCejBQTHVHSkxlWExlUXo0Ujlkam00SjdzT3NWSjlONzNXQ0x6OGcySFFIb0NQajR5blM5cTRYZ2hFUmYtck5ZTEpz?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "36Kr",
+      "theme": "regulation",
+      "published": "2026-11-12T01:50:19+00:00",
+      "summary": "Anthropic Launches AI Office Suite: Next-Generation Intelligent Productivity Tool for Modern Workflows 36Kr",
+      "excerpt": ""
+    },
+    {
       "title": "IBM and Microsoft unveil Imagine Enterprise for workplace AI agents | ETIH EdTech News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0k4ZERTOXN1QkVIbGFNN0FqOWdVYkNZODVOdFFzcVNtQ0hwY0V5UFI4VHB4c1E5czFXN1FjTDNJbVZycFpDVjdZYThOZFNNb2N2VUJJS2RIaWlPNXNia0F5bi1MT1lWUHNTU0dieXNJMGtOWDM5dFpSSUFIbDRnbGNYNDhGYWU0RXZBcHZob044YnNmcG9Mb2s2T3ZSVWkzeTZvcGd1eUJpMGxv?oc=5",
       "source": "GNews - AI agents enterprise",
@@ -3796,6 +4021,16 @@
       "excerpt": ""
     },
     {
+      "title": "Axway Launches Amplify Platform to Secure AI Governance and Control Costs for Banks",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQnpza3YxUHpGODJCY3EwNUZYQ2U4MXdqeUUzUzdmYU0tSmN4aVMtVVo5Tk9fQ25DUTI1NkFHS1VMeDloUTdHWkdUZXAwdUctMm1jdXBGbF82c3VXYUo1NjBuSjZQRmJaVXN5YXljQngxa2ZOMV9nLXdNS0VtVEtvWGtPczFXaExVa3dScTlzNU1DQ3ptY0trMzdIb0RDdVRXc1RzUXdfN0psQQ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "FF News",
+      "theme": "regulation",
+      "published": "2026-11-12T00:01:06+00:00",
+      "summary": "Axway Launches Amplify Platform to Secure AI Governance and Control Costs for Banks FF News",
+      "excerpt": ""
+    },
+    {
       "title": "Supporting research on AI and children’s safety",
       "url": "https://openai.com/index/children-first-declaration",
       "source": "OpenAI News",
@@ -3803,7 +4038,7 @@
       "theme": "labs",
       "published": "2026-11-12T00:00:00+00:00",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "excerpt": ""
+      "excerpt": "OpenAI pledges $2 million as part of a global effort to better understand AI’s impact on children and support their safety and wellbeing. Earlier this week at the Paris Peace Forum, OpenAI signed the Charter of Engagement for Safer AI for Children ⁠ (opens in a new window) and committed $2 million to support the scientific research network under the Coalition for Children’s Rights and Protection in the Age of AI. This builds on our call for global standards on youth AI safety , and sustained collaboration among governments, researchers, civil society and industry to translate shared evidence into practical safeguards. Our contribution supports shared measurement work: developing tools researchers can use to better understand and measure AI’s risks and opportunities for children, helping inform safer products and better policy. The charter sets out shared principles for safe, age-appropriate AI, alongside a research programme and safeguards for its independence. Research teams retain control over their conclusions, and findings will be published, including negative or inconclusive results. This work will help build the evidence needed to support the benefits of AI for young people while addressing risks to their safety and development. It builds on our support for comprehensive youth AI safety legislation that establishes strong, enforceable protections while preserving access to tools for learning, creativity and opportunity. Such frameworks should include age-appropriate safeguards by default, tools for parents, regular risk assessments and mitigation, and meaningful accountability. We look forward to engaging with European policymakers as the EU Kids Act develops, and with partners around the world to advance stronger protections and opportunities for young people."
     },
     {
       "title": "ChatGPT Ads increases its market presence in 44 countries",
@@ -3893,6 +4128,16 @@
       "theme": "regulation",
       "published": "2026-11-11T21:10:24+00:00",
       "summary": "Matinée AI Act, CCI TARBES, Cabestany – 12 novembre 2026 Unidivers",
+      "excerpt": ""
+    },
+    {
+      "title": "ISO 42001 and EU AI Act compliance: what it covers",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYzU3SjRqc0ZlM0RwWEpHUUJpS0h5MDZmbDMyTjV3aHFlaVFhNzFZSFNqSVlOemFGdGdaRFBXUUpfRktPeW56cG1ZSGFaVHd4QWh2T2d4RDlsVjFjOVdQcDgwM3pRNFRWNXdQT0tTUmhMNzlHUUR5dmt1TGstTHVKd3RYRlotaTU1LWE4N2VyMTNPTEZQM3pn?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "NeoTeo",
+      "theme": "regulation",
+      "published": "2026-11-11T20:07:31+00:00",
+      "summary": "ISO 42001 and EU AI Act compliance: what it covers NeoTeo",
       "excerpt": ""
     },
     {
@@ -4003,7 +4248,7 @@
       "theme": "emergents",
       "published": "2026-11-11T17:11:56+00:00",
       "summary": "Hi HN, we’re Alan and Akshay from Pomerado ( https://pomerado.ai/ ). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve. Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airlines, banks, e-commerce, insurance portals, government sites, and legacy portals all lack APIs or MCPs and are common parts of personal assistant or business workflows. Agents instead rely on browser automation or computer use, which can be slow, expensive, and unreliable. And even if computer use",
-      "excerpt": ""
+      "excerpt": "Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airlines, banks, e-commerce, insurance portals, government sites, and legacy portals all lack APIs or MCPs and are common parts of personal assistant or business workflows. Agents instead rely on browser automation or computer use, which can be slow, expensive, and unreliable. And even if computer use were perfect, most companies have banned it out of security and compliance concerns. We discovered this problem while tinkering with our own personal assistants. When OpenClaw came out, we wanted to “live our lives through our agents” and have them do everything for us. We soon found their usefulness was restricted by what tools they could connect to. For example, when trying to book flights, they fell back on computer use, which failed to checkout. These issues got magnified on repeated workflows, like searching many airlines at once. Pomerado started off as a project to improve these personal assistant workflows. As we started building, we realized that just-in-time tool creation could have significant applications for AI builders in legacy verticals. We’re ex-McKinsey and Scale AI, where we drove agent deployments in healthcare, professional services, and telecom. Each time, the biggest bottleneck was getting agents to interface well with legacy websites and apps. Pomerado is what we built. It’s a self-serve platform where devs can create APIs for any website (even those they don’t own), in minutes. Users (or their coding agents) provide a short natural language description, answer a few questions about their workflow, and receive a MCP in less than an hour. Future tool calls use the deterministic MCP, which usually returns results in 5-30 seconds. Here’s a walkthro"
     },
     {
       "title": "Claude Traffic Surges 24% In October As Anthropic IPO Looms—Beating AI Rivals",
@@ -4044,6 +4289,16 @@
       "published": "2026-11-11T15:11:59+00:00",
       "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible becaus",
       "excerpt": "Anthropic's IPO roadshow video . Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible because early on we made an unconventional bet on a multi-chip strategy. At the time, many people thought that running AI models on different chips wasn't worth the effort. Each chip needs its own tailored software stack and inference stack, which is expensive and difficult to build. We've now been doing it for years, and we've gotten incredibly good at it. [...] As an example, this year, we started working with AMD GPUs for the first time. In the past, bringing on a new chip platform took dozens of engineers months of work This time, we had Mythos try it out. It got Claude running on AMD in just three days, with basically no human intervention . Claude ported or wrote almost 100% of the kernels. [...] The second driver of our compute advantage is our rate of discovery of compute multipliers. We focus on total effective compute, which is the multiplicative product of physical capacity times the compute multipliers that we discover. Each one we discover makes our pool of total effective compute bigger. For example, say you need 100 units of compute to train a model of a certain intelligence. A 4x compute multiplier means you can use 25 units of compute to train the exact same model. Or "
+    },
+    {
+      "title": "Women in tech are reporting higher levels of burnout than ever before — with AI, office attendance and visibility issues all blamed",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU1h6aFJ2bUtNLVUxNWVCdHBOT25BbTVRNlJzd2ZiY0lsay1CWlFzYUNtWkk2cXA0RDVpbUlkcWhhZ3M1cWZBMTZKNTNpcWhGY05MSnJTdjQtUVpkR0hId0FSbVN2RHl5R095d3EtMkNQbE9VRHppMm9ESGRiczRhTTZsLUJVMXBWeVgwNDZfWUFTNGt3c0ZXWU9jcW1Na0lQc21ZMjdIdmF6UTVrbXJoWTlsdkpUOG9xeUhsY2JBQzE5QUt6T3NjOU5CMU5EYUVuSnpkaS1mWXE4SVlWcm5ocHBkV2ZXNEJSTjdBZDkyWQ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "TechRadar",
+      "theme": "regulation",
+      "published": "2026-11-11T15:05:00+00:00",
+      "summary": "Women in tech are reporting higher levels of burnout than ever before — with AI, office attendance and visibility issues all blamed TechRadar",
+      "excerpt": ""
     },
     {
       "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
@@ -4166,6 +4421,16 @@
       "excerpt": ""
     },
     {
+      "title": "Office for Students Urges AI-Free Assessment to Safeguard Degrees",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMUJZVGZBbnpGd2ozWUlhYmpaZUZFM0c3ekpxRzBoSWkwVFNPYkVpTzdRQlIwbThaV3dNYUttY0xCRVdjTTI0Z1NHeTBhNWM5Zy1Samw4cVJ5UFppLVpXSTV3aUotOTNwTkoteGs5UDdOa2tiX1VGbkxoSGtSU0FCTUJhaEFraTN6eVViWlNqZHQ?oc=5",
+      "source": "GNews - EU AI Act (EN)",
+      "publisher": "Unite.AI",
+      "theme": "regulation",
+      "published": "2026-11-11T10:56:03+00:00",
+      "summary": "Office for Students Urges AI-Free Assessment to Safeguard Degrees Unite.AI",
+      "excerpt": ""
+    },
+    {
       "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
       "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
       "source": "Latent Space",
@@ -4174,16 +4439,6 @@
       "published": "2026-11-11T09:34:28+00:00",
       "summary": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
       "excerpt": "Our usual bar for making a fundraise a title story these days is a decacorn ($10B) valuation. We missed Mercor’s $10B Series C last year when it had less than $500m in revenue, but knew we wouldn’t have to wait too long til the next round, since it crossed $1B in Feb and $2B in June , it has now hit $3B annualized, surviving hacks : The company reports 5 million experts, and their TAM: “In the United States alone, there are more than 800 distinct occupations, each containing workflows that models have yet to be evaluated against.” We’re seeing the impact of AI investment in our business. We already spend 3x as much on inference as on employee salaries, and it pays for itself by making our team better at their jobs . If that ratio holds as AI spreads through the rest of the economy, it points to something closer to double-digit GDP growth over the next five years, nearly 3x the rate we’re used to. We have yet to do a Mercor pod (will work on it!) but to better understand a data vendor business, you can look at our recent deep dive with Handshake AI , one of their competitors: AI News for 11/09/2026-11/10/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! Launch : Google released Gemini 4 Carbon as its strongest model for long-horizon agentic work in software engineering, cybersecurity, knowledge work and science ( Google , Sundar Pichai ). Gemini 4 Argon remains Google's recommended default for most coding and knowledge work, with Carbon reserved for the hardest tasks ( Google AI ). Availability : Carbon is available through the Gemini API and AI Studio for paid developers, Android Studio and Gemini for busi"
-    },
-    {
-      "title": "Le CIANum alerte sur les dangers émotionnels liés à l'IA générative",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLVBFZE1PemNYanZpcDloT2JkQjVCWW5lcVFfNWhzMGhkak12RkRHcGZMcmtMWk1zTU1mWDFsbGl4Q2ZnN2RTMlNoQWpzTnNJSmktNWlqTHNqMVEtcXJMQjBuNlZkZE85LXlmWW45VW1vWkYyczJOZmkySHRqYzhIeFA1WjBVbDgwbkt3cnNkOHZBZVplRkJFR0txVnJkOVdGcEdWV0tQcVRjOFNFdmc?oc=5",
-      "source": "GNews - AI Act",
-      "publisher": "ZDNET",
-      "theme": "regulation",
-      "published": "2026-11-11T09:30:30+00:00",
-      "summary": "Le CIANum alerte sur les dangers émotionnels liés à l'IA générative ZDNET",
-      "excerpt": ""
     },
     {
       "title": "Experience the art and legacy of Dr. Esther Mahlangu",
