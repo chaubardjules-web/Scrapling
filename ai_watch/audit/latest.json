@@ -1,0 +1,800 @@
+{
+  "generated_at": "2026-11-18T09:27:46.709695+00:00",
+  "sources": [
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 1,
+      "per_day": 20.0,
+      "relevance": 0.9,
+      "core": 0.3,
+      "broad": 0.95,
+      "last_post_days": 0.3,
+      "score": 210.0,
+      "examples": [
+        "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+        "Google expands access to Gemini Tasks, which can help with calls, purchases",
+        "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off"
+      ]
+    },
+    {
+      "name": "AWS Machine Learning blog",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 1.7,
+      "per_day": 11.88,
+      "relevance": 0.8,
+      "core": 0.5,
+      "broad": 0.85,
+      "last_post_days": 0.4,
+      "score": 149.7,
+      "examples": [
+        "Cut generative AI costs: Code for rules, models for judgment",
+        "Govern and discover records with common metadata in AWS Agent Registry",
+        "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore"
+      ]
+    },
+    {
+      "name": "01net",
+      "url": "https://www.01net.com/feed/",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 30,
+      "span_days": 1,
+      "per_day": 30.0,
+      "relevance": 0.23,
+      "core": 0.13,
+      "broad": 0.23,
+      "last_post_days": 0.0,
+      "score": 105.0,
+      "examples": [
+        "Google a découvert des agents IA pirates à l’assaut de plusieurs sites français",
+        "Mais à quoi peut bien servir l’écran arrière du Xiaomi 18 Pro ?",
+        "Gemini Notebook peut désormais transformer vos projets et cours en sites web interactifs"
+      ]
+    },
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "span_days": 1.6,
+      "per_day": 6.22,
+      "relevance": 1.0,
+      "core": 0.5,
+      "broad": 1.0,
+      "last_post_days": 0.5,
+      "score": 87.1,
+      "examples": [
+        "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+        "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+        "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments"
+      ]
+    },
+    {
+      "name": "ActuIA",
+      "url": "https://www.actuia.com/feed/",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 15,
+      "span_days": 1.9,
+      "per_day": 7.89,
+      "relevance": 0.87,
+      "core": 0.33,
+      "broad": 1.0,
+      "last_post_days": 0.0,
+      "score": 84.7,
+      "examples": [
+        "Modèles d'IA : le tarif baisse, la tâche coûte plus cher",
+        "OVHcloud dévoile Olala mini, son premier LLM : des débits, pas de scores",
+        "Anthropic : 900 milliards de dollars pour combien de mois d'avance ?"
+      ]
+    },
+    {
+      "name": "Journal du Net IA",
+      "url": "https://www.journaldunet.com/intelligence-artificielle/rss/",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 60,
+      "span_days": 7.9,
+      "per_day": 7.58,
+      "relevance": 0.97,
+      "core": 0.3,
+      "broad": 0.97,
+      "last_post_days": 1.0,
+      "score": 83.1,
+      "examples": [
+        "Anthropic en Bourse : trois vérifications pour les entreprises clientes de Claude",
+        "AI Act article 50 : ce que vos chatbots et contenus IA doivent afficher depuis le 2 août",
+        "AI Act article 4 réécrit : ce que les entreprises doivent encore pouvoir montrer"
+      ]
+    },
+    {
+      "name": "SiliconANGLE AI",
+      "url": "https://siliconangle.com/category/ai/feed/",
+      "family": "entreprise",
+      "lang": "en",
+      "ok": true,
+      "items": 30,
+      "span_days": 5.6,
+      "per_day": 5.4,
+      "relevance": 1.0,
+      "core": 0.57,
+      "broad": 1.0,
+      "last_post_days": 0.2,
+      "score": 80.6,
+      "examples": [
+        "OpenAI rolls out GPT-6.2 Astra for professional work and GPT-6.2 Sol for everyday work",
+        "Idle, then spiking: Why AI agents are breaking Kubernetes resource planning",
+        "Microsoft rolls out new first-party models and updates to agentic AI continuous improvement"
+      ]
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "span_days": 1.5,
+      "per_day": 6.5,
+      "relevance": 0.9,
+      "core": 0.4,
+      "broad": 1.0,
+      "last_post_days": 0.3,
+      "score": 77.4,
+      "examples": [
+        "Not even Sam Altman is safe from AI deepfakes on Instagram",
+        "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+        "California sues OpenAI over rogue AI hacking incidents"
+      ]
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "family": "agents",
+      "lang": "en",
+      "ok": true,
+      "items": 30,
+      "span_days": 10.4,
+      "per_day": 2.89,
+      "relevance": 0.73,
+      "core": 0.7,
+      "broad": 0.77,
+      "last_post_days": 0.4,
+      "score": 43.1,
+      "examples": [
+        "GPT‑6.2 Astra and GPT‑6.2 Sol",
+        "llm 0.37.3",
+        "datasette-maplibre 0.1a0"
+      ]
+    },
+    {
+      "name": "Le Monde Informatique IA",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 21,
+      "span_days": 8.8,
+      "per_day": 2.4,
+      "relevance": 0.9,
+      "core": 0.62,
+      "broad": 0.9,
+      "last_post_days": 2.0,
+      "score": 35.9,
+      "examples": [
+        "Alibaba lance Qwen4-Max, son nouveau modèle d’IA axé sur la performance et la sécurité",
+        "OpenAI lance ChatGPT Wallet pour les paiements par agents IA",
+        "Anthropic ouvre l'auto-hébergement de Claude Managed Agents"
+      ]
+    },
+    {
+      "name": "Siècle Digital",
+      "url": "https://siecledigital.fr/feed/",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 20,
+      "span_days": 5.8,
+      "per_day": 3.43,
+      "relevance": 0.75,
+      "core": 0.35,
+      "broad": 0.75,
+      "last_post_days": 0.8,
+      "score": 34.8,
+      "examples": [
+        "OpenAI signe un accord avec 17 médias français dont Le Parisien et Les Échos",
+        "ChatGPT peut désormais utiliser votre carte bancaire pour payer vos achats",
+        "LinkedIn part à la chasse aux commentaires générés par intelligence artificielle"
+      ]
+    },
+    {
+      "name": "ZDNet AI",
+      "url": "https://www.zdnet.com/topic/artificial-intelligence/rss.xml",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 25,
+      "span_days": 5.7,
+      "per_day": 4.39,
+      "relevance": 0.56,
+      "core": 0.28,
+      "broad": 0.56,
+      "last_post_days": 0.4,
+      "score": 34.4,
+      "examples": [
+        "Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost",
+        "Goodbye, Gemini Gems: How to use Google’s new Skills – and share them",
+        "Google is making it easier to opt out of Gemini AI model training – here’s how"
+      ]
+    },
+    {
+      "name": "InfoQ AI",
+      "url": "https://feed.infoq.com/ai-ml-data-eng/",
+      "family": "agents",
+      "lang": "en",
+      "ok": true,
+      "items": 15,
+      "span_days": 6.0,
+      "per_day": 2.52,
+      "relevance": 0.73,
+      "core": 0.6,
+      "broad": 0.8,
+      "last_post_days": 0.5,
+      "score": 34.1,
+      "examples": [
+        "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+        "Datadog Brings Production Experimentation to AI Agent Observability",
+        "Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads"
+      ]
+    },
+    {
+      "name": "Maddyness",
+      "url": "https://www.maddyness.com/feed/",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 10,
+      "span_days": 1.0,
+      "per_day": 9.69,
+      "relevance": 0.5,
+      "core": 0.0,
+      "broad": 0.5,
+      "last_post_days": 0.0,
+      "score": 33.9,
+      "examples": []
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/feed/",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 7.8,
+      "per_day": 2.57,
+      "relevance": 0.9,
+      "core": 0.4,
+      "broad": 1.0,
+      "last_post_days": 0.4,
+      "score": 30.6,
+      "examples": [
+        "Google makes it easier to use Gemini without training AI on your data",
+        "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+        "OpenAI board member worries an AI \"takeover\" of society could be months away"
+      ]
+    },
+    {
+      "name": "Silicon.fr",
+      "url": "https://www.silicon.fr/feed",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 50,
+      "span_days": 14.0,
+      "per_day": 3.58,
+      "relevance": 0.48,
+      "core": 0.22,
+      "broad": 0.52,
+      "last_post_days": 0.7,
+      "score": 23.0,
+      "examples": [
+        "OVHcloud lance Olala mini 7A1B, son premier LLM",
+        "La Californie attaque OpenAI après l’incident Hugging Face",
+        "LVMH médias met ChatGPT dans les rédactions des Echos et du Parisien"
+      ]
+    },
+    {
+      "name": "NVIDIA blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 18,
+      "span_days": 9.2,
+      "per_day": 1.96,
+      "relevance": 1.0,
+      "core": 0.28,
+      "broad": 1.0,
+      "last_post_days": 0.8,
+      "score": 21.3,
+      "examples": [
+        "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+        "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+        "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery"
+      ]
+    },
+    {
+      "name": "Wired AI",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "span_days": 3.9,
+      "per_day": 2.6,
+      "relevance": 0.9,
+      "core": 0.1,
+      "broad": 0.9,
+      "last_post_days": 0.2,
+      "score": 20.0,
+      "examples": [
+        "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?"
+      ]
+    },
+    {
+      "name": "Sifted",
+      "url": "https://sifted.eu/feed",
+      "family": "emergents",
+      "lang": "en",
+      "ok": true,
+      "items": 24,
+      "span_days": 6.0,
+      "per_day": 4.01,
+      "relevance": 0.42,
+      "core": 0.08,
+      "broad": 0.46,
+      "last_post_days": 0.2,
+      "score": 16.4,
+      "examples": [
+        "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test",
+        "Exclusive: OpenAI and Meta insiders back startup policing rogue AI agents"
+      ]
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/feed",
+      "family": "agents",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 13.1,
+      "per_day": 1.52,
+      "relevance": 0.8,
+      "core": 0.35,
+      "broad": 0.85,
+      "last_post_days": 0.8,
+      "score": 16.0,
+      "examples": [
+        "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+        "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+        "Designing for Agents — Zeno Rocha, Resend"
+      ]
+    },
+    {
+      "name": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/feed",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 30,
+      "span_days": 7.2,
+      "per_day": 4.18,
+      "relevance": 0.43,
+      "core": 0.0,
+      "broad": 0.47,
+      "last_post_days": 0.7,
+      "score": 12.7,
+      "examples": []
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "family": "emergents",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "span_days": 5.9,
+      "per_day": 1.7,
+      "relevance": 0.6,
+      "core": 0.2,
+      "broad": 0.8,
+      "last_post_days": 0.8,
+      "score": 11.9,
+      "examples": [
+        "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One",
+        "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll"
+      ]
+    },
+    {
+      "name": "Numerama",
+      "url": "https://www.numerama.com/feed/",
+      "family": "france",
+      "lang": "fr",
+      "ok": true,
+      "items": 15,
+      "span_days": 1,
+      "per_day": 15.0,
+      "relevance": 0.07,
+      "core": 0.0,
+      "broad": 0.07,
+      "last_post_days": 0.0,
+      "score": 7.0,
+      "examples": []
+    },
+    {
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/feed",
+      "family": "emergents",
+      "lang": "en",
+      "ok": true,
+      "items": 50,
+      "span_days": 55.9,
+      "per_day": 0.89,
+      "relevance": 0.46,
+      "core": 0.3,
+      "broad": 0.5,
+      "last_post_days": 0.1,
+      "score": 6.6,
+      "examples": [
+        "AI Canvas",
+        "Mermaid Flow",
+        "Waldo by Wherobots"
+      ]
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "family": "tech",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "span_days": 13.6,
+      "per_day": 0.73,
+      "relevance": 0.8,
+      "core": 0.2,
+      "broad": 0.8,
+      "last_post_days": 0.8,
+      "score": 6.2,
+      "examples": [
+        "Building trustworthy AI by fencing it in, not predicting it",
+        "Building AI that can work across the enterprise"
+      ]
+    },
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 1407,
+      "span_days": 3995.1,
+      "per_day": 0.35,
+      "relevance": 0.77,
+      "core": 0.66,
+      "broad": 0.79,
+      "last_post_days": 0.4,
+      "score": 5.2,
+      "examples": [
+        "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "Introducing GPT-6.2 Astra and Sol",
+        "Strengthening NATO and allied cyber defenses with AI"
+      ]
+    },
+    {
+      "name": "CNIL",
+      "url": "https://www.cnil.fr/fr/rss.xml",
+      "family": "regulation",
+      "lang": "fr",
+      "ok": true,
+      "items": 10,
+      "span_days": 12.9,
+      "per_day": 0.78,
+      "relevance": 0.7,
+      "core": 0.0,
+      "broad": 0.7,
+      "last_post_days": -0.1,
+      "score": 3.8,
+      "examples": []
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 100,
+      "span_days": 342.4,
+      "per_day": 0.29,
+      "relevance": 0.74,
+      "core": 0.44,
+      "broad": 0.75,
+      "last_post_days": 5.6,
+      "score": 3.3,
+      "examples": [
+        "Introducing Gemini 4 Hydrogen",
+        "Gemini 4 Carbon is now available",
+        "Gemini Robotics 2.5 accelerates real-world general dexterity"
+      ]
+    },
+    {
+      "name": "Launch HN (YC)",
+      "url": "https://hnrss.org/launches",
+      "family": "emergents",
+      "lang": "en",
+      "ok": true,
+      "items": 30,
+      "span_days": 98.8,
+      "per_day": 0.3,
+      "relevance": 0.63,
+      "core": 0.47,
+      "broad": 0.8,
+      "last_post_days": 0.6,
+      "score": 3.3,
+      "examples": [
+        "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+        "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+        "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3"
+      ]
+    },
+    {
+      "name": "Google AI blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 60.9,
+      "per_day": 0.33,
+      "relevance": 0.6,
+      "core": 0.4,
+      "broad": 0.65,
+      "last_post_days": 0.7,
+      "score": 3.2,
+      "examples": [
+        "Put Gemini to work for you",
+        "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+        "Gemini Decisions API: Fast, calibrated multimodal decisions"
+      ]
+    },
+    {
+      "name": "Meta Engineering",
+      "url": "https://engineering.fb.com/feed/",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 9,
+      "span_days": 21.7,
+      "per_day": 0.41,
+      "relevance": 0.67,
+      "core": 0.22,
+      "broad": 0.78,
+      "last_post_days": 4.7,
+      "score": 3.2,
+      "examples": [
+        "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+        "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale"
+      ]
+    },
+    {
+      "name": "TechCrunch Venture",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "family": "emergents",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 18.2,
+      "per_day": 1.1,
+      "relevance": 0.35,
+      "core": 0.0,
+      "broad": 0.45,
+      "last_post_days": 0.4,
+      "score": 2.7,
+      "examples": []
+    },
+    {
+      "name": "Ben's Bites",
+      "url": "https://www.bensbites.com/feed",
+      "family": "agents",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 63.9,
+      "per_day": 0.31,
+      "relevance": 0.5,
+      "core": 0.25,
+      "broad": 0.5,
+      "last_post_days": 0.8,
+      "score": 2.2,
+      "examples": [
+        "Is Anthropic the best business in the world?",
+        "Claude’s personal agent",
+        "Prompt tips from Anthropic"
+      ]
+    },
+    {
+      "name": "Hugging Face blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 908,
+      "span_days": 2469.4,
+      "per_day": 0.37,
+      "relevance": 0.38,
+      "core": 0.09,
+      "broad": 0.42,
+      "last_post_days": 2.4,
+      "score": 1.4,
+      "examples": [
+        "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+        "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
+      ]
+    },
+    {
+      "name": "Microsoft blog",
+      "url": "https://blogs.microsoft.com/feed/",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "span_days": 47.8,
+      "per_day": 0.21,
+      "relevance": 0.5,
+      "core": 0.2,
+      "broad": 0.5,
+      "last_post_days": 0.6,
+      "score": 1.3,
+      "examples": [
+        "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+        "Securing the agentic insider"
+      ]
+    },
+    {
+      "name": "MIT Sloan Management Review",
+      "url": "https://sloanreview.mit.edu/feed/",
+      "family": "entreprise",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 55.9,
+      "per_day": 0.36,
+      "relevance": 0.3,
+      "core": 0.05,
+      "broad": 0.5,
+      "last_post_days": 0.9,
+      "score": 1.0,
+      "examples": [
+        "How to Outcompete Your Client’s AI"
+      ]
+    },
+    {
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/feed",
+      "family": "labs",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 99.9,
+      "per_day": 0.2,
+      "relevance": 0.55,
+      "core": 0.05,
+      "broad": 0.55,
+      "last_post_days": 3.9,
+      "score": 0.9,
+      "examples": [
+        "Teaching Everyone to Fish for Tokens"
+      ]
+    },
+    {
+      "name": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.oneusefulthing.org/feed",
+      "family": "entreprise",
+      "lang": "en",
+      "ok": true,
+      "items": 20,
+      "span_days": 394.6,
+      "per_day": 0.05,
+      "relevance": 0.6,
+      "core": 0.25,
+      "broad": 0.6,
+      "last_post_days": 8.6,
+      "score": 0.4,
+      "examples": [
+        "What it feels like to work with Mythos",
+        "Claude Dispatch and the Power of Interfaces",
+        "A Guide to Which AI to Use in the Agentic Era"
+      ]
+    },
+    {
+      "name": "Y Combinator blog",
+      "url": "https://www.ycombinator.com/blog/rss/",
+      "family": "emergents",
+      "lang": "en",
+      "ok": true,
+      "items": 15,
+      "span_days": 225.7,
+      "per_day": 0.07,
+      "relevance": 0.53,
+      "core": 0.07,
+      "broad": 0.73,
+      "last_post_days": 18.6,
+      "score": 0.3,
+      "examples": [
+        "How Dylan Anderson became founding engineer at Adam"
+      ]
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "family": "tech",
+      "lang": "en",
+      "ok": false,
+      "error": "RuntimeError: HTTP 429"
+    },
+    {
+      "name": "Import AI",
+      "url": "https://importai.substack.com/feed",
+      "family": "labs",
+      "lang": "en",
+      "ok": false,
+      "error": "RuntimeError: HTTP 403"
+    },
+    {
+      "name": "Harvard Business Review",
+      "url": "https://feeds.hbr.org/harvardbusiness",
+      "family": "entreprise",
+      "lang": "en",
+      "ok": false,
+      "error": "SSLError: Failed to perform, curl: (35) BoringSSL SSL_connect: Connection closed abruptly (SSL_ERROR_SYSCALL; error queue empty) in connection to feeds.hbr.org:"
+    },
+    {
+      "name": "EU AI Act Newsletter",
+      "url": "https://artificialintelligenceact.substack.com/feed",
+      "family": "regulation",
+      "lang": "en",
+      "ok": false,
+      "error": "RuntimeError: HTTP 403"
+    },
+    {
+      "name": "Stratechery",
+      "url": "https://stratechery.com/feed/",
+      "family": "entreprise",
+      "lang": "en",
+      "ok": false,
+      "error": "RuntimeError: HTTP 403"
+    },
+    {
+      "name": "Usine Digitale",
+      "url": "https://www.usine-digitale.fr/rss",
+      "family": "france",
+      "lang": "fr",
+      "ok": false,
+      "error": "RuntimeError: HTTP 403"
+    }
+  ]
+}
