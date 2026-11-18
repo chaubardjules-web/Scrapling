@@ -63,14 +63,14 @@ sources:
   - {name: OpenAI News, type: rss, url: "https://openai.com/news/rss.xml", theme: labs}
   - {name: Google DeepMind, type: rss, url: "https://deepmind.google/blog/rss.xml", theme: labs}
   - {name: Google AI blog, type: rss, url: "https://blog.google/technology/ai/rss/", theme: labs}
-  - {name: Microsoft AI blog, type: rss, url: "https://blogs.microsoft.com/ai/feed/", theme: labs}
+  - {name: Microsoft blog, type: rss, url: "https://blogs.microsoft.com/feed/", theme: labs, filter: true}
   - {name: Hugging Face blog, type: rss, url: "https://huggingface.co/blog/feed.xml", theme: labs}
   - {name: NVIDIA blog, type: rss, url: "https://blogs.nvidia.com/feed/", theme: labs, filter: true}
 
   # --- Médias tech IA : le flux quotidien
   - {name: TechCrunch AI, type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/", theme: labs}
   - {name: The Verge AI, type: rss, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", theme: labs}
-  - {name: VentureBeat AI, type: rss, url: "https://venturebeat.com/category/ai/feed/", theme: entreprise}
+  - {name: VentureBeat, type: rss, url: "https://venturebeat.com/feed/", theme: entreprise, filter: true}
   - {name: MIT Technology Review AI, type: rss, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", theme: labs}
   - {name: Ars Technica AI, type: rss, url: "https://arstechnica.com/ai/feed/", theme: labs}
   - {name: The Decoder, type: rss, url: "https://the-decoder.com/feed/", theme: labs}
@@ -78,11 +78,9 @@ sources:
   # --- Agents, outils, praticiens
   - {name: Simon Willison, type: rss, url: "https://simonwillison.net/atom/everything/", theme: agents, filter: true}
   - {name: Latent Space, type: rss, url: "https://www.latent.space/feed", theme: agents}
-  - {name: Import AI, type: rss, url: "https://importai.substack.com/feed", theme: labs}
 
   # --- IA en entreprise et conseil
   - {name: MIT Sloan Management Review, type: rss, url: "https://sloanreview.mit.edu/feed/", theme: entreprise, filter: true}
-  - {name: Harvard Business Review, type: rss, url: "https://feeds.hbr.org/harvardbusiness", theme: entreprise, filter: true}
 
   # --- Acteurs émergents : startups, levées, YC, IPO
   - {name: TechCrunch Venture, type: rss, url: "https://techcrunch.com/category/venture/feed/", theme: emergents, filter: true}
@@ -91,7 +89,6 @@ sources:
   - {name: Y Combinator blog, type: rss, url: "https://www.ycombinator.com/blog/rss/", theme: emergents}
 
   # --- Régulation et souveraineté
-  - {name: EU AI Act Newsletter, type: rss, url: "https://artificialintelligenceact.substack.com/feed", theme: regulation}
   - {name: CNIL, type: rss, url: "https://www.cnil.fr/fr/rss.xml", theme: regulation, filter: true}
 
   # --- France
@@ -107,6 +104,10 @@ sources:
   - {name: "GNews - AI agents enterprise", type: rss, url: "https://news.google.com/rss/search?q=%22AI+agents%22+enterprise+deployment+when:7d&hl=en-US&gl=US&ceid=US:en", theme: agents, fetch_article: false}
   - {name: "GNews - IA en entreprise FR", type: rss, url: "https://news.google.com/rss/search?q=%22intelligence+artificielle%22+entreprises+d%C3%A9ploiement+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: entreprise, fetch_article: false}
   - {name: "GNews - conseil et IA", type: rss, url: "https://news.google.com/rss/search?q=(Accenture+OR+Capgemini+OR+McKinsey+OR+BCG+OR+Deloitte+OR+PwC+OR+KPMG)+%22AI%22+when:7d&hl=en-US&gl=US&ceid=US:en", theme: entreprise, fetch_article: false}
+  - {name: "GNews - EU AI Act (EN)", type: rss, url: "https://news.google.com/rss/search?q=%22EU+AI+Act%22+OR+%22AI+Office%22+when:7d&hl=en-US&gl=US&ceid=US:en", theme: regulation, fetch_article: false}
   - {name: "GNews - AI Act", type: rss, url: "https://news.google.com/rss/search?q=%22AI+Act%22+when:7d&hl=fr&gl=FR&ceid=FR:fr", theme: regulation, fetch_article: false}
   - {name: "GNews - AI startups funding", type: rss, url: "https://news.google.com/rss/search?q=AI+startup+(raises+OR+funding+OR+IPO)+when:7d&hl=en-US&gl=US&ceid=US:en", theme: emergents, fetch_article: false}
   - {name: "GNews - Y Combinator AI", type: rss, url: "https://news.google.com/rss/search?q=%22Y+Combinator%22+AI+when:7d&hl=en-US&gl=US&ceid=US:en", theme: emergents, fetch_article: false}
+
+# Écartées au premier run (18 nov. 2026) : Import AI et EU AI Act Newsletter (Substack, HTTP 403),
+# Harvard Business Review (erreur SSL), Microsoft AI blog (flux supprimé, HTTP 410 : remplacé par le blog général filtré).
